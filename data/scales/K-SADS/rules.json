@@ -1,0 +1,1634 @@
+[
+  {
+    "category_id": 1,
+    "rule": "1_1==B and 1_2==B",
+    "action": "2_1",
+    "score": "1"
+  },
+  {
+    "category_id": 1,
+    "rule": "1_1==A or 1_2==A",
+    "action": "1_3",
+    "score": "-1"
+  },
+  {
+    "category_id": 1,
+    "rule": "1_3==A and 1_4<=C",
+    "action": "2_1",
+    "score": "1"
+  },
+  {
+    "category_id": 1,
+    "rule": "1_3>A or 1_4>C",
+    "action": "2_1",
+    "score": "2"
+  },
+  {
+    "category_id": 1,
+    "rule": "1_3>A and 1_4>C",
+    "action": "2_1",
+    "score": "3"
+  },
+  {
+    "category_id": 2,
+    "rule": "2_1==B and 2_2==B and 2_3==B",
+    "action": "3_1",
+    "score": "1"
+  },
+  {
+    "category_id": 2,
+    "rule": "2_1==A or 2_2==A or 2_3==A",
+    "action": "2_4",
+    "score": "-1"
+  },
+  {
+    "category_id": 2,
+    "rule": "2_5==A and 2_6<=C",
+    "action": "3_1",
+    "score": "1"
+  },
+  {
+    "category_id": 2,
+    "rule": "2_5>A or 2_6>C",
+    "action": "3_1",
+    "score": "2"
+  },
+  {
+    "category_id": 2,
+    "rule": "2_5>A and 2_6>C",
+    "action": "3_1",
+    "score": "3"
+  },
+  {
+    "category_id": 3,
+    "rule": "3_1==B and 3_2==B and 3_3==B",
+    "action": "4_1",
+    "score": "1"
+  },
+  {
+    "category_id": 3,
+    "rule": "3_1==A or 3_2==A or 3_3==A",
+    "action": "3_4",
+    "score": "-1"
+  },
+  {
+    "category_id": 3,
+    "rule": "3_4==B or 3_5==B",
+    "action": "4_1",
+    "score": "2"
+  },
+  {
+    "category_id": 3,
+    "rule": "3_4==B and 3_5==B",
+    "action": "4_1",
+    "score": "3"
+  },
+  {
+    "category_id": 3,
+    "rule": "3_4==A and 3_5==A",
+    "action": "4_1",
+    "score": "1"
+  },
+  {
+    "category_id": 4,
+    "rule": "4_2==A",
+    "action": "4_4",
+    "score": "-1"
+  },
+  {
+    "category_id": 4,
+    "rule": "4_2==B",
+    "action": "4_3",
+    "score": "-1"
+  },
+  {
+    "category_id": 4,
+    "rule": "4_3==A",
+    "action": "4_4",
+    "score": "-1"
+  },
+  {
+    "category_id": 4,
+    "rule": "4_3==B",
+    "action": "8_1",
+    "score": "1"
+  },
+  {
+    "category_id": 4,
+    "rule": "4_4==B",
+    "action": "5_1",
+    "score": "1"
+  },
+  {
+    "category_id": 4,
+    "rule": "4_4==A",
+    "action": "4_5",
+    "score": "-1"
+  },
+  {
+    "category_id": 4,
+    "rule": "4_5==B and 4_4==A",
+    "action": "5_1",
+    "score": "2"
+  },
+  {
+    "category_id": 4,
+    "rule": "4_5==A and 4_4==A",
+    "action": "5_1",
+    "score": "3"
+  },
+  {
+    "category_id": 5,
+    "rule": "5_1==B",
+    "action": "8_1",
+    "score": "1"
+  },
+  {
+    "category_id": 5,
+    "rule": "5_2==B",
+    "action": "8_1",
+    "score": "1"
+  },
+  {
+    "category_id": 5,
+    "rule": "5_3==B",
+    "action": "8_1",
+    "score": "1"
+  },
+  {
+    "category_id": 5,
+    "rule": "5_4==B and 5_3==A",
+    "action": "6_1",
+    "score": "2"
+  },
+  {
+    "category_id": 5,
+    "rule": "5_4==A",
+    "action": "6_1",
+    "score": "3"
+  },
+  {
+    "category_id": 6,
+    "rule": "6_1==B",
+    "action": "8_1",
+    "score": "1"
+  },
+  {
+    "category_id": 6,
+    "rule": "6_2==B",
+    "action": "8_1",
+    "score": "1"
+  },
+  {
+    "category_id": 6,
+    "rule": "6_3==A",
+    "action": "7_1",
+    "score": "1"
+  },
+  {
+    "category_id": 6,
+    "rule": "6_3==B",
+    "action": "7_1",
+    "score": "2"
+  },
+  {
+    "category_id": 6,
+    "rule": "6_3==C",
+    "action": "7_1",
+    "score": "3"
+  },
+  {
+    "category_id": 7,
+    "rule": "7_1==A",
+    "action": "8_1",
+    "score": "1"
+  },
+  {
+    "category_id": 7,
+    "rule": "7_2==B",
+    "action": "8_1",
+    "score": "1"
+  },
+  {
+    "category_id": 7,
+    "rule": "7_1==B and 7_2==B",
+    "action": "8_1",
+    "score": "2"
+  },
+  {
+    "category_id": 7,
+    "rule": "7_1==B and 7_3==A",
+    "action": "8_1",
+    "score": "2"
+  },
+  {
+    "category_id": 7,
+    "rule": "7_1==C and 7_2==B",
+    "action": "8_1",
+    "score": "3"
+  },
+  {
+    "category_id": 7,
+    "rule": "7_1==C and 7_3==A",
+    "action": "8_1",
+    "score": "3"
+  },
+  {
+    "category_id": 8,
+    "rule": "8_1==B and 8_2==B",
+    "action": "9_1",
+    "score": "1"
+  },
+  {
+    "category_id": 8,
+    "rule": "8_4==A and 8_3==A",
+    "action": "9_1",
+    "score": "2"
+  },
+  {
+    "category_id": 8,
+    "rule": "8_3==B or 8_4==B",
+    "action": "9_1",
+    "score": "3"
+  },
+  {
+    "category_id": 9,
+    "rule": "9_1==B",
+    "action": "10_1",
+    "score": "1"
+  },
+  {
+    "category_id": 9,
+    "rule": "9_2==A",
+    "action": "9_4",
+    "score": "-1"
+  },
+  {
+    "category_id": 9,
+    "rule": "9_3==B",
+    "action": "10_1",
+    "score": "1"
+  },
+  {
+    "category_id": 9,
+    "rule": "9_3==A",
+    "action": "9_4",
+    "score": "-1"
+  },
+  {
+    "category_id": 9,
+    "rule": "9_4==B",
+    "action": "10_1",
+    "score": "1"
+  },
+  {
+    "category_id": 9,
+    "rule": "9_4==A",
+    "action": "9_5",
+    "score": "-1"
+  },
+  {
+    "category_id": 9,
+    "rule": "9_5==A",
+    "action": "10_1",
+    "score": "1"
+  },
+  {
+    "category_id": 9,
+    "rule": "9_5==B",
+    "action": "9_6",
+    "score": "-1"
+  },
+  {
+    "category_id": 9,
+    "rule": "9_6==A",
+    "action": "10_1",
+    "score": "2"
+  },
+  {
+    "category_id": 9,
+    "rule": "9_6==B",
+    "action": "10_1",
+    "score": "3"
+  },
+  {
+    "category_id": 10,
+    "rule": "10_1==B",
+    "action": "11_1",
+    "score": "1"
+  },
+  {
+    "category_id": 10,
+    "rule": "10_2==B",
+    "action": "11_1",
+    "score": "1"
+  },
+  {
+    "category_id": 10,
+    "rule": "10_3==B",
+    "action": "11_1",
+    "score": "2"
+  },
+  {
+    "category_id": 10,
+    "rule": "10_4==A",
+    "action": "11_1",
+    "score": "3"
+  },
+  {
+    "category_id": 10,
+    "rule": "10_4==B",
+    "action": "11_1",
+    "score": "2"
+  },
+  {
+    "category_id": 11,
+    "rule": "11_1==B",
+    "action": "12_1",
+    "score": "1"
+  },
+  {
+    "category_id": 11,
+    "rule": "11_3==B",
+    "action": "12_1",
+    "score": "1"
+  },
+  {
+    "category_id": 11,
+    "rule": "11_4==B",
+    "action": "12_1",
+    "score": "2"
+  },
+  {
+    "category_id": 11,
+    "rule": "11_5==B",
+    "action": "12_1",
+    "score": "2"
+  },
+  {
+    "category_id": 11,
+    "rule": "11_7==A",
+    "action": "12_1",
+    "score": "3"
+  },
+  {
+    "category_id": 11,
+    "rule": "11_7==B",
+    "action": "12_1",
+    "score": "2"
+  },
+  {
+    "category_id": 12,
+    "rule": "12_1==B",
+    "action": "13_1",
+    "score": "1"
+  },
+  {
+    "category_id": 12,
+    "rule": "12_2==A",
+    "action": "13_1",
+    "score": "1"
+  },
+  {
+    "category_id": 12,
+    "rule": "12_3==B",
+    "action": "13_1",
+    "score": "2"
+  },
+  {
+    "category_id": 12,
+    "rule": "12_5==A or 12_5==B",
+    "action": "13_1",
+    "score": "2"
+  },
+  {
+    "category_id": 12,
+    "rule": "12_5==C or 12_5==D",
+    "action": "13_1",
+    "score": "3"
+  },
+  {
+    "category_id": 13,
+    "rule": "13_1==B and 13_2==B and 13_3==B",
+    "action": "14_1",
+    "score": "1"
+  },
+  {
+    "category_id": 13,
+    "rule": "is_true(13_4==A or 13_5==A or 13_6==A)+is_true(13_7==A or 13_8==A)==0",
+    "action": "14_1",
+    "score": "1"
+  },
+  {
+    "category_id": 13,
+    "rule": "is_true(13_4==A or 13_5==A or 13_6==A)+is_true(13_7==A or 13_8==A)==1",
+    "action": "14_1",
+    "score": "2"
+  },
+  {
+    "category_id": 13,
+    "rule": "is_true(13_4==A or 13_5==A or 13_6==A)+is_true(13_7==A or 13_8==A)==2",
+    "action": "14_1",
+    "score": "3"
+  },
+  {
+    "category_id": 14,
+    "rule": "14_1==B and 14_2==B and 14_3==B",
+    "action": "15_1",
+    "score": "1"
+  },
+  {
+    "category_id": 14,
+    "rule": "is_true(14_4==A or 14_5==A or 14_6==A)+is_true(14_7==A)==0",
+    "action": "15_1",
+    "score": "1"
+  },
+  {
+    "category_id": 14,
+    "rule": "is_true(14_4==A or 14_5==A or 14_6==A)+is_true(14_7==A)==1",
+    "action": "15_1",
+    "score": "2"
+  },
+  {
+    "category_id": 14,
+    "rule": "is_true(14_4==A or 14_5==A or 14_6==A)+is_true(14_7==A)==2",
+    "action": "15_1",
+    "score": "3"
+  },
+  {
+    "category_id": 15,
+    "rule": "15_1==B",
+    "action": "15_3",
+    "score": "-1"
+  },
+  {
+    "category_id": 15,
+    "rule": "15_1==A",
+    "action": "15_2",
+    "score": "-1"
+  },
+  {
+    "category_id": 15,
+    "rule": "15_3==B",
+    "action": "15_5",
+    "score": "-1"
+  },
+  {
+    "category_id": 15,
+    "rule": "15_3==A",
+    "action": "15_6",
+    "score": "-1"
+  },
+  {
+    "category_id": 15,
+    "rule": "15_1==B and 15_3==B and 15_5==B",
+    "action": "16_1",
+    "score": "1"
+  },
+  {
+    "category_id": 15,
+    "rule": "is_true(15_1==A)+is_true(15_3==A)+is_true(15_5==A)>0",
+    "action": "15_6",
+    "score": "-1"
+  },
+  {
+    "category_id": 15,
+    "rule": "is_true(15_8==A)+is_true(15_7==A)+is_true(15_6==B)<=1",
+    "action": "16_1",
+    "score": "1"
+  },
+  {
+    "category_id": 15,
+    "rule": "is_true(15_8==A)+is_true(15_7==A)+is_true(15_6==B)==2",
+    "action": "16_1",
+    "score": "2"
+  },
+  {
+    "category_id": 15,
+    "rule": "is_true(15_8==A)+is_true(15_7==A)+is_true(15_6==B)==3",
+    "action": "16_1",
+    "score": "3"
+  },
+  {
+    "category_id": 16,
+    "rule": "is_true(16_1==A or 16_2==A or 16_3==B or 16_4==A or 16_5==A or 16_6==B or 16_7==B)==0",
+    "action": "17_1",
+    "score": "1"
+  },
+  {
+    "category_id": 16,
+    "rule": "16_9==A",
+    "action": "17_1",
+    "score": "2"
+  },
+  {
+    "category_id": 16,
+    "rule": "16_9==B",
+    "action": "17_1",
+    "score": "2"
+  },
+  {
+    "category_id": 16,
+    "rule": "16_9==C",
+    "action": "17_1",
+    "score": "3"
+  },
+  {
+    "category_id": 17,
+    "rule": "17_1==B and 17_2==B",
+    "action": "18_1",
+    "score": "1"
+  },
+  {
+    "category_id": 17,
+    "rule": "17_3==B or 17_3==C",
+    "action": "17_5",
+    "score": "-1"
+  },
+  {
+    "category_id": 17,
+    "rule": "is_true(17_3==A and 17_4==B)+is_true(17_6==A)+is_true(17_8==A)+is_true(17_7==C or 17_7==D)>=3",
+    "action": "18_1",
+    "score": "3"
+  },
+  {
+    "category_id": 17,
+    "rule": "is_true(17_3==A and 17_4==B)+is_true(17_6==A)+is_true(17_8==A)+is_true(17_7==C or 17_7==D)==2",
+    "action": "18_1",
+    "score": "2"
+  },
+  {
+    "category_id": 17,
+    "rule": "is_true(17_3==A and 17_4==B)+is_true(17_6==A)+is_true(17_8==A)+is_true(17_7==C or 17_7==D)<2",
+    "action": "18_1",
+    "score": "1"
+  },
+  {
+    "category_id": 18,
+    "rule": "18_1==B and 18_2==B and 18_3==B",
+    "action": "19_1",
+    "score": "1"
+  },
+  {
+    "category_id": 18,
+    "rule": "(18_1==A or 18_2==A or 18_3==A) and 18_4==B",
+    "action": "19_1",
+    "score": "1"
+  },
+  {
+    "category_id": 18,
+    "rule": "18_5==B",
+    "action": "19_1",
+    "score": "2"
+  },
+  {
+    "category_id": 18,
+    "rule": "18_6==B",
+    "action": "19_1",
+    "score": "2"
+  },
+  {
+    "category_id": 18,
+    "rule": "18_6==A",
+    "action": "19_1",
+    "score": "3"
+  },
+  {
+    "category_id": 19,
+    "rule": "19_1==A",
+    "action": "19_2",
+    "score": "-1"
+  },
+  {
+    "category_id": 19,
+    "rule": "19_1==B",
+    "action": "19_5",
+    "score": "-1"
+  },
+  {
+    "category_id": 19,
+    "rule": "(is_true(19_2==B or 19_2==C)+is_true(19_3==A)+is_true(19_4==A)+is_true(19_5==A)+is_true(19_6==B)+is_true(19_7==B))>=3",
+    "action": "20_1",
+    "score": "3"
+  },
+  {
+    "category_id": 19,
+    "rule": "(is_true(19_2==B or 19_2==C)+is_true(19_3==A)+is_true(19_4==A)+is_true(19_5==A)+is_true(19_6==B)+is_true(19_7==B))==2",
+    "action": "20_1",
+    "score": "2"
+  },
+  {
+    "category_id": 19,
+    "rule": "(is_true(19_2==B or 19_2==C)+is_true(19_3==A)+is_true(19_4==A)+is_true(19_5==A)+is_true(19_6==B)+is_true(19_7==B))<2",
+    "action": "20_1",
+    "score": "1"
+  },
+  {
+    "category_id": 20,
+    "rule": "20_1==B",
+    "action": "21_1",
+    "score": "1"
+  },
+  {
+    "category_id": 20,
+    "rule": "20_1==A and 20_2==B and 20_3==A",
+    "action": "21_1",
+    "score": "1"
+  },
+  {
+    "category_id": 20,
+    "rule": "20_1==A and 20_2==A and 20_3==A",
+    "action": "21_1",
+    "score": "2"
+  },
+  {
+    "category_id": 20,
+    "rule": "20_1==A and 20_2==A and 20_3==B",
+    "action": "21_1",
+    "score": "3"
+  },
+  {
+    "category_id": 20,
+    "rule": "20_1==A and 20_2==B and 20_3==B",
+    "action": "21_1",
+    "score": "3"
+  },
+  {
+    "category_id": 21,
+    "rule": "21_1==B and 21_2==B",
+    "action": "22_1",
+    "score": "1"
+  },
+  {
+    "category_id": 21,
+    "rule": "is_true(21_3==A)+is_true(21_4==B)==0",
+    "action": "22_1",
+    "score": "1"
+  },
+  {
+    "category_id": 21,
+    "rule": "is_true(21_3==A)+is_true(21_4==B)==1",
+    "action": "22_1",
+    "score": "2"
+  },
+  {
+    "category_id": 21,
+    "rule": "is_true(21_3==A)+is_true(21_4==B)==2",
+    "action": "22_1",
+    "score": "3"
+  },
+  {
+    "category_id": 22,
+    "rule": "22_3==B or (22_1==B and 22_2==B)",
+    "action": "23_1",
+    "score": "1"
+  },
+  {
+    "category_id": 22,
+    "rule": "is_true(22_3==A or 22_4==A)+is_true(22_5==B)+is_true(22_6==B)+is_true(22_7==B or 22_8==B)<2",
+    "action": "23_1",
+    "score": "1"
+  },
+  {
+    "category_id": 22,
+    "rule": "is_true(22_3==A or 22_4==A)+is_true(22_5==B)+is_true(22_6==B)+is_true(22_7==B or 22_8==B)==2",
+    "action": "23_1",
+    "score": "2"
+  },
+  {
+    "category_id": 22,
+    "rule": "is_true(22_3==A or 22_4==A)+is_true(22_5==B)+is_true(22_6==B)+is_true(22_7==B or 22_8==B)>2",
+    "action": "23_1",
+    "score": "3"
+  },
+  {
+    "category_id": 23,
+    "rule": "23_1==B and 23_2==B and 23_3==B and 23_4==B and 23_5==B",
+    "action": "24_1",
+    "score": "1"
+  },
+  {
+    "category_id": 23,
+    "rule": "is_true(23_6==A)+is_true(23_7==B or 23_8==B)==0",
+    "action": "24_1",
+    "score": "1"
+  },
+  {
+    "category_id": 23,
+    "rule": "is_true(23_6==A)+is_true(23_7==B or 23_8==B)==1",
+    "action": "24_1",
+    "score": "2"
+  },
+  {
+    "category_id": 23,
+    "rule": "is_true(23_6==A)+is_true(23_7==B or 23_8==B)==2",
+    "action": "24_1",
+    "score": "3"
+  },
+  {
+    "category_id": 24,
+    "rule": "24_1==B and 24_2==B and 24_3==B and 24_4==B",
+    "action": "25_1",
+    "score": "1"
+  },
+  {
+    "category_id": 24,
+    "rule": "24_5==B and (24_6==A and 24_7==A)",
+    "action": "25_1",
+    "score": "1"
+  },
+  {
+    "category_id": 24,
+    "rule": "24_5==A and (24_6==A and 24_7==A)",
+    "action": "25_1",
+    "score": "2"
+  },
+  {
+    "category_id": 24,
+    "rule": "24_6==B or 24_7==B",
+    "action": "25_1",
+    "score": "3"
+  },
+  {
+    "category_id": 25,
+    "rule": "25_1==B",
+    "action": "26_1",
+    "score": "1"
+  },
+  {
+    "category_id": 25,
+    "rule": "25_2==B and 25_3==B",
+    "action": "26_1",
+    "score": "2"
+  },
+  {
+    "category_id": 25,
+    "rule": "25_4==F",
+    "action": "26_1",
+    "score": "2"
+  },
+  {
+    "category_id": 25,
+    "rule": "25_5==A",
+    "action": "26_1",
+    "score": "3"
+  },
+  {
+    "category_id": 25,
+    "rule": "25_5==B",
+    "action": "26_1",
+    "score": "2"
+  },
+  {
+    "category_id": 26,
+    "rule": "26_1==B and 26_2==B",
+    "action": "27_1",
+    "score": "1"
+  },
+  {
+    "category_id": 26,
+    "rule": "26_3==B and 26_4==B",
+    "action": "27_1",
+    "score": "2"
+  },
+  {
+    "category_id": 26,
+    "rule": "26_5==A",
+    "action": "27_1",
+    "score": "3"
+  },
+  {
+    "category_id": 26,
+    "rule": "26_5==B",
+    "action": "27_1",
+    "score": "2"
+  },
+  {
+    "category_id": 27,
+    "rule": "27_1==B",
+    "action": "28_1",
+    "score": "1"
+  },
+  {
+    "category_id": 27,
+    "rule": "27_2==B",
+    "action": "28_1",
+    "score": "1"
+  },
+  {
+    "category_id": 27,
+    "rule": "27_3==A",
+    "action": "28_1",
+    "score": "1"
+  },
+  {
+    "category_id": 27,
+    "rule": "27_3==B",
+    "action": "28_1",
+    "score": "2"
+  },
+  {
+    "category_id": 27,
+    "rule": "27_4==B",
+    "action": "28_1",
+    "score": "2"
+  },
+  {
+    "category_id": 27,
+    "rule": "27_4==A",
+    "action": "28_1",
+    "score": "3"
+  },
+  {
+    "category_id": 28,
+    "rule": "28_1==B",
+    "action": "29_1",
+    "score": "1"
+  },
+  {
+    "category_id": 28,
+    "rule": "is_true(28_3)+is_true(28_4)+is_true(28_2)==0",
+    "action": "29_1",
+    "score": "1"
+  },
+  {
+    "category_id": 28,
+    "rule": "is_true(28_3)+is_true(28_4)+is_true(28_2)>0 and 28_5==A",
+    "action": "29_1",
+    "score": "2"
+  },
+  {
+    "category_id": 28,
+    "rule": "is_true(28_3)+is_true(28_4)+is_true(28_2)>0 and 28_5==B",
+    "action": "29_1",
+    "score": "3"
+  },
+  {
+    "category_id": 29,
+    "rule": "29_2==A",
+    "action": "29_3",
+    "score": "-1"
+  },
+  {
+    "category_id": 29,
+    "rule": "29_2==B",
+    "action": "30_1",
+    "score": "1"
+  },
+  {
+    "category_id": 29,
+    "rule": "(29_3==C or 29_3==D) and is_true(29_1==A or 29_2==A or 29_4==A or 29_6==A or 29_7==A or 29_8==A)==1",
+    "action": "30_1",
+    "score": "3"
+  },
+  {
+    "category_id": 29,
+    "rule": "(29_3==C or 29_3==D) and is_true(29_1==A or 29_2==A or 29_4==A or 29_6==A or 29_7==A or 29_8==A)==0",
+    "action": "30_1",
+    "score": "2"
+  },
+  {
+    "category_id": 29,
+    "rule": "29_3==B and is_true(29_1==A or 29_2==A or 29_4==A or 29_6==A or 29_7==A or 29_8==A)==1",
+    "action": "30_1",
+    "score": "2"
+  },
+  {
+    "category_id": 29,
+    "rule": "29_3==B and is_true(29_1==A or 29_2==A or 29_4==A or 29_6==A or 29_7==A or 29_8==A)==0",
+    "action": "30_1",
+    "score": "1"
+  },
+  {
+    "category_id": 29,
+    "rule": "29_3==A and is_true(29_1==A or 29_2==A or 29_4==A or 29_6==A or 29_7==A or 29_8==A)==0",
+    "action": "30_1",
+    "score": "1"
+  },
+  {
+    "category_id": 29,
+    "rule": "29_3==A and is_true(29_1==A or 29_2==A or 29_4==A or 29_6==A or 29_7==A or 29_8==A)==1",
+    "action": "30_1",
+    "score": "2"
+  },
+  {
+    "category_id": 30,
+    "rule": "30_7==D or 30_8==D or 30_9==D",
+    "action": "31_1",
+    "score": "3"
+  },
+  {
+    "category_id": 30,
+    "rule": "30_7==C and 30_8==C and 30_9==C",
+    "action": "31_1",
+    "score": "3"
+  },
+  {
+    "category_id": 30,
+    "rule": "(30_7==B and 30_8==B and 30_9==B) or ((30_7==C or 30_8==C or 30_9==C) and not (30_7==C and 30_8==C and 30_9==C) and not (30_7==D or 30_8==D or 30_9==D))",
+    "action": "31_1",
+    "score": "2"
+  },
+  {
+    "category_id": 30,
+    "rule": "(30_7<=B and 30_8<=B and 30_9<=B) and not (30_7==B and 30_8==B and 30_9==B)",
+    "action": "31_1",
+    "score": "1"
+  },
+  {
+    "category_id": 31,
+    "rule": "31_7==D or 31_8==D or 31_9==D or 31_10==D",
+    "action": "32_1",
+    "score": "3"
+  },
+  {
+    "category_id": 31,
+    "rule": "31_7==C and 31_8==C and 31_9==C and 31_10==C",
+    "action": "32_1",
+    "score": "3"
+  },
+  {
+    "category_id": 31,
+    "rule": "(31_7==B and 31_8==B and 31_9==B and 31_10==B) or ((31_7==C or 31_8==C or 31_9==C or 31_10==C) and not (31_7==C and 31_8==C and 31_9==C and 31_10==C) and not (31_7==D or 31_8==D or 31_9==D or 31_10==D))",
+    "action": "32_1",
+    "score": "2"
+  },
+  {
+    "category_id": 31,
+    "rule": "(31_7<=B and 31_8<=B and 31_9<=B and 31_10<=B) and not (31_7==B and 31_8==B and 31_9==B and 31_10==B)",
+    "action": "32_1",
+    "score": "1"
+  },
+  {
+    "category_id": 32,
+    "rule": "32_1==B",
+    "action": "33_1",
+    "score": "1"
+  },
+  {
+    "category_id": 32,
+    "rule": "32_2 ==B",
+    "action": "33_1",
+    "score": "3"
+  },
+  {
+    "category_id": 32,
+    "rule": "32_2 ==A",
+    "action": "33_1",
+    "score": "2"
+  },
+  {
+    "category_id": 32,
+    "rule": "32_3== B",
+    "action": "32_5",
+    "score": "-1"
+  },
+  {
+    "category_id": 32,
+    "rule": "32_4 ==A",
+    "action": "32_5",
+    "score": "-1"
+  },
+  {
+    "category_id": 32,
+    "rule": "32_4 ==B",
+    "action": "33_1",
+    "score": "3"
+  },
+  {
+    "category_id": 32,
+    "rule": "32_5== B",
+    "action": "32_7",
+    "score": "-1"
+  },
+  {
+    "category_id": 32,
+    "rule": "32_6 ==B",
+    "action": "33_1",
+    "score": "3"
+  },
+  {
+    "category_id": 32,
+    "rule": "32_6 ==A",
+    "action": "33_1",
+    "score": "2"
+  },
+  {
+    "category_id": 32,
+    "rule": "32_7== A",
+    "action": "33_1",
+    "score": "3"
+  },
+  {
+    "category_id": 32,
+    "rule": "32_7== B",
+    "action": "33_1",
+    "score": "2"
+  },
+  {
+    "category_id": 33,
+    "rule": "33_9==B and (is_true(33_1==A) + is_true(33_2==A) + is_true(33_3==A) + is_true(33_5==A) + is_true(33_6==A) + is_true(33_7==A) + is_true(33_8==A))<5",
+    "action": "34_1",
+    "score": "2"
+  },
+  {
+    "category_id": 33,
+    "rule": "33_9==B and (is_true(33_1==A) + is_true(33_2==A) + is_true(33_3==A) + is_true(33_5==A) + is_true(33_6==A) + is_true(33_7==A) + is_true(33_8==A))>4",
+    "action": "34_1",
+    "score": "3"
+  },
+  {
+    "category_id": 33,
+    "rule": "33_9==A",
+    "action": "34_1",
+    "score": "1"
+  },
+  {
+    "category_id": 34,
+    "rule": "34_1==B",
+    "action": "35_1",
+    "score": "1"
+  },
+  {
+    "category_id": 34,
+    "rule": "34_1==A",
+    "action": "34_2",
+    "score": "-1"
+  },
+  {
+    "category_id": 34,
+    "rule": "is_true(34_2==B or 34_4==B or 34_6==B)==1 or is_true(34_7==A)+is_true(34_8==A)==2",
+    "action": "35_1",
+    "score": "3"
+  },
+  {
+    "category_id": 34,
+    "rule": "is_true(34_2==B or 34_4==B or 34_6==B)==0 and is_true(34_7==A)+is_true(34_8==A)==1",
+    "action": "35_1",
+    "score": "2"
+  },
+  {
+    "category_id": 34,
+    "rule": "is_true(34_2==B or 34_4==B or 34_6==B)==0 and is_true(34_7==A)+is_true(34_8==A)==0",
+    "action": "35_1",
+    "score": "1"
+  },
+  {
+    "category_id": 35,
+    "rule": "35_8==B and is_true(35_1==A or 35_2==A or 35_3==A or 35_4==A or 35_5==A or 35_6==A or 35_7==A)==1",
+    "action": "36_1",
+    "score": "3"
+  },
+  {
+    "category_id": 35,
+    "rule": "35_8==B and is_true(35_1==A or 35_2==A or 35_3==A or 35_4==A or 35_5==A or 35_6==A or 35_7==A)==0",
+    "action": "36_1",
+    "score": "2"
+  },
+  {
+    "category_id": 35,
+    "rule": "35_8==A and is_true(35_1==A or 35_2==A or 35_3==A or 35_4==A or 35_5==A or 35_6==A or 35_7==A)==1",
+    "action": "36_1",
+    "score": "2"
+  },
+  {
+    "category_id": 35,
+    "rule": "35_8==A and is_true(35_1==A or 35_2==A or 35_3==A or 35_4==A or 35_5==A or 35_6==A or 35_7==A)==0",
+    "action": "36_1",
+    "score": "1"
+  },
+  {
+    "category_id": 36,
+    "rule": "36_1==B",
+    "action": "37_1",
+    "score": "1"
+  },
+  {
+    "category_id": 36,
+    "rule": "is_true(36_2==A)+is_true(36_3==A)+is_true(36_4==A)+is_true(36_5==A)+is_true(36_6==A)+is_true(36_7==A)+is_true(36_8==A)>=3",
+    "action": "37_1",
+    "score": "3"
+  },
+  {
+    "category_id": 36,
+    "rule": "is_true(36_2==A)+is_true(36_3==A)+is_true(36_4==A)+is_true(36_5==A)+is_true(36_6==A)+is_true(36_7==A)+is_true(36_8==A)==2",
+    "action": "37_1",
+    "score": "2"
+  },
+  {
+    "category_id": 36,
+    "rule": "is_true(36_2==A)+is_true(36_3==A)+is_true(36_4==A)+is_true(36_5==A)+is_true(36_6==A)+is_true(36_7==A)+is_true(36_8==A)<=2",
+    "action": "37_1",
+    "score": "1"
+  },
+  {
+    "category_id": 37,
+    "rule": "37_1==B and 37_2==B and 37_3==B",
+    "action": "38_1",
+    "score": "1"
+  },
+  {
+    "category_id": 37,
+    "rule": "(37_5==A or 37_5==B) and (is_true(37_4==A)+is_true(37_3==A))<1",
+    "action": "38_1",
+    "score": "1"
+  },
+  {
+    "category_id": 37,
+    "rule": "(37_5==A or 37_5==B) and (is_true(37_4==A)+is_true(37_3==A))==1",
+    "action": "38_1",
+    "score": "2"
+  },
+  {
+    "category_id": 37,
+    "rule": "(37_5==A or 37_5==B) and (is_true(37_4==A)+is_true(37_3==A))>=2",
+    "action": "38_1",
+    "score": "3"
+  },
+  {
+    "category_id": 38,
+    "rule": "38_1==B and 38_2==B and 38_3==B and 38_4==B and 38_5==B",
+    "action": "39_1",
+    "score": "1"
+  },
+  {
+    "category_id": 38,
+    "rule": "(38_7==A or 38_7==B) and (is_true(38_6==A)+is_true(38_7==A))<1",
+    "action": "39_1",
+    "score": "1"
+  },
+  {
+    "category_id": 38,
+    "rule": "(38_7==A or 38_7==B) and (is_true(38_6==A)+is_true(38_7==A))==1",
+    "action": "39_1",
+    "score": "2"
+  },
+  {
+    "category_id": 38,
+    "rule": "(38_7==A or 38_7==B) and (is_true(38_6==A)+is_true(38_7==A))>=2",
+    "action": "39_1",
+    "score": "3"
+  },
+  {
+    "category_id": 39,
+    "rule": "39_1==B",
+    "action": "40_1",
+    "score": "1"
+  },
+  {
+    "category_id": 39,
+    "rule": "39_3==B and 39_4==B and 39_5==B",
+    "action": "40_1",
+    "score": "1"
+  },
+  {
+    "category_id": 39,
+    "rule": "(39_7==A or 39_7==B) and (is_true(39_1==A)+is_true(39_5==A))<1",
+    "action": "40_1",
+    "score": "2"
+  },
+  {
+    "category_id": 39,
+    "rule": "(39_7==A or 39_7==B) and (is_true(39_1==A)+is_true(39_5==A))>=1",
+    "action": "40_1",
+    "score": "3"
+  },
+  {
+    "category_id": 40,
+    "rule": "is_true(40_6==A)+is_true(40_5==A)+is_true(40_4==A)+is_true(40_3==A)+is_true(40_2==A)+is_true(40_1==A)>=5",
+    "action": "41_1",
+    "score": "3"
+  },
+  {
+    "category_id": 40,
+    "rule": "is_true(40_6==A)+is_true(40_5==A)+is_true(40_4==A)+is_true(40_3==A)+is_true(40_2==A)+is_true(40_1==A)<=2",
+    "action": "41_1",
+    "score": "1"
+  },
+  {
+    "category_id": 40,
+    "rule": "is_true(40_6==A)+is_true(40_5==A)+is_true(40_4==A)+is_true(40_3==A)+is_true(40_2==A)+is_true(40_1==A)==4",
+    "action": "41_1",
+    "score": "2"
+  },
+  {
+    "category_id": 40,
+    "rule": "is_true(40_6==A)+is_true(40_5==A)+is_true(40_4==A)+is_true(40_3==A)+is_true(40_2==A)+is_true(40_1==A)==3",
+    "action": "41_1",
+    "score": "2"
+  },
+  {
+    "category_id": 41,
+    "rule": "41_1==B",
+    "action": "42_1",
+    "score": "1"
+  },
+  {
+    "category_id": 41,
+    "rule": "is_true(41_2==A)+is_true(41_3==A)+is_true(41_4==A)<2",
+    "action": "42_1",
+    "score": "1"
+  },
+  {
+    "category_id": 41,
+    "rule": "is_true(41_2==A)+is_true(41_3==A)+is_true(41_4==A)==2",
+    "action": "42_1",
+    "score": "2"
+  },
+  {
+    "category_id": 41,
+    "rule": "is_true(41_2==A)+is_true(41_3==A)+is_true(41_4==A)==3",
+    "action": "42_1",
+    "score": "3"
+  },
+  {
+    "category_id": 42,
+    "rule": "42_1==B",
+    "action": "42_3",
+    "score": "-1"
+  },
+  {
+    "category_id": 42,
+    "rule": "42_1==A",
+    "action": "42_2",
+    "score": "-1"
+  },
+  {
+    "category_id": 42,
+    "rule": "is_true(42_2==A)+is_true(42_4==A)+is_true(42_5==A)<2",
+    "action": "43_1",
+    "score": "1"
+  },
+  {
+    "category_id": 42,
+    "rule": "is_true(42_2==A)+is_true(42_4==A)+is_true(42_5==A)==2",
+    "action": "43_1",
+    "score": "2"
+  },
+  {
+    "category_id": 42,
+    "rule": "is_true(42_2==A)+is_true(42_4==A)+is_true(42_5==A)==3",
+    "action": "43_1",
+    "score": "3"
+  },
+  {
+    "category_id": 43,
+    "rule": "43_1==B",
+    "action": "44_1",
+    "score": "1"
+  },
+  {
+    "category_id": 43,
+    "rule": "(43_8==A or 43_8==B) and (is_true(43_2==A)+is_true(43_3==A)+is_true(43_4==A)+is_true(43_7==A))<=1",
+    "action": "44_1",
+    "score": "1"
+  },
+  {
+    "category_id": 43,
+    "rule": "(43_8==A or 43_8==B) and (is_true(43_2==A)+is_true(43_3==A)+is_true(43_4==A)+is_true(43_7==A))==2",
+    "action": "44_1",
+    "score": "2"
+  },
+  {
+    "category_id": 43,
+    "rule": "(43_8==A or 43_8==B) and (is_true(43_2==A)+is_true(43_3==A)+is_true(43_4==A)+is_true(43_7==A))>=3",
+    "action": "44_1",
+    "score": "3"
+  },
+  {
+    "category_id": 44,
+    "rule": "44_1==B",
+    "action": "45_1",
+    "score": "1"
+  },
+  {
+    "category_id": 44,
+    "rule": "(44_9==A or 44_9==B) and (is_true(44_2==A)+is_true(44_3==A)+is_true(44_4==A)+is_true(44_5==A)+is_true(44_6==A)+is_true(44_7==A)+is_true(44_8==A))<=1",
+    "action": "45_1",
+    "score": "1"
+  },
+  {
+    "category_id": 44,
+    "rule": "(44_9==A or 44_9==B) and (is_true(44_2==A)+is_true(44_3==A)+is_true(44_4==A)+is_true(44_5==A)+is_true(44_6==A)+is_true(44_7==A)+is_true(44_8==A))==2",
+    "action": "45_1",
+    "score": "2"
+  },
+  {
+    "category_id": 44,
+    "rule": "(44_9==A or 44_9==B) and (is_true(44_2==A)+is_true(44_3==A)+is_true(44_4==A)+is_true(44_5==A)+is_true(44_6==A)+is_true(44_7==A)+is_true(44_8==A))>=3",
+    "action": "45_1",
+    "score": "3"
+  },
+  {
+    "category_id": 45,
+    "rule": "45_1==B",
+    "action": "45_4",
+    "score": "-1"
+  },
+  {
+    "category_id": 45,
+    "rule": "45_1==A",
+    "action": "45_2",
+    "score": "-1"
+  },
+  {
+    "category_id": 45,
+    "rule": "45_4==B",
+    "action": "45_7",
+    "score": "-1"
+  },
+  {
+    "category_id": 45,
+    "rule": "45_4==A",
+    "action": "45_5",
+    "score": "-1"
+  },
+  {
+    "category_id": 45,
+    "rule": "45_7==B and (is_true(45_4==A)+is_true(45_6==A))<=1",
+    "action": "46_1",
+    "score": "1"
+  },
+  {
+    "category_id": 45,
+    "rule": "45_7==B and (is_true(45_4==A)+is_true(45_6==A))==2",
+    "action": "46_1",
+    "score": "2"
+  },
+  {
+    "category_id": 45,
+    "rule": "45_7==A",
+    "action": "45_8",
+    "score": "-1"
+  },
+  {
+    "category_id": 45,
+    "rule": "(45_9==A or 45_9==B) and is_true(45_4==A)+is_true(45_6==A)+is_true(45_9==A)<=1",
+    "action": "46_1",
+    "score": "1"
+  },
+  {
+    "category_id": 45,
+    "rule": "(45_9==A or 45_9==B) and is_true(45_4==A)+is_true(45_6==A)+is_true(45_9==A)==2",
+    "action": "46_1",
+    "score": "2"
+  },
+  {
+    "category_id": 45,
+    "rule": "(45_9==A or 45_9==B) and is_true(45_4==A)+is_true(45_6==A)+is_true(45_9==A)>=3",
+    "action": "46_1",
+    "score": "3"
+  },
+  {
+    "category_id": 46,
+    "rule": "is_true(46_1==A or 46_2==A) + is_true(46_3==A or 46_4==A) + is_true(46_5==A or 46_6==A or 46_7==A or 46_8==A)<=1",
+    "action": "47_1",
+    "score": "1"
+  },
+  {
+    "category_id": 46,
+    "rule": "is_true(46_1==A or 46_2==A) + is_true(46_3==A or 46_4==A) + is_true(46_5==A or 46_6==A or 46_7==A or 46_8==A)==2",
+    "action": "47_1",
+    "score": "2"
+  },
+  {
+    "category_id": 46,
+    "rule": "is_true(46_1==A or 46_2==A) + is_true(46_3==A or 46_4==A) + is_true(46_5==A or 46_6==A or 46_7==A or 46_8==A)>=3",
+    "action": "47_1",
+    "score": "3"
+  },
+  {
+    "category_id": 47,
+    "rule": "47_1==B and 47_2==B and 47_3==B",
+    "action": "48_1",
+    "score": "1"
+  },
+  {
+    "category_id": 47,
+    "rule": "(47_9==A or 47_9==B) and (is_true(47_7==A)+is_true(47_8==A))<1",
+    "action": "48_1",
+    "score": "1"
+  },
+  {
+    "category_id": 47,
+    "rule": "(47_9==A or 47_9==B) and (is_true(47_7==A)+is_true(47_8==A))==1",
+    "action": "48_1",
+    "score": "2"
+  },
+  {
+    "category_id": 47,
+    "rule": "(47_9==A or 47_9==B) and (is_true(47_7==A)+is_true(47_8==A))>=2",
+    "action": "48_1",
+    "score": "3"
+  },
+  {
+    "category_id": 48,
+    "rule": "48_1==B",
+    "action": "49_1",
+    "score": "1"
+  },
+  {
+    "category_id": 48,
+    "rule": "(48_9==A or 48_9==B) and (is_true(48_3==A)+is_true(48_8==A))<1",
+    "action": "49_1",
+    "score": "1"
+  },
+  {
+    "category_id": 48,
+    "rule": "(48_9==A or 48_9==B) and (is_true(48_3==A)+is_true(48_8==A))==1",
+    "action": "49_1",
+    "score": "2"
+  },
+  {
+    "category_id": 48,
+    "rule": "(48_9==A or 48_9==B) and (is_true(48_3==A)+is_true(48_8==A))>=2",
+    "action": "49_1",
+    "score": "3"
+  },
+  {
+    "category_id": 49,
+    "rule": "49_1==B",
+    "action": "50_1",
+    "score": "1"
+  },
+  {
+    "category_id": 49,
+    "rule": "(49_9==A or 49_9==B) and (is_true(49_3==A)+is_true(49_9==A))<1",
+    "action": "50_1",
+    "score": "1"
+  },
+  {
+    "category_id": 49,
+    "rule": "(49_9==A or 49_9==B) and (is_true(49_3==A)+is_true(49_9==A))==1",
+    "action": "50_1",
+    "score": "2"
+  },
+  {
+    "category_id": 49,
+    "rule": "(49_9==A or 49_9==B) and (is_true(49_3==A)+is_true(49_9==A))>=2",
+    "action": "50_1",
+    "score": "3"
+  },
+  {
+    "category_id": 50,
+    "rule": "50_1==B",
+    "action": "51_1",
+    "score": "1"
+  },
+  {
+    "category_id": 50,
+    "rule": "50_1==A",
+    "action": "51_1",
+    "score": "2"
+  },
+  {
+    "category_id": 51,
+    "rule": "51_1==B",
+    "action": "52_1",
+    "score": "1"
+  },
+  {
+    "category_id": 51,
+    "rule": "51_1==A",
+    "action": "52_1",
+    "score": "2"
+  },
+  {
+    "category_id": 52,
+    "rule": "52_1==A",
+    "action": "53_1",
+    "score": "1"
+  },
+  {
+    "category_id": 52,
+    "rule": "52_1==B",
+    "action": "53_1",
+    "score": "2"
+  },
+  {
+    "category_id": 53,
+    "rule": "53_1==A",
+    "action": "54_1",
+    "score": "2"
+  },
+  {
+    "category_id": 53,
+    "rule": "53_1==B",
+    "action": "54_1",
+    "score": "1"
+  },
+  {
+    "category_id": 54,
+    "rule": "54_1==A",
+    "action": "55_1",
+    "score": "2"
+  },
+  {
+    "category_id": 54,
+    "rule": "54_1==B",
+    "action": "55_1",
+    "score": "1"
+  },
+  {
+    "category_id": 55,
+    "rule": "55_1==A",
+    "action": "56_1",
+    "score": "1"
+  },
+  {
+    "category_id": 55,
+    "rule": "55_2==A",
+    "action": "56_1",
+    "score": "2"
+  },
+  {
+    "category_id": 56,
+    "rule": "56_1==A",
+    "action": "57_1",
+    "score": "2"
+  },
+  {
+    "category_id": 56,
+    "rule": "56_1==B",
+    "action": "57_1",
+    "score": "1"
+  },
+  {
+    "category_id": 57,
+    "rule": "57_1==A",
+    "action": "58_1",
+    "score": "2"
+  },
+  {
+    "category_id": 57,
+    "rule": "57_1==B",
+    "action": "58_1",
+    "score": "1"
+  },
+  {
+    "category_id": 58,
+    "rule": "is_true(58_1==A) + is_true(58_2==A) == 0",
+    "action": "59_1",
+    "score": "1"
+  },
+  {
+    "category_id": 58,
+    "rule": "is_true(58_1==A) + is_true(58_2==A) == 1",
+    "action": "59_1",
+    "score": "2"
+  },
+  {
+    "category_id": 58,
+    "rule": "is_true(58_1==A) + is_true(58_2==A) == 2",
+    "action": "59_1",
+    "score": "3"
+  },
+  {
+    "category_id": 59,
+    "rule": "59_1==A",
+    "action": "60_1",
+    "score": "2"
+  },
+  {
+    "category_id": 59,
+    "rule": "59_1==B",
+    "action": "60_1",
+    "score": "1"
+  },
+  {
+    "category_id": 60,
+    "rule": "60_1==A",
+    "action": "61_1",
+    "score": "2"
+  },
+  {
+    "category_id": 60,
+    "rule": "60_1==B",
+    "action": "61_1",
+    "score": "1"
+  },
+  {
+    "category_id": 61,
+    "rule": "is_true(61_1==A)+is_true(61_2==A)+is_true(61_3==A)<2",
+    "action": "62_1",
+    "score": "1"
+  },
+  {
+    "category_id": 61,
+    "rule": "is_true(61_1==A)+is_true(61_2==A)+is_true(61_3==A)==2",
+    "action": "62_1",
+    "score": "2"
+  },
+  {
+    "category_id": 61,
+    "rule": "is_true(61_1==A)+is_true(61_2==A)+is_true(61_3==A)==3",
+    "action": "62_1",
+    "score": "3"
+  },
+  {
+    "category_id": 62,
+    "rule": "62_1==A or 62_1==B",
+    "action": null,
+    "score": "1"
+  }
+]

@@ -1,0 +1,15 @@
+# Module Configuration
+
+# Scoring Configuration
+scoring:
+  method: "summation"  # Use "summation" for SNAP-IV ADHD scale
+
+# Logging Configuration
+logging:
+  level: "INFO"  # DEBUG, INFO, WARNING, ERROR
+  file: "./logs/SNAP-IV-ADHD.log"
+  console: true
+
+# Answer Configuration
+answers:
+  format: "json"  # Options: json, csv, excel

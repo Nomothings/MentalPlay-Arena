@@ -1,0 +1,164 @@
+[
+  {
+    "question_id": "1_1",
+    "question_text": "When you're doing schoolwork or tasks, do you often feel that you miss details or make mistakes you didn’t intend to make?",
+    "domain": "ADHD Assessment",
+    "category": "Inattention",
+    "category_id": 1,
+    "answer_space": ["Not at all", "A little", "Quite a bit", "Very much"],
+    "action": "1_2"
+  },
+  {
+    "question_id": "1_2",
+    "question_text": "Do you find it hard at times to stay focused on what you're doing, even if it’s something enjoyable?",
+    "domain": "ADHD Assessment",
+    "category": "Inattention",
+    "category_id": 1,
+    "answer_space": ["Not at all", "A little", "Quite a bit", "Very much"],
+    "action": "1_3"
+  },
+  {
+    "question_id": "1_3",
+    "question_text": "When someone talks to you, do you notice your mind drifting and not fully catching what they’re saying?",
+    "domain": "ADHD Assessment",
+    "category": "Inattention",
+    "category_id": 1,
+    "answer_space": ["Not at all", "A little", "Quite a bit", "Very much"],
+    "action": "1_4"
+  },
+  {
+    "question_id": "1_4",
+    "question_text": "Do you sometimes feel it’s difficult to follow instructions or finish tasks once you start them?",
+    "domain": "ADHD Assessment",
+    "category": "Inattention",
+    "category_id": 1,
+    "answer_space": ["Not at all", "A little", "Quite a bit", "Very much"],
+    "action": "1_5"
+  },
+  {
+    "question_id": "1_5",
+    "question_text": "How much do you feel that organizing schoolwork or daily activities is challenging for you?",
+    "domain": "ADHD Assessment",
+    "category": "Inattention",
+    "category_id": 1,
+    "answer_space": ["Not at all", "A little", "Quite a bit", "Very much"],
+    "action": "1_6"
+  },
+  {
+    "question_id": "1_6",
+    "question_text": "When a task requires steady mental effort, do you tend to feel resistant or find it harder to keep going?",
+    "domain": "ADHD Assessment",
+    "category": "Inattention",
+    "category_id": 1,
+    "answer_space": ["Not at all", "A little", "Quite a bit", "Very much"],
+    "action": "1_7"
+  },
+  {
+    "question_id": "1_7",
+    "question_text": "Do you often find that you misplace or lose things you need for school or daily activities?",
+    "domain": "ADHD Assessment",
+    "category": "Inattention",
+    "category_id": 1,
+    "answer_space": ["Not at all", "A little", "Quite a bit", "Very much"],
+    "action": "1_8"
+  },
+  {
+    "question_id": "1_8",
+    "question_text": "Do you feel that things happening around you pull your attention away more easily than you’d like?",
+    "domain": "ADHD Assessment",
+    "category": "Inattention",
+    "category_id": 1,
+    "answer_space": ["Not at all", "A little", "Quite a bit", "Very much"],
+    "action": "1_9"
+  },
+  {
+    "question_id": "1_9",
+    "question_text": "Do you notice yourself forgetting things you were supposed to remember more than you wish you did?",
+    "domain": "ADHD Assessment",
+    "category": "Inattention",
+    "category_id": 1,
+    "answer_space": ["Not at all", "A little", "Quite a bit", "Very much"],
+    "action": "1_10"
+  },
+  {
+    "question_id": "1_10",
+    "question_text": "Do you feel restless or notice yourself moving around or fidgeting when you're expected to stay seated?",
+    "domain": "ADHD Assessment",
+    "category": "Hyperactivity-Impulsivity",
+    "category_id": 2,
+    "answer_space": ["Not at all", "A little", "Quite a bit", "Very much"],
+    "action": "1_11"
+  },
+  {
+    "question_id": "1_11",
+    "question_text": "In situations where sitting still is expected, do you feel a strong urge to get up or move around?",
+    "domain": "ADHD Assessment",
+    "category": "Hyperactivity-Impulsivity",
+    "category_id": 2,
+    "answer_space": ["Not at all", "A little", "Quite a bit", "Very much"],
+    "action": "1_12"
+  },
+  {
+    "question_id": "1_12",
+    "question_text": "Do you sometimes catch yourself running around or climbing in situations where others usually wouldn’t?",
+    "domain": "ADHD Assessment",
+    "category": "Hyperactivity-Impulsivity",
+    "category_id": 2,
+    "answer_space": ["Not at all", "A little", "Quite a bit", "Very much"],
+    "action": "1_13"
+  },
+  {
+    "question_id": "1_13",
+    "question_text": "When playing or relaxing, do you find it hard to stay calm or quiet compared to others?",
+    "domain": "ADHD Assessment",
+    "category": "Hyperactivity-Impulsivity",
+    "category_id": 2,
+    "answer_space": ["Not at all", "A little", "Quite a bit", "Very much"],
+    "action": "1_14"
+  },
+  {
+    "question_id": "1_14",
+    "question_text": "Do you feel as if you're always active or that your body wants to keep moving constantly?",
+    "domain": "ADHD Assessment",
+    "category": "Hyperactivity-Impulsivity",
+    "category_id": 2,
+    "answer_space": ["Not at all", "A little", "Quite a bit", "Very much"],
+    "action": "1_15"
+  },
+  {
+    "question_id": "1_15",
+    "question_text": "Do you notice that you talk more than you intend to, or that it’s hard to hold back from talking?",
+    "domain": "ADHD Assessment",
+    "category": "Hyperactivity-Impulsivity",
+    "category_id": 2,
+    "answer_space": ["Not at all", "A little", "Quite a bit", "Very much"],
+    "action": "1_16"
+  },
+  {
+    "question_id": "1_16",
+    "question_text": "When someone is asking you a question, do you tend to start answering before they finish speaking?",
+    "domain": "ADHD Assessment",
+    "category": "Hyperactivity-Impulsivity",
+    "category_id": 2,
+    "answer_space": ["Not at all", "A little", "Quite a bit", "Very much"],
+    "action": "1_17"
+  },
+  {
+    "question_id": "1_17",
+    "question_text": "In games or group activities, do you find it difficult to wait your turn without feeling impatient?",
+    "domain": "ADHD Assessment",
+    "category": "Hyperactivity-Impulsivity",
+    "category_id": 2,
+    "answer_space": ["Not at all", "A little", "Quite a bit", "Very much"],
+    "action": "1_18"
+  },
+  {
+    "question_id": "1_18",
+    "question_text": "Do you catch yourself stepping into other people’s conversations or activities before being invited?",
+    "domain": "ADHD Assessment",
+    "category": "Hyperactivity-Impulsivity",
+    "category_id": 2,
+    "answer_space": ["Not at all", "A little", "Quite a bit", "Very much"],
+    "action": "None"
+  }
+]

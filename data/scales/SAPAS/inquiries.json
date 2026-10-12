@@ -1,0 +1,98 @@
+[
+  {
+    "question_id": "1_1",
+    "question_text": "Overall, do you have difficulties in establishing and maintaining friendships?",
+    "domain": "Personality Assessment",
+    "category": "Social Relationships",
+    "category_id": 1,
+    "answer_space": [
+      "Y",
+      "N"
+    ],
+    "action": "1_2"
+  },
+  {
+    "question_id": "1_2",
+    "question_text": "Would you typically describe yourself as a solitary person?",
+    "domain": "Personality Assessment",
+    "category": "Social Relationships",
+    "category_id": 2,
+    "answer_space": [
+      "Y",
+      "N"
+    ],
+    "action": "1_3"
+  },
+  {
+    "question_id": "1_3",
+    "question_text": "Generally speaking, do you trust other people?",
+    "domain": "Personality Assessment",
+    "category": "Trust",
+    "category_id": 3,
+    "answer_space": [
+      "Y",
+      "N"
+    ],
+    "action": "1_4"
+  },
+  {
+    "question_id": "1_4",
+    "question_text": "Do you usually get angry easily?",
+    "domain": "Personality Assessment",
+    "category": "Emotional Regulation",
+    "category_id": 4,
+    "answer_space": [
+      "Y",
+      "N"
+    ],
+    "action": "1_5"
+  },
+  {
+    "question_id": "1_5",
+    "question_text": "Are you usually an impulsive person?",
+    "domain": "Personality Assessment",
+    "category": "Impulsivity",
+    "category_id": 5,
+    "answer_space": [
+      "Y",
+      "N"
+    ],
+    "action": "1_6"
+  },
+  {
+    "question_id": "1_6",
+    "question_text": "Are you usually a person who worries a lot?",
+    "domain": "Personality Assessment",
+    "category": "Anxiety",
+    "category_id": 6,
+    "answer_space": [
+      "Y",
+      "N"
+    ],
+    "action": "1_7"
+  },
+  {
+    "question_id": "1_7",
+    "question_text": "Overall, are you very dependent on others?",
+    "domain": "Personality Assessment",
+    "category": "Dependency",
+    "category_id": 7,
+    "answer_space": [
+      "Y",
+      "N"
+    ],
+    "action": "1_8"
+  },
+  {
+    "question_id": "1_8",
+    "question_text": "Overall, are you a perfectionist?",
+    "domain": "Personality Assessment",
+    "category": "Perfectionism",
+    "category_id": 8,
+    "answer_space": [
+      "Y",
+      "N"
+    ],
+    "action": "None"
+  }
+]

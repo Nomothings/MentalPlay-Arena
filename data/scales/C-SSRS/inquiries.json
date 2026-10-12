@@ -1,0 +1,74 @@
+[
+  {
+    "question_id": "1_1",
+    "question_text": "In the past month, have you had a desire to die or to go to sleep and never wake up?",
+    "domain": "Suicidal Ideation",
+    "category": "Passive Suicidal Ideation",
+    "category_id": 1,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "1_2"
+  },
+  {
+    "question_id": "1_2",
+    "question_text": "In the past month, have you had any thoughts that you would like to kill yourself?",
+    "domain": "Suicidal Ideation",
+    "category": "Active Suicidal Ideation",
+    "category_id": 1,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "1_3",
+    "question_text": "Have you been thinking about how you might kill yourself?",
+    "domain": "Suicidal Ideation",
+    "category": "Method Conception",
+    "category_id": 1,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "1_4",
+    "question_text": "How much do you want to act on these thoughts?",
+    "domain": "Suicidal Ideation",
+    "category": "Intent",
+    "category_id": 1,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "1_5",
+    "question_text": "Have you started to work out the details of how you would kill yourself? Do you intend to carry out this plan?",
+    "domain": "Suicidal Ideation",
+    "category": "Plan Formulation",
+    "category_id": 1,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "2_2",
+    "question_text": "In the past four weeks, have you done anything, started doing anything, or prepared to do anything to end your life? Examples include collecting medication, obtaining a gun, giving away belongings, writing a suicide note, taking pills but not swallowing them, holding a gun but not pulling the trigger, going to a high place but not jumping, swallowing a small number of pills, or attempting self-harm or suicide.",
+    "domain": "Suicidal Behavior",
+    "category": "Suicidal Behavior",
+    "category_id": 2,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "judge"
+  }
+]

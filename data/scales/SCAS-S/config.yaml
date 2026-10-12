@@ -1,0 +1,17 @@
+# SCAS-S Module Configuration
+
+# Scoring Configuration
+scoring:
+  # SCAS-S uses a simple summation scoring system
+  method: "summation"
+
+# Logging Configuration (module-specific)
+logging:
+  level: "INFO"  # DEBUG, INFO, WARNING, ERROR
+  file: "./logs/scass.log"
+  console: true
+
+# Answer Configuration
+answers:
+  # Answer save format
+  format: "json"  # Options: json, csv, excel

@@ -1,0 +1,15 @@
+# SMQ Module Configuration
+
+# Scoring Configuration
+scoring:
+  method: "summation"  # Use "summation" for SMQ scale
+
+# Logging Configuration
+logging:
+  level: "INFO"  # DEBUG, INFO, WARNING, ERROR
+  file: "./logs/smq.log"
+  console: true
+
+# Answer Configuration
+answers:
+  format: "json"  # Options: json, csv, excel

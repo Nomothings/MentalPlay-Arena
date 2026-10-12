@@ -1,0 +1,11 @@
+# Please map the following answer to the sample space
+## Answer
+- {answer}
+## Answer Space
+- {options}
+
+# Output Requirements
+- No explanation needed, just give the final answer
+- Please directly output the letter corresponding to the answer in the answer space
+- Output at least one letter
+- You can only reply with 'A', 'B', 'C'... without any other text!!!

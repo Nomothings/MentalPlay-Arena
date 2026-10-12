@@ -1,0 +1,240 @@
+[
+  {
+    "question_id": "1_1",
+    "question_text": "When you're at school, how often do you talk to most kids your age during normal activities or breaks?",
+    "domain": "Selective Mutism Assessment",
+    "category": "Speech Behavior",
+    "category_id": 1,
+    "answer_space": [
+      "Never",
+      "Seldom",
+      "Often",
+      "Always"
+    ],
+    "action": "1_2"
+  },
+  {
+    "question_id": "1_2",
+    "question_text": "How often do you talk to your close friends or certain classmates at school when there’s a chance to talk?",
+    "domain": "Selective Mutism Assessment",
+    "category": "Speech Behavior",
+    "category_id": 2,
+    "answer_space": [
+      "Never",
+      "Seldom",
+      "Often",
+      "Always"
+    ],
+    "action": "1_3"
+  },
+  {
+    "question_id": "1_3",
+    "question_text": "When a teacher asks you something in class, how often do you give an answer out loud?",
+    "domain": "Selective Mutism Assessment",
+    "category": "Speech Behavior",
+    "category_id": 3,
+    "answer_space": [
+      "Never",
+      "Seldom",
+      "Often",
+      "Always"
+    ],
+    "action": "1_4"
+  },
+  {
+    "question_id": "1_4",
+    "question_text": "If you need help, how often do you ask your teacher questions during class or activities?",
+    "domain": "Selective Mutism Assessment",
+    "category": "Speech Behavior",
+    "category_id": 4,
+    "answer_space": [
+      "Never",
+      "Seldom",
+      "Often",
+      "Always"
+    ],
+    "action": "1_5"
+  },
+  {
+    "question_id": "1_5",
+    "question_text": "How often can you speak to teachers or school staff when you need to say something?",
+    "domain": "Selective Mutism Assessment",
+    "category": "Speech Behavior",
+    "category_id": 5,
+    "answer_space": [
+      "Never",
+      "Seldom",
+      "Often",
+      "Always"
+    ],
+    "action": "1_6"
+  },
+  {
+    "question_id": "1_6",
+    "question_text": "When you’re in front of the class or in a small group, how often can you speak out loud?",
+    "domain": "Selective Mutism Assessment",
+    "category": "Speech Behavior",
+    "category_id": 6,
+    "answer_space": [
+      "Never",
+      "Seldom",
+      "Often",
+      "Always"
+    ],
+    "action": "1_7"
+  },
+  {
+    "question_id": "1_7",
+    "question_text": "When other people are around at home, how often do you still talk to your family members?",
+    "domain": "Selective Mutism Assessment",
+    "category": "Speech Behavior",
+    "category_id": 7,
+    "answer_space": [
+      "Never",
+      "Seldom",
+      "Often",
+      "Always"
+    ],
+    "action": "1_8"
+  },
+  {
+    "question_id": "1_8",
+    "question_text": "When you’re in a place you don’t know well, how often do you feel comfortable talking to your family?",
+    "domain": "Selective Mutism Assessment",
+    "category": "Speech Behavior",
+    "category_id": 8,
+    "answer_space": [
+      "Never",
+      "Seldom",
+      "Often",
+      "Always"
+    ],
+    "action": "1_9"
+  },
+  {
+    "question_id": "1_9",
+    "question_text": "How often do you talk with relatives who don’t live with you, like grandparents or cousins?",
+    "domain": "Selective Mutism Assessment",
+    "category": "Speech Behavior",
+    "category_id": 9,
+    "answer_space": [
+      "Never",
+      "Seldom",
+      "Often",
+      "Always"
+    ],
+    "action": "1_10"
+  },
+  {
+    "question_id": "1_10",
+    "question_text": "How often do you speak to your parents or siblings on the phone?",
+    "domain": "Selective Mutism Assessment",
+    "category": "Speech Behavior",
+    "category_id": 10,
+    "answer_space": [
+      "Never",
+      "Seldom",
+      "Often",
+      "Always"
+    ],
+    "action": "1_11"
+  },
+  {
+    "question_id": "1_11",
+    "question_text": "How often do you talk to family friends that you see from time to time?",
+    "domain": "Selective Mutism Assessment",
+    "category": "Speech Behavior",
+    "category_id": 11,
+    "answer_space": [
+      "Never",
+      "Seldom",
+      "Often",
+      "Always"
+    ],
+    "action": "1_12"
+  },
+  {
+    "question_id": "1_12",
+    "question_text": "How often do you talk to a babysitter or someone who takes care of you?",
+    "domain": "Selective Mutism Assessment",
+    "category": "Speech Behavior",
+    "category_id": 12,
+    "answer_space": [
+      "Never",
+      "Seldom",
+      "Often",
+      "Always"
+    ],
+    "action": "1_13"
+  },
+  {
+    "question_id": "1_13",
+    "question_text": "When you meet kids you don’t know outside school, how often do you talk to them?",
+    "domain": "Selective Mutism Assessment",
+    "category": "Speech Behavior",
+    "category_id": 13,
+    "answer_space": [
+      "Never",
+      "Seldom",
+      "Often",
+      "Always"
+    ],
+    "action": "1_14"
+  },
+  {
+    "question_id": "1_14",
+    "question_text": "When meeting family friends you don’t know very well, how often can you speak to them?",
+    "domain": "Selective Mutism Assessment",
+    "category": "Speech Behavior",
+    "category_id": 14,
+    "answer_space": [
+      "Never",
+      "Seldom",
+      "Often",
+      "Always"
+    ],
+    "action": "1_15"
+  },
+  {
+    "question_id": "1_15",
+    "question_text": "When you see your doctor or dentist, how often do you talk to them directly?",
+    "domain": "Selective Mutism Assessment",
+    "category": "Speech Behavior",
+    "category_id": 15,
+    "answer_space": [
+      "Never",
+      "Seldom",
+      "Often",
+      "Always"
+    ],
+    "action": "1_16"
+  },
+  {
+    "question_id": "1_16",
+    "question_text": "When you're in a store or restaurant, how often do you talk to clerks or waiters when needed?",
+    "domain": "Selective Mutism Assessment",
+    "category": "Speech Behavior",
+    "category_id": 16,
+    "answer_space": [
+      "Never",
+      "Seldom",
+      "Often",
+      "Always"
+    ],
+    "action": "1_17"
+  },
+  {
+    "question_id": "1_17",
+    "question_text": "During clubs, sports teams, or after-school activities, how often do you speak when you need to?",
+    "domain": "Selective Mutism Assessment",
+    "category": "Speech Behavior",
+    "category_id": 17,
+    "answer_space": [
+      "Never",
+      "Seldom",
+      "Often",
+      "Always"
+    ],
+    "action": "None"
+  }
+]

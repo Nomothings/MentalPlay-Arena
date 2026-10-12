@@ -1,0 +1,128 @@
+[
+  {
+    "question_id": "1_1",
+    "question_text": "Over the past two weeks, how often have you had little interest or pleasure in doing things?",
+    "domain": "Depression Assessment",
+    "category": "Anhedonia",
+    "category_id": 1,
+    "answer_space": [
+      "Not at all",
+      "Several days",
+      "More than half the days",
+      "Nearly every day"
+    ],
+    "action": "1_2"
+  },
+  {
+    "question_id": "1_2",
+    "question_text": "Over the past two weeks, how often have you felt down, depressed, or hopeless?",
+    "domain": "Depression Assessment",
+    "category": "Depressed Mood",
+    "category_id": 2,
+    "answer_space": [
+      "Not at all",
+      "Several days",
+      "More than half the days",
+      "Nearly every day"
+    ],
+    "action": "1_3"
+  },
+  {
+    "question_id": "1_3",
+    "question_text": "Over the past two weeks, how often have you had trouble falling or staying asleep, or sleeping too much?",
+    "domain": "Depression Assessment",
+    "category": "Sleep Disturbance",
+    "category_id": 3,
+    "answer_space": [
+      "Not at all",
+      "Several days",
+      "More than half the days",
+      "Nearly every day"
+    ],
+    "action": "1_4"
+  },
+  {
+    "question_id": "1_4",
+    "question_text": "Over the past two weeks, how often have you felt tired or had little energy?",
+    "domain": "Depression Assessment",
+    "category": "Fatigue",
+    "category_id": 4,
+    "answer_space": [
+      "Not at all",
+      "Several days",
+      "More than half the days",
+      "Nearly every day"
+    ],
+    "action": "1_5"
+  },
+  {
+    "question_id": "1_5",
+    "question_text": "Over the past two weeks, how often have you had a poor appetite or overeaten?",
+    "domain": "Depression Assessment",
+    "category": "Appetite Changes",
+    "category_id": 5,
+    "answer_space": [
+      "Not at all",
+      "Several days",
+      "More than half the days",
+      "Nearly every day"
+    ],
+    "action": "1_6"
+  },
+  {
+    "question_id": "1_6",
+    "question_text": "Over the past two weeks, how often have you felt bad about yourself - or that you are a failure or have let yourself or your family down?",
+    "domain": "Depression Assessment",
+    "category": "Self-Esteem",
+    "category_id": 6,
+    "answer_space": [
+      "Not at all",
+      "Several days",
+      "More than half the days",
+      "Nearly every day"
+    ],
+    "action": "1_7"
+  },
+  {
+    "question_id": "1_7",
+    "question_text": "Over the past two weeks, how often have you had trouble concentrating on things, such as reading the newspaper or watching television?",
+    "domain": "Depression Assessment",
+    "category": "Concentration Difficulties",
+    "category_id": 7,
+    "answer_space": [
+      "Not at all",
+      "Several days",
+      "More than half the days",
+      "Nearly every day"
+    ],
+    "action": "1_8"
+  },
+  {
+    "question_id": "1_8",
+    "question_text": "Over the past two weeks, how often have you moved or spoken so slowly that other people could have noticed? Or the opposite - being so fidgety or restless that you have been moving around a lot more than usual?",
+    "domain": "Depression Assessment",
+    "category": "Psychomotor Changes",
+    "category_id": 8,
+    "answer_space": [
+      "Not at all",
+      "Several days",
+      "More than half the days",
+      "Nearly every day"
+    ],
+    "action": "1_9"
+  },
+  {
+    "question_id": "1_9",
+    "question_text": "Over the past two weeks, how often have you had thoughts that you would be better off dead, or of hurting yourself in some way?",
+    "domain": "Depression Assessment",
+    "category": "Suicidal Ideation",
+    "category_id": 9,
+    "answer_space": [
+      "Not at all",
+      "Several days",
+      "More than half the days",
+      "Nearly every day"
+    ],
+    "action": "None"
+  }
+]

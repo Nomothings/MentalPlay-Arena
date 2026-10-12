@@ -1,0 +1,100 @@
+[
+  {
+    "question_id": "1_1",
+    "question_text": "How often have you felt tense, nervous, or on edge? Can you describe when it tends to happen?",
+    "domain": "Anxiety Assessment",
+    "category": "Nervousness/Tension",
+    "category_id": 1,
+    "answer_space": [
+      "Not at all",
+      "Several days",
+      "More than half the days",
+      "Nearly every day"
+    ],
+    "action": "1_2"
+  },
+  {
+    "question_id": "1_2",
+    "question_text": "When worries come up, how often do you find that you can’t stop or control them?",
+    "domain": "Anxiety Assessment",
+    "category": "Worry Control",
+    "category_id": 2,
+    "answer_space": [
+      "Not at all",
+      "Several days",
+      "More than half the days",
+      "Nearly every day"
+    ],
+    "action": "1_3"
+  },
+  {
+    "question_id": "1_3",
+    "question_text": "How often have you been worrying about many different things?",
+    "domain": "Anxiety Assessment",
+    "category": "Excessive Worry",
+    "category_id": 3,
+    "answer_space": [
+      "Not at all",
+      "Several days",
+      "More than half the days",
+      "Nearly every day"
+    ],
+    "action": "1_4"
+  },
+  {
+    "question_id": "1_4",
+    "question_text": "How often have you found it hard to relax once you start feeling stressed?",
+    "domain": "Anxiety Assessment",
+    "category": "Relaxation Difficulty",
+    "category_id": 4,
+    "answer_space": [
+      "Not at all",
+      "Several days",
+      "More than half the days",
+      "Nearly every day"
+    ],
+    "action": "1_5"
+  },
+  {
+    "question_id": "1_5",
+    "question_text": "How often have you felt so restless that staying still was difficult for you?",
+    "domain": "Anxiety Assessment",
+    "category": "Restlessness",
+    "category_id": 5,
+    "answer_space": [
+      "Not at all",
+      "Several days",
+      "More than half the days",
+      "Nearly every day"
+    ],
+    "action": "1_6"
+  },
+  {
+    "question_id": "1_6",
+    "question_text": "How often have you become irritated or annoyed more easily than usual?",
+    "domain": "Anxiety Assessment",
+    "category": "Irritability",
+    "category_id": 6,
+    "answer_space": [
+      "Not at all",
+      "Several days",
+      "More than half the days",
+      "Nearly every day"
+    ],
+    "action": "1_7"
+  },
+  {
+    "question_id": "1_7",
+    "question_text": "How often have you felt a sense that something bad might happen, even when nothing specific was wrong?",
+    "domain": "Anxiety Assessment",
+    "category": "Anticipatory Anxiety",
+    "category_id": 7,
+    "answer_space": [
+      "Not at all",
+      "Several days",
+      "More than half the days",
+      "Nearly every day"
+    ],
+    "action": "None"
+  }
+]

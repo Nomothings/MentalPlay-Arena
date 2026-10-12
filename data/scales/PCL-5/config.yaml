@@ -1,0 +1,17 @@
+# PCL-5 Module Configuration
+
+# Scoring Configuration
+scoring:
+  # PCL-5 uses a simple summation scoring system
+  method: "summation"
+
+# Logging Configuration (module-specific)
+logging:
+  level: "INFO"  # DEBUG, INFO, WARNING, ERROR
+  file: "./logs/pcl5.log"
+  console: true
+
+# Answer Configuration
+answers:
+  # Answer save format
+  format: "json"  # Options: json, csv, excel

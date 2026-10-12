@@ -1,0 +1,17 @@
+# YMRS Module Configuration
+
+# Scoring Configuration
+scoring:
+  # YMRS uses a summation scoring system with double weighting for some items
+  method: "summation"
+
+# Logging Configuration (module-specific)
+logging:
+  level: "INFO"  # DEBUG, INFO, WARNING, ERROR
+  file: "./logs/ymrs.log"
+  console: true
+
+# Answer Configuration
+answers:
+  # Answer save format
+  format: "json"  # Options: json, csv, excel

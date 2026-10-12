@@ -1,0 +1,212 @@
+[
+  {
+    "question_id": "1_1",
+    "question_text": "In the past year, have you ever felt so upset or frustrated at home that you wanted to leave or stay away overnight?",
+    "domain": "Conduct Disorder Assessment",
+    "category": "Family Conflict",
+    "category_id": 1,
+    "answer_space": [
+      "Never",
+      "Occasionally",
+      "Frequently",
+      "Very often"
+    ],
+    "action": "1_2"
+  },
+  {
+    "question_id": "1_2",
+    "question_text": "Do you ever find yourself using excuses or untrue stories to get something you want or to avoid doing something?",
+    "domain": "Conduct Disorder Assessment",
+    "category": "Deceitfulness",
+    "category_id": 2,
+    "answer_space": [
+      "Never",
+      "Occasionally",
+      "Frequently",
+      "Very often"
+    ],
+    "action": "1_3"
+  },
+  {
+    "question_id": "1_3",
+    "question_text": "Have there been times when you reacted strongly and ended up getting into physical fights?",
+    "domain": "Conduct Disorder Assessment",
+    "category": "Aggression",
+    "category_id": 3,
+    "answer_space": [
+      "Never",
+      "Occasionally",
+      "Frequently",
+      "Very often"
+    ],
+    "action": "1_4"
+  },
+  {
+    "question_id": "1_4",
+    "question_text": "Do you ever feel so angry that you act in ways that physically hurt someone?",
+    "domain": "Conduct Disorder Assessment",
+    "category": "Physical Aggression",
+    "category_id": 4,
+    "answer_space": [
+      "Never",
+      "Occasionally",
+      "Frequently",
+      "Very often"
+    ],
+    "action": "1_5"
+  },
+  {
+    "question_id": "1_5",
+    "question_text": "Have you taken things that weren't yours without asking, even when no one was watching?",
+    "domain": "Conduct Disorder Assessment",
+    "category": "Theft",
+    "category_id": 5,
+    "answer_space": [
+      "Never",
+      "Occasionally",
+      "Frequently",
+      "Very often"
+    ],
+    "action": "1_6"
+  },
+  {
+    "question_id": "1_6",
+    "question_text": "Have you skipped school or avoided going without permission?",
+    "domain": "Conduct Disorder Assessment",
+    "category": "Truancy",
+    "category_id": 6,
+    "answer_space": [
+      "Never",
+      "Occasionally",
+      "Frequently",
+      "Very often"
+    ],
+    "action": "1_7"
+  },
+  {
+    "question_id": "1_7",
+    "question_text": "Have you ever gone into someone else's house, building, or car without being allowed to?",
+    "domain": "Conduct Disorder Assessment",
+    "category": "Breaking and Entering",
+    "category_id": 7,
+    "answer_space": [
+      "Never",
+      "Occasionally",
+      "Frequently",
+      "Very often"
+    ],
+    "action": "1_8"
+  },
+  {
+    "question_id": "1_8",
+    "question_text": "Have you ever played with fire or tried to set things on fire in a way that could cause damage?",
+    "domain": "Conduct Disorder Assessment",
+    "category": "Fire Setting",
+    "category_id": 8,
+    "answer_space": [
+      "Never",
+      "Occasionally",
+      "Frequently",
+      "Very often"
+    ],
+    "action": "1_9"
+  },
+  {
+    "question_id": "1_9",
+    "question_text": "Have you ever taken something from someone by confronting them, pressuring them, or scaring them?",
+    "domain": "Conduct Disorder Assessment",
+    "category": "Robbery",
+    "category_id": 9,
+    "answer_space": [
+      "Never",
+      "Occasionally",
+      "Frequently",
+      "Very often"
+    ],
+    "action": "1_10"
+  },
+  {
+    "question_id": "1_10",
+    "question_text": "Do you sometimes stay out much later than your parents expect, even when they've set clear rules?",
+    "domain": "Conduct Disorder Assessment",
+    "category": "Rule Breaking",
+    "category_id": 10,
+    "answer_space": [
+      "Never",
+      "Occasionally",
+      "Frequently",
+      "Very often"
+    ],
+    "action": "1_11"
+  },
+  {
+    "question_id": "1_11",
+    "question_text": "Has there ever been a moment when you pressured or forced someone into physical or sexual contact they didn't want?",
+    "domain": "Conduct Disorder Assessment",
+    "category": "Sexual Coercion",
+    "category_id": 11,
+    "answer_space": [
+      "Never",
+      "Occasionally",
+      "Frequently",
+      "Very often"
+    ],
+    "action": "1_12"
+  },
+  {
+    "question_id": "1_12",
+    "question_text": "Do you find yourself acting in ways that scare, intimidate, or push around other people?",
+    "domain": "Conduct Disorder Assessment",
+    "category": "Intimidation",
+    "category_id": 12,
+    "answer_space": [
+      "Never",
+      "Occasionally",
+      "Frequently",
+      "Very often"
+    ],
+    "action": "1_13"
+  },
+  {
+    "question_id": "1_13",
+    "question_text": "Have you ever broken or destroyed someone else's belongings on purpose?",
+    "domain": "Conduct Disorder Assessment",
+    "category": "Property Destruction",
+    "category_id": 13,
+    "answer_space": [
+      "Never",
+      "Occasionally",
+      "Frequently",
+      "Very often"
+    ],
+    "action": "1_14"
+  },
+  {
+    "question_id": "1_14",
+    "question_text": "Have you ever harmed an animal on purpose, even when it wasn't necessary?",
+    "domain": "Conduct Disorder Assessment",
+    "category": "Animal Cruelty",
+    "category_id": 14,
+    "answer_space": [
+      "Never",
+      "Occasionally",
+      "Frequently",
+      "Very often"
+    ],
+    "action": "1_15"
+  },
+  {
+    "question_id": "1_15",
+    "question_text": "Have you ever used an object or something in your surroundings in a way that could seriously hurt someone?",
+    "domain": "Conduct Disorder Assessment",
+    "category": "Weapons Use",
+    "category_id": 15,
+    "answer_space": [
+      "Never",
+      "Occasionally",
+      "Frequently",
+      "Very often"
+    ],
+    "action": "None"
+  }
+]

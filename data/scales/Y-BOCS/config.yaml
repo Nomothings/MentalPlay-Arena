@@ -1,0 +1,15 @@
+# Y-BOCS Module Configuration
+
+# Scoring Configuration
+scoring:
+  method: "summation"  # Use "summation" for Y-BOCS like scales
+
+# Logging Configuration
+logging:
+  level: "INFO"  # DEBUG, INFO, WARNING, ERROR
+  file: "./logs/y_bocs.log"
+  console: true
+
+# Answer Configuration
+answers:
+  format: "json"  # Options: json, csv, excel

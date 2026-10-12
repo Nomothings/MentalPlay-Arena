@@ -1,0 +1,152 @@
+[
+  {
+    "question_id": "1_1",
+    "question_text": "In the past week, how much of your day has been taken up by unwanted intrusive thoughts? How often do they appear?",
+    "domain": "Obsessive-Compulsive Disorder Assessment",
+    "category": "Obsession Frequency",
+    "category_id": 1,
+    "answer_space": [
+      "A = No obsessions / negligible",
+      "B = Occasional; <1 hour/day; sometimes present",
+      "C = Clearly present; 1–3 hours/day",
+      "D = Frequent; 3–8 hours/day",
+      "E = Nearly constant; >8 hours/day; intrusive throughout the day"
+    ],
+    "action": "1_2"
+  },
+  {
+    "question_id": "1_2",
+    "question_text": "How much do these intrusive thoughts interfere with your work, school, or social functioning?",
+    "domain": "Obsessive-Compulsive Disorder Assessment",
+    "category": "Obsession Interference",
+    "category_id": 2,
+    "answer_space": [
+      "A = No interference",
+      "B = Mild; noticeable but does not impair tasks",
+      "C = Moderate interference; activities harder but still manageable",
+      "D = Significant impairment; tasks delayed/compromised",
+      "E = Severe; unable to function socially or occupationally"
+    ],
+    "action": "1_3"
+  },
+  {
+    "question_id": "1_3",
+    "question_text": "When these thoughts appear, how distressing or upsetting are they for you?",
+    "domain": "Obsessive-Compulsive Disorder Assessment",
+    "category": "Obsession Distress",
+    "category_id": 3,
+    "answer_space": [
+      "A = No distress",
+      "B = Mild; bothersome but tolerable",
+      "C = Moderate; distress present but controllable",
+      "D = Severe; very distressing",
+      "E = Extreme; near-continuous distress, overwhelming"
+    ],
+    "action": "1_4"
+  },
+  {
+    "question_id": "1_4",
+    "question_text": "When these thoughts come up, how often do you try to resist or push them away?",
+    "domain": "Obsessive-Compulsive Disorder Assessment",
+    "category": "Obsession Resistance",
+    "category_id": 4,
+    "answer_space": [
+      "A = Always attempts resistance / symptoms too mild to resist",
+      "B = Usually resists",
+      "C = Sometimes resists",
+      "D = Rarely resists; mostly yields",
+      "E = No resistance; fully accepts the intrusive thoughts"
+    ],
+    "action": "1_5"
+  },
+  {
+    "question_id": "1_5",
+    "question_text": "How much control do you feel you have over stopping or shifting away from these thoughts?",
+    "domain": "Obsessive-Compulsive Disorder Assessment",
+    "category": "Obsession Control",
+    "category_id": 5,
+    "answer_space": [
+      "A = Full control",
+      "B = Mostly able to control with effort",
+      "C = Partial control; sometimes successful",
+      "D = Very little control; attempts rarely work",
+      "E = No control at all; thoughts occur involuntarily"
+    ],
+    "action": "1_6"
+  },
+  {
+    "question_id": "1_6",
+    "question_text": "During the past week, how much time have you spent performing compulsive behaviors or rituals?",
+    "domain": "Obsessive-Compulsive Disorder Assessment",
+    "category": "Compulsion Frequency",
+    "category_id": 6,
+    "answer_space": [
+      "A = No compulsions",
+      "B = <1 hour/day or occurs only occasionally",
+      "C = 1–3 hours/day or frequent (>8 times/day but not constant)",
+      "D = 3–8 hours/day or very frequent (>8 times/day and occupying most periods)",
+      "E = >8 hours/day / nearly constant rituals"
+    ],
+    "action": "1_7"
+  },
+  {
+    "question_id": "1_7",
+    "question_text": "How much do these behaviors interfere with your social life, daily tasks, or work?",
+    "domain": "Obsessive-Compulsive Disorder Assessment",
+    "category": "Compulsion Interference",
+    "category_id": 7,
+    "answer_space": [
+      "A = No interference",
+      "B = Mild; noticeable but activities maintained",
+      "C = Moderate; clear interference but manageable",
+      "D = Significant impairment",
+      "E = Incapacitating; unable to function"
+    ],
+    "action": "1_8"
+  },
+  {
+    "question_id": "1_8",
+    "question_text": "If you're stopped from performing a compulsion, how anxious or uncomfortable do you become?",
+    "domain": "Obsessive-Compulsive Disorder Assessment",
+    "category": "Compulsion Distress",
+    "category_id": 8,
+    "answer_space": [
+      "A = No distress when prevented",
+      "B = Mild distress",
+      "C = Moderate distress; tolerable",
+      "D = Severe and persistent distress",
+      "E = Extreme; distress intolerable, highly agitated"
+    ],
+    "action": "1_9"
+  },
+  {
+    "question_id": "1_9",
+    "question_text": "How much do you try to resist or avoid performing compulsive behaviors?",
+    "domain": "Obsessive-Compulsive Disorder Assessment",
+    "category": "Compulsion Resistance",
+    "category_id": 9,
+    "answer_space": [
+      "A = Always attempts to resist / symptoms low",
+      "B = Often resists",
+      "C = Sometimes resists",
+      "D = Rare resistance; performs rituals with reluctance",
+      "E = No resistance; willingly performs all rituals"
+    ],
+    "action": "1_10"
+  },
+  {
+    "question_id": "1_10",
+    "question_text": "How much control do you feel you have over stopping or delaying the compulsive behaviors?",
+    "domain": "Obsessive-Compulsive Disorder Assessment",
+    "category": "Compulsion Control",
+    "category_id": 10,
+    "answer_space": [
+      "A = Complete control",
+      "B = Mostly can control with effort",
+      "C = Partial control; strong drive but can delay",
+      "D = Minimal control; urges overwhelming",
+      "E = No control; compelled automatically"
+    ],
+    "action": "None"
+  }
+]

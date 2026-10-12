@@ -1,0 +1,93 @@
+[
+  {
+    "question_id": "1_1",
+    "question_text": "Do you often have headaches when you are at school?",
+    "domain": "Anxiety Assessment",
+    "category": "Anxiety Symptom",
+    "category_id": 1,
+    "answer_space": [
+      "Not at all",
+      "Sometimes",
+      "Often"
+    ],
+    "action": "1_2"
+  },
+  {
+    "question_id": "1_2",
+    "question_text": "Do you get stomachaches at school?",
+    "domain": "Anxiety Assessment",
+    "category": "Anxiety Symptom",
+    "category_id": 2,
+    "answer_space": [
+      "Not at all",
+      "Sometimes",
+      "Often"
+    ],
+    "action": "1_3"
+  },
+  {
+    "question_id": "1_3",
+    "question_text": "Do you worry about having to go to school?",
+    "domain": "Anxiety Assessment",
+    "category": "Anxiety Symptom",
+    "category_id": 3,
+    "answer_space": [
+      "Not at all",
+      "Sometimes",
+      "Often"
+    ],
+    "action": "1_4"
+  },
+  {
+    "question_id": "1_4",
+    "question_text": "Do you dream about something bad happening to you?",
+    "domain": "Anxiety Assessment",
+    "category": "Anxiety Symptom",
+    "category_id": 4,
+    "answer_space": [
+      "Not at all",
+      "Sometimes",
+      "Often"
+    ],
+    "action": "1_5"
+  },
+  {
+    "question_id": "1_5",
+    "question_text": "Do you dislike leaving your home?",
+    "domain": "Anxiety Assessment",
+    "category": "Anxiety Symptom",
+    "category_id": 5,
+    "answer_space": [
+      "Not at all",
+      "Sometimes",
+      "Often"
+    ],
+    "action": "1_6"
+  },
+  {
+    "question_id": "1_6",
+    "question_text": "Do you feel scared about going to school?",
+    "domain": "Anxiety Assessment",
+    "category": "Anxiety Symptom",
+    "category_id": 6,
+    "answer_space": [
+      "Not at all",
+      "Sometimes",
+      "Often"
+    ],
+    "action": "1_7"
+  },
+  {
+    "question_id": "1_7",
+    "question_text": "Do you feel nervous when attending events, dancing, or being around unfamiliar people?",
+    "domain": "Anxiety Assessment",
+    "category": "Anxiety Symptom",
+    "category_id": 7,
+    "answer_space": [
+      "Not at all",
+      "Sometimes",
+      "Often"
+    ],
+    "action": "None"
+  }
+]

@@ -1,0 +1,18 @@
+# Task: Generate a short, empathic response based on the user's answer in a clinical interview
+
+## Conversation Context
+{context}
+
+## User's Answer
+{user_answer}
+
+## Requirements
+1. Keep it very short (1 sentence, max 2)
+2. Show empathy and understanding
+3. Maintain a professional clinical tone
+4. Do not ask any questions
+5. Do not repeat the user's answer
+6. Avoid jargon
+
+## Output
+Only output the empathic response, nothing else.

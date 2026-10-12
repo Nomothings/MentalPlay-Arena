@@ -1,0 +1,167 @@
+[
+  {
+    "question_id": "1_1",
+    "question_text": "How has your mood been lately? Have you felt more excited or particularly happy than usual?",
+    "domain": "Mania Assessment",
+    "category": "Mood Elevation",
+    "category_id": 1,
+    "answer_space": [
+      "Normal mood, consistent with usual",
+      "Slightly better mood, only admits when asked",
+      "Clearly cheerful, confident, excited but appropriate",
+      "Inappropriately excited, funny, excessive laughing",
+      "Euphoric, inappropriate laughter, sudden singing"
+    ],
+    "action": "1_2"
+  },
+  {
+    "question_id": "1_2",
+    "question_text": "How has your energy been lately? More than usual? Can you sit still?",
+    "domain": "Mania Assessment",
+    "category": "Activity / Energy",
+    "category_id": 2,
+    "answer_space": [
+      "Normal activity level",
+      "Slightly increased subjective energy",
+      "Active, increased gestures",
+      "Clearly restless, but can stay quiet briefly",
+      "Cannot stay quiet, continuous motor excitement"
+    ],
+    "action": "1_3"
+  },
+  {
+    "question_id": "1_3",
+    "question_text": "Have you noticed any changes in your sexual interest lately?",
+    "domain": "Mania Assessment",
+    "category": "Sexual Interest",
+    "category_id": 3,
+    "answer_space": [
+      "Normal",
+      "Mild or possible increase",
+      "Clearly admits increased sexual desire",
+      "Spontaneous talk about sex, excessive sexual content",
+      "Inappropriate sexual behavior, teasing"
+    ],
+    "action": "1_4"
+  },
+  {
+    "question_id": "1_4",
+    "question_text": "Have you been sleeping less lately? Do you feel you need sleep?",
+    "domain": "Mania Assessment",
+    "category": "Sleep",
+    "category_id": 4,
+    "answer_space": [
+      "No decrease in sleep",
+      "Decrease ≤1 hour",
+      "Decrease >1 hour",
+      "Clearly decreased need for sleep",
+      "Denies need for sleep"
+    ],
+    "action": "1_5"
+  },
+  {
+    "question_id": "1_5",
+    "question_text": "Have you been easily irritable or angry lately?",
+    "domain": "Mania Assessment",
+    "category": "Irritability",
+    "category_id": 5,
+    "answer_space": [
+      "No irritability",
+      "Mild subjective irritability",
+      "Occasional restlessness, raised voice during interview",
+      "Clearly impatient; stiff tone",
+      "Hostile, uncooperative; interview cannot continue"
+    ],
+    "action": "1_6"
+  },
+  {
+    "question_id": "1_6",
+    "question_text": "Do you think you've been speaking faster or more than before lately?",
+    "domain": "Mania Assessment",
+    "category": "Speech: Rate & Amount",
+    "category_id": 6,
+    "answer_space": [
+      "Normal speech rate and amount",
+      "Slightly talkative",
+      "Increased speech rate and amount; occasional rambling",
+      "Urgent speech; continuous acceleration; difficult to interrupt",
+      "Cannot be interrupted; continuous speech"
+    ],
+    "action": "1_7"
+  },
+  {
+    "question_id": "1_7",
+    "question_text": "When you talk or think, do you experience jumping topics or racing thoughts?",
+    "domain": "Mania Assessment",
+    "category": "Thinking & Language Disorder",
+    "category_id": 7,
+    "answer_space": [
+      "Clear thinking",
+      "Slight circumlocution, mild digression",
+      "Clearly digressive; clearly accelerated thinking",
+      "Flight of ideas; rhyming; imitation",
+      "Incoherent; cannot communicate"
+    ],
+    "action": "1_8"
+  },
+  {
+    "question_id": "1_8",
+    "question_text": "Have you had any particularly important plans, special abilities, or feelings that others are watching you lately?",
+    "domain": "Mania Assessment",
+    "category": "Content",
+    "category_id": 8,
+    "answer_space": [
+      "No abnormalities",
+      "Suspicious plans, new interests",
+      "Special projects, hyper-religious ideas",
+      "Grandiosity, paranoid ideas",
+      "Delusions, hallucinations"
+    ],
+    "action": "1_9"
+  },
+  {
+    "question_id": "1_9",
+    "question_text": "Have you had any episodes of losing your temper, arguing, shouting, or getting excited lately?",
+    "domain": "Mania Assessment",
+    "category": "Aggressive Behavior",
+    "category_id": 9,
+    "answer_space": [
+      "Cooperative, no aggressive behavior",
+      "Sarcasm; raised voice; defensive",
+      "Demanding; threatening others",
+      "Loud shouting; difficult to examine",
+      "Aggressive behavior; destructive behavior"
+    ],
+    "action": "1_10"
+  },
+  {
+    "question_id": "1_10",
+    "question_text": "How would you describe your appearance or grooming lately?",
+    "domain": "Mania Assessment",
+    "category": "Appearance",
+    "category_id": 10,
+    "answer_space": [
+      "Neat",
+      "Slightly untidy",
+      "Clearly untidy or over-dressed",
+      "Strange, gaudy",
+      "Outlandish clothing, extremely sloppy"
+    ],
+    "action": "1_11"
+  },
+  {
+    "question_id": "1_11",
+    "question_text": "Do you think your current state needs help or treatment?",
+    "domain": "Mania Assessment",
+    "category": "Insight",
+    "category_id": 11,
+    "answer_space": [
+      "Acknowledges illness and willing to treat",
+      "Acknowledges possible illness",
+      "Acknowledges behavior change but denies illness",
+      "Acknowledges possible change but denies illness",
+      "Completely denies any problems"
+    ],
+    "action": "None"
+  }
+]

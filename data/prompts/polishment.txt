@@ -1,0 +1,57 @@
+As a specialist in transforming psychiatric assessment items, your role is to convert questions and answer spaces—whether originally designed for self-report or observer-rated scales—into formats that are more suitable for clinical interviewing. You will be given two elements:
+
+---
+
+## Input: 
+### Original question: 
+<QUESTION_TEXT>
+
+### Intended answer space: 
+<ANSWER_SPACE>
+
+---
+
+## Task:
+
+### Part 1: Rewrite the question (for the patient)
+
+Rewrite question into a natural, conversational question phrased like a clinician gently exploring a patient’s experiences.
+
+Your rewritten question must meet all of the following requirements:
+
+### Style Requirements
+- It should sound like a doctor or therapist asking about the patient’s experience, warm and non-mechanical.  
+- It must invite a graded, nuanced response by using degree-oriented prompts such as:  
+  “how strongly…”, “how often…”, “to what extent…”, “how deeply…”, “how naturally…”.  
+- The degree prompts should be tuned so that the patient’s response naturally reflects the level distinctions implied by the answer space, aligning the question’s level of detail with the granularity of the scale rather than relying on guesswork.  
+- It must avoid yes/no framing (unless the answer space is strictly yes/no).  
+- It must NOT explicitly list answer choices or say anything like “choose from the following” or “your options are…”.  
+- It should feel natural and immersive, not like a classifier or survey instruction.  
+- It must be easy for a patient to understand—clear, warm, real-world human language.
+
+### Content Requirements
+- Keep the original intent of the question, but express it in an open, exploratory clinical tone.  
+- You may add brief contextual contrast (e.g., “do you find yourself reacting strongly… or does it feel more distant?”) to help the patient give a degree-based answer naturally.  
+- The refinement of the question should match the intended answer space's subtlety, guiding the patient toward responses that naturally map onto the scale’s levels without requiring explicit categorization.
+
+### Part 2: Rewrite the answer space (for the trainee doctor/system)
+
+Rewrite answer space so that it meets the following:
+- These answer labels are NOT shown to the patient. They are only for internal use and must remain crisp, structured, and professional.
+- Keep exactly levels. Do not add, remove, or reorder levels.
+- The polishing of the answer space should not only make the language more professional, but also attach an explanation for each option that can be used for physician classification.
+- Make the wording clear, graded, easy to classify, and consistent with the clinician-style question you produced.
+
+## Output Format
+
+Produce your response in the following JSON structure(without ```json):
+
+{
+  "refined_question": "…your clinician-style question here…",
+  "refined_answer_space": [
+    "…",
+    "…",
+    "…",
+    …
+  ]
+}

@@ -1,0 +1,93 @@
+[
+  {
+    "question_id": "1_1",
+    "question_text": "Do you find that you get irritated by other people quite easily?",
+    "domain": "Anger Assessment",
+    "category": "Irritability Toward Others",
+    "category_id": 1,
+    "answer_space": [
+      "Not true",
+      "Somewhat true",
+      "Certainly true"
+    ],
+    "action": "1_2"
+  },
+  {
+    "question_id": "1_2",
+    "question_text": "How often would you say you lose your temper?",
+    "domain": "Anger Assessment",
+    "category": "Temper Outbursts",
+    "category_id": 2,
+    "answer_space": [
+      "Not true",
+      "Somewhat true",
+      "Certainly true"
+    ],
+    "action": "1_3"
+  },
+  {
+    "question_id": "1_3",
+    "question_text": "When you become angry, does that anger tend to last for a long time?",
+    "domain": "Anger Assessment",
+    "category": "Duration of Anger",
+    "category_id": 3,
+    "answer_space": [
+      "Not true",
+      "Somewhat true",
+      "Certainly true"
+    ],
+    "action": "1_4"
+  },
+  {
+    "question_id": "1_4",
+    "question_text": "Would you say that you feel angry during much of the day or most of the time?",
+    "domain": "Anger Assessment",
+    "category": "Anger Most of the Time",
+    "category_id": 4,
+    "answer_space": [
+      "Not true",
+      "Somewhat true",
+      "Certainly true"
+    ],
+    "action": "1_5"
+  },
+  {
+    "question_id": "1_5",
+    "question_text": "Do you get angry frequently?",
+    "domain": "Anger Assessment",
+    "category": "Frequent Anger",
+    "category_id": 5,
+    "answer_space": [
+      "Not true",
+      "Somewhat true",
+      "Certainly true"
+    ],
+    "action": "1_6"
+  },
+  {
+    "question_id": "1_6",
+    "question_text": "Do you find yourself getting angry or losing your temper very easily?",
+    "domain": "Anger Assessment",
+    "category": "Ease of Losing Temper",
+    "category_id": 6,
+    "answer_space": [
+      "Not true",
+      "Somewhat true",
+      "Certainly true"
+    ],
+    "action": "1_7"
+  },
+  {
+    "question_id": "1_7",
+    "question_text": "Overall, would you say that your tendency to get angry easily causes problems for you?",
+    "domain": "Anger Assessment",
+    "category": "Problems Caused by Irritability",
+    "category_id": 7,
+    "answer_space": [
+      "Not true",
+      "Somewhat true",
+      "Certainly true"
+    ],
+    "action": "None"
+  }
+]

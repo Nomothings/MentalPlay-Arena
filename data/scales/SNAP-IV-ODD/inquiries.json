@@ -1,0 +1,114 @@
+[
+  {
+    "question_id": "1_1",
+    "question_text": "Do you find that you get upset or lose your temper more easily than you would like?",
+    "domain": "ODD Assessment",
+    "category": "ODD Symptom",
+    "category_id": 1,
+    "answer_space": [
+      "Not at all",
+      "A little",
+      "Quite a bit",
+      "Very much"
+    ],
+    "action": "1_2"
+  },
+  {
+    "question_id": "1_2",
+    "question_text": "How often do you feel yourself getting into arguments with adults, especially when you feel things are unfair or frustrating?",
+    "domain": "ODD Assessment",
+    "category": "ODD Symptom",
+    "category_id": 2,
+    "answer_space": [
+      "Not at all",
+      "A little",
+      "Quite a bit",
+      "Very much"
+    ],
+    "action": "1_3"
+  },
+  {
+    "question_id": "1_3",
+    "question_text": "Do you notice that you tend to resist or push back when adults ask you to follow rules or directions?",
+    "domain": "ODD Assessment",
+    "category": "ODD Symptom",
+    "category_id": 3,
+    "answer_space": [
+      "Not at all",
+      "A little",
+      "Quite a bit",
+      "Very much"
+    ],
+    "action": "1_4"
+  },
+  {
+    "question_id": "1_4",
+    "question_text": "Do you sometimes find yourself doing things on purpose that end up bothering or interrupting others?",
+    "domain": "ODD Assessment",
+    "category": "ODD Symptom",
+    "category_id": 4,
+    "answer_space": [
+      "Not at all",
+      "A little",
+      "Quite a bit",
+      "Very much"
+    ],
+    "action": "1_5"
+  },
+  {
+    "question_id": "1_5",
+    "question_text": "When something goes wrong, do you tend to feel that it’s someone else’s fault rather than your own?",
+    "domain": "ODD Assessment",
+    "category": "ODD Symptom",
+    "category_id": 5,
+    "answer_space": [
+      "Not at all",
+      "A little",
+      "Quite a bit",
+      "Very much"
+    ],
+    "action": "1_6"
+  },
+  {
+    "question_id": "1_6",
+    "question_text": "Do you feel that you get irritated or annoyed by others more easily than most people?",
+    "domain": "ODD Assessment",
+    "category": "ODD Symptom",
+    "category_id": 6,
+    "answer_space": [
+      "Not at all",
+      "A little",
+      "Quite a bit",
+      "Very much"
+    ],
+    "action": "1_7"
+  },
+  {
+    "question_id": "1_7",
+    "question_text": "Do you often feel angry, or that you hold onto resentment when things don’t go your way?",
+    "domain": "ODD Assessment",
+    "category": "ODD Symptom",
+    "category_id": 7,
+    "answer_space": [
+      "Not at all",
+      "A little",
+      "Quite a bit",
+      "Very much"
+    ],
+    "action": "1_8"
+  },
+  {
+    "question_id": "1_8",
+    "question_text": "When you’re trying to do something difficult, do you find yourself getting discouraged or giving up more easily than you wish you did?",
+    "domain": "ODD Assessment",
+    "category": "ODD Symptom",
+    "category_id": 8,
+    "answer_space": [
+      "Not at all",
+      "A little",
+      "Quite a bit",
+      "Very much"
+    ],
+    "action": "None"
+  }
+]

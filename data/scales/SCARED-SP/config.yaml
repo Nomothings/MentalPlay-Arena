@@ -1,0 +1,16 @@
+# SCARED Agoraphobia Module Configuration
+
+# Scoring Configuration
+scoring:
+  method: "summation"  # Use "summation" for SCARED like scales
+
+# Logging Configuration (module-specific)
+logging:
+  level: "INFO"  # DEBUG, INFO, WARNING, ERROR
+  file: "./logs/scared-sp.log"
+  console: true
+
+# Answer Configuration
+answers:
+  # Answer save format
+  format: "json"  # Options: json, csv, excel

@@ -1,0 +1,308 @@
+[
+  {
+    "question_id": "1_1",
+    "question_text": "Have you been unusually worried about your physical health or certain bodily sensations lately? What concerns you the most?",
+    "domain": "BPRS Assessment",
+    "category": "Anxiety Depression",
+    "category_id": 1,
+    "answer_space": [
+      "1 = No symptoms or minimal",
+      "2 = Mild, not impairing",
+      "3 = Clear symptoms but controllable",
+      "4 = Moderate, some functional impact",
+      "5 = Marked, significant interference",
+      "6 = Severe, difficult to control",
+      "7 = Extreme, dangerous or unmanageable"
+    ],
+    "action": "1_2"
+  },
+  {
+    "question_id": "1_2",
+    "question_text": "Have you been feeling nervous, tense, or worried about things happening now or in the future?",
+    "domain": "BPRS Assessment",
+    "category": "Anxiety Depression",
+    "category_id": 2,
+    "answer_space": [
+      "1 = No symptoms or minimal",
+      "2 = Mild, not impairing",
+      "3 = Clear symptoms but controllable",
+      "4 = Moderate, some functional impact",
+      "5 = Marked, significant interference",
+      "6 = Severe, difficult to control",
+      "7 = Extreme, dangerous or unmanageable"
+    ],
+    "action": "1_3"
+  },
+  {
+    "question_id": "1_3",
+    "question_text": "Do you feel emotionally distant or find it hard to connect with others, even during conversations like this?",
+    "domain": "BPRS Assessment",
+    "category": "Lack of Vitality",
+    "category_id": 3,
+    "answer_space": [
+      "1 = No symptoms or minimal",
+      "2 = Mild, not impairing",
+      "3 = Clear symptoms but controllable",
+      "4 = Moderate, some functional impact",
+      "5 = Marked, significant interference",
+      "6 = Severe, difficult to control",
+      "7 = Extreme, dangerous or unmanageable"
+    ],
+    "action": "1_4"
+  },
+  {
+    "question_id": "1_4",
+    "question_text": "Do your thoughts ever feel disorganized, hard to follow, or difficult for others to understand?",
+    "domain": "BPRS Assessment",
+    "category": "Thought Disorder",
+    "category_id": 4,
+    "answer_space": [
+      "1 = No symptoms or minimal",
+      "2 = Mild, not impairing",
+      "3 = Clear symptoms but controllable",
+      "4 = Moderate, some functional impact",
+      "5 = Marked, significant interference",
+      "6 = Severe, difficult to control",
+      "7 = Extreme, dangerous or unmanageable"
+    ],
+    "action": "1_5"
+  },
+  {
+    "question_id": "1_5",
+    "question_text": "How would you describe your mood lately? Have you been feeling down, hopeless, or discouraged?",
+    "domain": "BPRS Assessment",
+    "category": "Anxiety Depression",
+    "category_id": 5,
+    "answer_space": [
+      "1 = No symptoms or minimal",
+      "2 = Mild, not impairing",
+      "3 = Clear symptoms but controllable",
+      "4 = Moderate, some functional impact",
+      "5 = Marked, significant interference",
+      "6 = Severe, difficult to control",
+      "7 = Extreme, dangerous or unmanageable"
+    ],
+    "action": "1_6"
+  },
+  {
+    "question_id": "1_6",
+    "question_text": "Have you been feeling unusually restless, hyperactive, or unable to sit still?",
+    "domain": "BPRS Assessment",
+    "category": "Activation",
+    "category_id": 6,
+    "answer_space": [
+      "1 = No symptoms or minimal",
+      "2 = Mild, not impairing",
+      "3 = Clear symptoms but controllable",
+      "4 = Moderate, some functional impact",
+      "5 = Marked, significant interference",
+      "6 = Severe, difficult to control",
+      "7 = Extreme, dangerous or unmanageable"
+    ],
+    "action": "1_7"
+  },
+  {
+    "question_id": "1_7",
+    "question_text": "Have you been speaking more rapidly than usual, or do you feel like your thoughts are racing?",
+    "domain": "BPRS Assessment",
+    "category": "Activation",
+    "category_id": 7,
+    "answer_space": [
+      "1 = No symptoms or minimal",
+      "2 = Mild, not impairing",
+      "3 = Clear symptoms but controllable",
+      "4 = Moderate, some functional impact",
+      "5 = Marked, significant interference",
+      "6 = Severe, difficult to control",
+      "7 = Extreme, dangerous or unmanageable"
+    ],
+    "action": "1_8"
+  },
+  {
+    "question_id": "1_8",
+    "question_text": "Do you have any beliefs that others might consider unusual, strange, or not based in reality?",
+    "domain": "BPRS Assessment",
+    "category": "Thought Disorder",
+    "category_id": 8,
+    "answer_space": [
+      "1 = No symptoms or minimal",
+      "2 = Mild, not impairing",
+      "3 = Clear symptoms but controllable",
+      "4 = Moderate, some functional impact",
+      "5 = Marked, significant interference",
+      "6 = Severe, difficult to control",
+      "7 = Extreme, dangerous or unmanageable"
+    ],
+    "action": "1_9"
+  },
+  {
+    "question_id": "1_9",
+    "question_text": "Have you been experiencing any feelings of guilt, worthlessness, or self-blame?",
+    "domain": "BPRS Assessment",
+    "category": "Anxiety Depression",
+    "category_id": 9,
+    "answer_space": [
+      "1 = No symptoms or minimal",
+      "2 = Mild, not impairing",
+      "3 = Clear symptoms but controllable",
+      "4 = Moderate, some functional impact",
+      "5 = Marked, significant interference",
+      "6 = Severe, difficult to control",
+      "7 = Extreme, dangerous or unmanageable"
+    ],
+    "action": "1_10"
+  },
+  {
+    "question_id": "1_10",
+    "question_text": "Do you feel like others are plotting against you, spying on you, or trying to harm you in some way?",
+    "domain": "BPRS Assessment",
+    "category": "Hostility Suspiciousness",
+    "category_id": 10,
+    "answer_space": [
+      "1 = No symptoms or minimal",
+      "2 = Mild, not impairing",
+      "3 = Clear symptoms but controllable",
+      "4 = Moderate, some functional impact",
+      "5 = Marked, significant interference",
+      "6 = Severe, difficult to control",
+      "7 = Extreme, dangerous or unmanageable"
+    ],
+    "action": "1_11"
+  },
+  {
+    "question_id": "1_11",
+    "question_text": "Have you been feeling unusually irritable, angry, or hostile towards others?",
+    "domain": "BPRS Assessment",
+    "category": "Hostility Suspiciousness",
+    "category_id": 11,
+    "answer_space": [
+      "1 = No symptoms or minimal",
+      "2 = Mild, not impairing",
+      "3 = Clear symptoms but controllable",
+      "4 = Moderate, some functional impact",
+      "5 = Marked, significant interference",
+      "6 = Severe, difficult to control",
+      "7 = Extreme, dangerous or unmanageable"
+    ],
+    "action": "1_12"
+  },
+  {
+    "question_id": "1_12",
+    "question_text": "Do you have any difficulty concentrating, remembering things, or making decisions?",
+    "domain": "BPRS Assessment",
+    "category": "Thought Disorder",
+    "category_id": 12,
+    "answer_space": [
+      "1 = No symptoms or minimal",
+      "2 = Mild, not impairing",
+      "3 = Clear symptoms but controllable",
+      "4 = Moderate, some functional impact",
+      "5 = Marked, significant interference",
+      "6 = Severe, difficult to control",
+      "7 = Extreme, dangerous or unmanageable"
+    ],
+    "action": "1_13"
+  },
+  {
+    "question_id": "1_13",
+    "question_text": "How would you describe your energy level lately? Have you been feeling unusually tired, fatigued, or lacking motivation?",
+    "domain": "BPRS Assessment",
+    "category": "Lack of Vitality",
+    "category_id": 13,
+    "answer_space": [
+      "1 = No symptoms or minimal",
+      "2 = Mild, not impairing",
+      "3 = Clear symptoms but controllable",
+      "4 = Moderate, some functional impact",
+      "5 = Marked, significant interference",
+      "6 = Severe, difficult to control",
+      "7 = Extreme, dangerous or unmanageable"
+    ],
+    "action": "1_14"
+  },
+  {
+    "question_id": "1_14",
+    "question_text": "Have you had any thoughts of harming yourself or others?",
+    "domain": "BPRS Assessment",
+    "category": "Hostility Suspiciousness",
+    "category_id": 14,
+    "answer_space": [
+      "1 = No symptoms or minimal",
+      "2 = Mild, not impairing",
+      "3 = Clear symptoms but controllable",
+      "4 = Moderate, some functional impact",
+      "5 = Marked, significant interference",
+      "6 = Severe, difficult to control",
+      "7 = Extreme, dangerous or unmanageable"
+    ],
+    "action": "1_15"
+  },
+  {
+    "question_id": "1_15",
+    "question_text": "Do you hear voices or see things that others don't?",
+    "domain": "BPRS Assessment",
+    "category": "Thought Disorder",
+    "category_id": 15,
+    "answer_space": [
+      "1 = No symptoms or minimal",
+      "2 = Mild, not impairing",
+      "3 = Clear symptoms but controllable",
+      "4 = Moderate, some functional impact",
+      "5 = Marked, significant interference",
+      "6 = Severe, difficult to control",
+      "7 = Extreme, dangerous or unmanageable"
+    ],
+    "action": "1_16"
+  },
+  {
+    "question_id": "1_16",
+    "question_text": "How interested have you been in activities that you usually enjoy?",
+    "domain": "BPRS Assessment",
+    "category": "Lack of Vitality",
+    "category_id": 16,
+    "answer_space": [
+      "1 = No symptoms or minimal",
+      "2 = Mild, not impairing",
+      "3 = Clear symptoms but controllable",
+      "4 = Moderate, some functional impact",
+      "5 = Marked, significant interference",
+      "6 = Severe, difficult to control",
+      "7 = Extreme, dangerous or unmanageable"
+    ],
+    "action": "1_17"
+  },
+  {
+    "question_id": "1_17",
+    "question_text": "Have you been experiencing any unusual changes in your sleep patterns?",
+    "domain": "BPRS Assessment",
+    "category": "Activation",
+    "category_id": 17,
+    "answer_space": [
+      "1 = No symptoms or minimal",
+      "2 = Mild, not impairing",
+      "3 = Clear symptoms but controllable",
+      "4 = Moderate, some functional impact",
+      "5 = Marked, significant interference",
+      "6 = Severe, difficult to control",
+      "7 = Extreme, dangerous or unmanageable"
+    ],
+    "action": "1_18"
+  },
+  {
+    "question_id": "1_18",
+    "question_text": "How would you describe your appetite lately? Have you noticed any significant changes in what or how much you eat?",
+    "domain": "BPRS Assessment",
+    "category": "Lack of Vitality",
+    "category_id": 18,
+    "answer_space": [
+      "1 = No symptoms or minimal",
+      "2 = Mild, not impairing",
+      "3 = Clear symptoms but controllable",
+      "4 = Moderate, some functional impact",
+      "5 = Marked, significant interference",
+      "6 = Severe, difficult to control",
+      "7 = Extreme, dangerous or unmanageable"
+    ],
+    "action": "None"
+  }
+]

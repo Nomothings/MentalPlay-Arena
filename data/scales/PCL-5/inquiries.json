@@ -1,0 +1,302 @@
+[
+  {
+    "question_id": "1_1",
+    "question_text": "Do you ever feel that the world has become confusing or frightening since the traumatic event?",
+    "domain": "PTSD Assessment",
+    "category": "Intrusion",
+    "category_id": 1,
+    "answer_space": [
+      "Not at all",
+      "A little",
+      "Moderately",
+      "Quite a bit",
+      "Extremely"
+    ],
+    "action": "1_2"
+  },
+  {
+    "question_id": "1_2",
+    "question_text": "Do you find yourself having upsetting dreams related to the traumatic experience?",
+    "domain": "PTSD Assessment",
+    "category": "Intrusion",
+    "category_id": 2,
+    "answer_space": [
+      "Not at all",
+      "A little",
+      "Moderately",
+      "Quite a bit",
+      "Extremely"
+    ],
+    "action": "1_3"
+  },
+  {
+    "question_id": "1_3",
+    "question_text": "Do you ever feel as if the event is happening again, or that you're suddenly back in the moment?",
+    "domain": "PTSD Assessment",
+    "category": "Intrusion",
+    "category_id": 3,
+    "answer_space": [
+      "Not at all",
+      "A little",
+      "Moderately",
+      "Quite a bit",
+      "Extremely"
+    ],
+    "action": "1_4"
+  },
+  {
+    "question_id": "1_4",
+    "question_text": "When something reminds you of the event, do you feel noticeably upset or emotionally distressed?",
+    "domain": "PTSD Assessment",
+    "category": "Intrusion",
+    "category_id": 4,
+    "answer_space": [
+      "Not at all",
+      "A little",
+      "Moderately",
+      "Quite a bit",
+      "Extremely"
+    ],
+    "action": "1_5"
+  },
+  {
+    "question_id": "1_5",
+    "question_text": "When reminders come up, do you experience strong physical reactions such as a racing heart, sweating, or difficulty breathing?",
+    "domain": "PTSD Assessment",
+    "category": "Intrusion",
+    "category_id": 5,
+    "answer_space": [
+      "Not at all",
+      "A little",
+      "Moderately",
+      "Quite a bit",
+      "Extremely"
+    ],
+    "action": "1_6"
+  },
+  {
+    "question_id": "1_6",
+    "question_text": "Do you feel an urge to avoid thoughts, feelings, or memories connected to the event?",
+    "domain": "PTSD Assessment",
+    "category": "Avoidance",
+    "category_id": 6,
+    "answer_space": [
+      "Not at all",
+      "A little",
+      "Moderately",
+      "Quite a bit",
+      "Extremely"
+    ],
+    "action": "1_7"
+  },
+  {
+    "question_id": "1_7",
+    "question_text": "Do you try to avoid places, people, conversations, or situations that bring the event to mind?",
+    "domain": "PTSD Assessment",
+    "category": "Avoidance",
+    "category_id": 7,
+    "answer_space": [
+      "Not at all",
+      "A little",
+      "Moderately",
+      "Quite a bit",
+      "Extremely"
+    ],
+    "action": "1_8"
+  },
+  {
+    "question_id": "1_8",
+    "question_text": "Do you find it hard to clearly remember important parts of what happened during the event?",
+    "domain": "PTSD Assessment",
+    "category": "Negative Cognitions and Mood",
+    "category_id": 8,
+    "answer_space": [
+      "Not at all",
+      "A little",
+      "Moderately",
+      "Quite a bit",
+      "Extremely"
+    ],
+    "action": "1_9"
+  },
+  {
+    "question_id": "1_9",
+    "question_text": "Do you have strong negative beliefs about yourself, other people, or the world since the event?",
+    "domain": "PTSD Assessment",
+    "category": "Negative Cognitions and Mood",
+    "category_id": 9,
+    "answer_space": [
+      "Not at all",
+      "A little",
+      "Moderately",
+      "Quite a bit",
+      "Extremely"
+    ],
+    "action": "1_10"
+  },
+  {
+    "question_id": "1_10",
+    "question_text": "Do you tend to blame yourself or others for the event or for what happened afterward?",
+    "domain": "PTSD Assessment",
+    "category": "Negative Cognitions and Mood",
+    "category_id": 10,
+    "answer_space": [
+      "Not at all",
+      "A little",
+      "Moderately",
+      "Quite a bit",
+      "Extremely"
+    ],
+    "action": "1_11"
+  },
+  {
+    "question_id": "1_11",
+    "question_text": "Do you notice negative feelings such as fear, anger, guilt, or shame becoming more present than before?",
+    "domain": "PTSD Assessment",
+    "category": "Negative Cognitions and Mood",
+    "category_id": 11,
+    "answer_space": [
+      "Not at all",
+      "A little",
+      "Moderately",
+      "Quite a bit",
+      "Extremely"
+    ],
+    "action": "1_12"
+  },
+  {
+    "question_id": "1_12",
+    "question_text": "Have you lost interest in activities you used to enjoy?",
+    "domain": "PTSD Assessment",
+    "category": "Negative Cognitions and Mood",
+    "category_id": 12,
+    "answer_space": [
+      "Not at all",
+      "A little",
+      "Moderately",
+      "Quite a bit",
+      "Extremely"
+    ],
+    "action": "1_13"
+  },
+  {
+    "question_id": "1_13",
+    "question_text": "Do you feel distant from others or prefer to keep yourself apart from people?",
+    "domain": "PTSD Assessment",
+    "category": "Negative Cognitions and Mood",
+    "category_id": 13,
+    "answer_space": [
+      "Not at all",
+      "A little",
+      "Moderately",
+      "Quite a bit",
+      "Extremely"
+    ],
+    "action": "1_14"
+  },
+  {
+    "question_id": "1_14",
+    "question_text": "Do you feel it has become harder to experience positive emotions, such as happiness or affection?",
+    "domain": "PTSD Assessment",
+    "category": "Negative Cognitions and Mood",
+    "category_id": 14,
+    "answer_space": [
+      "Not at all",
+      "A little",
+      "Moderately",
+      "Quite a bit",
+      "Extremely"
+    ],
+    "action": "1_15"
+  },
+  {
+    "question_id": "1_15",
+    "question_text": "Do you find yourself more irritable, angry, or acting in an aggressive way?",
+    "domain": "PTSD Assessment",
+    "category": "Arousal and Reactivity",
+    "category_id": 15,
+    "answer_space": [
+      "Not at all",
+      "A little",
+      "Moderately",
+      "Quite a bit",
+      "Extremely"
+    ],
+    "action": "1_16"
+  },
+  {
+    "question_id": "1_16",
+    "question_text": "Do you notice yourself engaging in risky or self-destructive behaviors?",
+    "domain": "PTSD Assessment",
+    "category": "Arousal and Reactivity",
+    "category_id": 16,
+    "answer_space": [
+      "Not at all",
+      "A little",
+      "Moderately",
+      "Quite a bit",
+      "Extremely"
+    ],
+    "action": "1_17"
+  },
+  {
+    "question_id": "1_17",
+    "question_text": "Do you feel unusually alert, on guard, or as if you need to constantly watch your surroundings?",
+    "domain": "PTSD Assessment",
+    "category": "Arousal and Reactivity",
+    "category_id": 17,
+    "answer_space": [
+      "Not at all",
+      "A little",
+      "Moderately",
+      "Quite a bit",
+      "Extremely"
+    ],
+    "action": "1_18"
+  },
+  {
+    "question_id": "1_18",
+    "question_text": "Do you feel jumpy or easily startled by things around you?",
+    "domain": "PTSD Assessment",
+    "category": "Arousal and Reactivity",
+    "category_id": 18,
+    "answer_space": [
+      "Not at all",
+      "A little",
+      "Moderately",
+      "Quite a bit",
+      "Extremely"
+    ],
+    "action": "1_19"
+  },
+  {
+    "question_id": "1_19",
+    "question_text": "Do you find it more difficult to concentrate than usual?",
+    "domain": "PTSD Assessment",
+    "category": "Arousal and Reactivity",
+    "category_id": 19,
+    "answer_space": [
+      "Not at all",
+      "A little",
+      "Moderately",
+      "Quite a bit",
+      "Extremely"
+    ],
+    "action": "1_20"
+  },
+  {
+    "question_id": "1_20",
+    "question_text": "Do you have trouble falling asleep or staying asleep?",
+    "domain": "PTSD Assessment",
+    "category": "Arousal and Reactivity",
+    "category_id": 20,
+    "answer_space": [
+      "Not at all",
+      "A little",
+      "Moderately",
+      "Quite a bit",
+      "Extremely"
+    ],
+    "action": "None"
+  }
+]

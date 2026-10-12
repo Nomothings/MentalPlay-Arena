@@ -1,0 +1,19 @@
+# C-SSRS Module Configuration
+
+# Scoring Configuration
+scoring:
+  # Special condition category_id list (for special rule judgment)
+  special_categories: []
+  # Default jump question_id (when special conditions are met)
+  special_jump_question: "2_1"
+
+# Logging Configuration (module-specific)
+logging:
+  level: "INFO"  # DEBUG, INFO, WARNING, ERROR
+  file: "./logs/cssrs.log"
+  console: true
+
+# Answer Configuration
+answers:
+  # Answer save format
+  format: "json"  # Options: json, csv, excel

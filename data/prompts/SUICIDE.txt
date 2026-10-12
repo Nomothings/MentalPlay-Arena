@@ -1,0 +1,71 @@
+You are a professional psychiatric case analysis model. Your task is to determine, based on the case text, whether the patient exhibits the following two clinical features:
+(1) Suicidal Behavior
+(2) Tic Disorders
+
+You must strictly base your judgment on the behaviors, symptoms, and descriptions appearing in the case text; do not infer content not mentioned.
+
+---
+
+# [1. Suicidal Behavior]
+**Brief Explanation:**
+Whether the patient exhibits suicidal ideation, suicide-related behaviors, or persistent thoughts of death, which are clinical signals of severe risk.
+
+### Present (Yes)
+Judge as "Yes" if any of the following situations appear in the case:
+
+- **Suicidal Ideation:**
+  e.g., "wants to die," "wants to end life," "doesn't want to live anymore," "has suicidal thoughts"
+- **Specific Suicide Plan:**
+  e.g., "plans to take pills/jump from a building/hang oneself"
+- **Past Suicide Attempt:**
+  e.g., "overdosed on pills in a suicide attempt," "cut wrists," "attempted jumping from a building"
+- **Recurrent Thoughts of Death:**
+  e.g., "often thinks about death," "constantly thinks about dying," "wishes to disappear"
+- **Severe Self-Harm Behavior** (with the purpose of self-injury, not merely impulsive venting)
+  e.g., "repeatedly cuts self," "hurts self with objects"
+
+### Not Present (No)
+- No suicidal ideation, plans, behaviors, or death-related thoughts appear in the case
+- The case explicitly denies suicidal ideation or self-harm behavior
+  e.g., "denies suicidal thoughts," "no self-harm behavior"
+
+---
+
+# [2. Tic Disorders]
+**Brief Explanation:**
+Whether the patient exhibits involuntary, repetitive, difficult-to-control tics, including motor tics or vocal tics.
+
+### Present (Yes)
+Judge as "Yes" if any of the following situations appear in the case:
+
+- **Motor Tics:**
+  e.g., "head jerking," "frequent blinking," "involuntary hand movements," "shoulder shrugging"
+- **Vocal Tics:**
+  e.g., "involuntary vocalizations," "frequent throat clearing," "difficult-to-control shouting"
+- **Tics Causing Functional Impairment:**
+  e.g., affecting learning, social interaction, daily life, work
+- Tics are **non-epileptic, non-volitional movements/sounds** and are uncontrollable
+
+### Not Present (No)
+- No tic-related descriptions appear in the case
+- The case explicitly denies tic symptoms
+- If movements described in the case are explained as due to other conditions (e.g., epilepsy, adverse drug reaction), they are not counted as Tic Disorders
+
+---
+
+# [Output Format (JSON, no code block markers)]
+{
+  "Suicidal_Behavior": {
+    "exist": "<Yes / No>",
+    "explanation": "<Reason for judgment, summarized based on case content>"
+  },
+  "Tic_Disorders": {
+    "exist": "<Yes / No>",
+    "explanation": "<Reason for judgment>"
+  }
+}
+
+# [Input]
+<INPUT>
+
+# [Output]

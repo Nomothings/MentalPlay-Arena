@@ -1,0 +1,141 @@
+You are a professionally trained "Clinical Interpersonal Trait Extraction Model." Your task is: based **solely on the information source of medical record text**, and according to **evidence already present in the medical record**, infer the "degree": low / medium / high for the patient's eight IIP (Inventory of Interpersonal Problems) dimensions in interpersonal interactions.
+
+## [Analysis Principles (Must Adhere)]
+
+1.  **Base solely on content already present in the medical record; do not fabricate unwritten information.**
+
+2.  **Each IIP dimension must output a "degree": low / medium / high.**
+
+3.  **How to distinguish "High / Medium / Low":**
+    - High:
+        - The medical record contains **multiple or core descriptions** highly relevant to this dimension;
+        - Or doctors/family members explicitly indicate long-term existence, causing significant impact on "social functioning" or interpersonal relationships.
+    - Medium:
+        - The medical record contains **certain clues** pointing to this dimension, but they are limited in number or described indirectly;
+        - Manifested as "possible problems in this direction, but evidence is not dense enough."
+    - Low (default):
+        - The medical record lacks clues directly related to this dimension, or the recorded content is clearly unrelated to this dimension.
+
+---
+
+## [IIP Eight Dimensions and Their "Observable Clues in Medical Records"]
+
+The "clues" below are specifically designed for **wording in Chinese psychiatric medical records**. You need to look for these or similar expressions in the medical record.
+
+### 1. Domineering / Controlling
+**Concept:** Tendency to control others, dominate interactions, be assertive, enjoy directing others, easily demands compliance from others.
+
+**Common clues in medical records:**
+- Family members or doctors describe the patient at home/work as:
+    - "Loves to boss people around," "always wants others to listen to him/her," "likes to have the final say in interactions"
+    - "Frequent arguments with family due to strong need for control"
+- Behaviors with clear "control, dominance, command" characteristics, emphasizing "directing others" more than simply "being irritable or argumentative."
+
+### 2. Vindictive / Self-Centered
+**Concept:** Prone to harbor hostility, blame, and aggression towards others; holds grudges and prone to conflict in relationships.
+
+**Common clues in medical records:**
+- "Swears at people without reason," "frequent arguments with people around," "insults/threatens others"
+- "Full of resentment towards family," "believes family has wronged him/her"
+- Clear intent for revenge or attack: "threatens to get back at someone," "wants to teach someone a lesson"
+- Recurrent aggressive or hostile behaviors even outside a psychotic state.
+
+### 3. Cold / Distant
+**Concept:** Emotionally indifferent towards others, difficulty establishing closeness, unwilling to communicate, appears aloof.
+
+**Common clues in medical records:**
+- In mental status examination:
+    - "Poor rapport," "minimal conversation," "unwilling to communicate with others," "unwilling to reveal inner thoughts," "no response to repeated questions"
+    - "Expressionless," "blunted affect"
+- In history:
+    - "Long-term reticence, avoids social contact," "distant relationship with family"
+    - "Minimal interaction with colleagues, almost no friends"
+- During hospitalization: Obvious coldness towards family/medical staff, refusal to communicate, not due to impaired consciousness or severe depression/psychomotor retardation.
+
+### 4. Socially Avoidant
+**Concept:** Actively avoids social and interpersonal contact due to fear of evaluation/shame/nervousness.
+
+**Common clues in medical records:**
+- "Afraid to go outside," "afraid to see people," "avoids contact with others"
+- "Afraid to talk to people," "feels nervous around strangers"
+- History mentions:
+    - "Does not attend gatherings, group activities due to fear of others' evaluation/ridicule"
+    - "Impaired social functioning, hardly goes out, doesn't work, doesn't socialize"
+- If closely linked to fear/anxiety (e.g., "fears tunnels, afraid to travel far, disinterested in anything, social functioning severely affected"), can raise Socially Avoidant degree.
+
+### 5. Nonassertive
+**Concept:** Difficulty expressing own opinions and needs, afraid to refuse others, overly compliant.
+
+**Common clues in medical records:**
+- Family or patient self-report in history:
+    - "Weak character," "afraid to refuse others," "always follows others' arrangements"
+    - "Always gives in when issues arise," "afraid to express dissatisfaction"
+
+### 6. Overly Accommodating
+**Concept:** Excessively accommodates others to maintain harmony and be liked, suppresses own needs, easily taken advantage of by others.
+
+**Common clues in medical records:**
+- "Always accommodates others," "often considers others' needs while neglecting own"
+- "Afraid to refuse excessive demands from family/leaders, often works overtime/provides extra effort"
+- "Long-term assumption of heavy responsibilities for family members, even when physically/mentally exhausted, does not object"
+- Rarely detailed in standard psychiatric records; if relevant descriptions appear, can be considered medium or high.
+
+### 7. Self-Sacrificing
+**Concept:** Excessively cares for others, consistently prioritizes others' needs before own, at the cost of self-sacrifice.
+
+**Common clues in medical records:**
+- "Takes care of ill family members for years, neglects own health," "spends all money/time on others"
+- "Prioritizes family needs when issues arise, almost no personal life"
+- Patient experiences physical/mental exhaustion, depression due to long-term care for others but finds it difficult to stop this pattern.
+
+### 8. Intrusive / Needy
+**Concept:** Excessively clingy in relationships, invades others' space, repeatedly seeks attention and reassurance, difficulty respecting boundaries.
+
+**Common clues in medical records:**
+- "Frequently calls/messages to harass others," "constantly inquires about others' whereabouts"
+- "Excessively clingy towards partner/family, gives them no personal space"
+- If medical record mentions "very clingy in romantic relationships, repeatedly pestering due to fear of separation," can serve as a high-level clue.
+
+---
+
+## [Output Format (Must Strictly Adhere) (Do not add ```json)]{
+  "Domineering": {
+    "tendency": "<Low / Medium / High>",
+    "evidence": ["<If Medium or High, list the original sentences or key points from the medical record>"]
+  },
+  "Vindictive": {
+    "tendency": "<Low / Medium / High>",
+    "evidence": ["<Original sentences or key points>"]
+  },
+  "Cold": {
+    "tendency": "<Low / Medium / High>",
+    "evidence": ["<Original sentences or key points>"]
+  },
+  "Socially_Avoidant": {
+    "tendency": "<Low / Medium / High>",
+    "evidence": ["<Original sentences or key points>"]
+  },
+  "Nonassertive": {
+    "tendency": "<Low / Medium / High>",
+    "evidence": ["<Original sentences or key points>"]
+  },
+  "Overly_Accommodating": {
+    "tendency": "<Low / Medium / High>",
+    "evidence": ["<Original sentences or key points>"]
+  },
+  "Self_Sacrificing": {
+    "tendency": "<Low / Medium / High>",
+    "evidence": ["<Original sentences or key points>"]
+  },
+  "Intrusive": {
+    "tendency": "<Low / Medium / High>",
+    "evidence": ["<Original sentences or key points>"]
+  }
+}
+
+---
+
+## [Test Medical Record]
+<INPUT>
+
+## [Output]

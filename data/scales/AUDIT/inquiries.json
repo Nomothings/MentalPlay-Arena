@@ -1,0 +1,148 @@
+[
+  {
+    "question_id": "1_1",
+    "question_text": "When you think about your drinking habits, how often would you say that you drink alcohol?",
+    "domain": "Alcohol Use Assessment",
+    "category": "Drinking Frequency",
+    "category_id": 1,
+    "answer_space": [
+      "Never",
+      "About once a month",
+      "2–4 times a month",
+      "2–3 times a week",
+      "4 or more times a week"
+    ],
+    "action": "1_2"
+  },
+  {
+    "question_id": "1_2",
+    "question_text": "On a typical day when you drink alcohol, how much do you usually end up drinking?",
+    "domain": "Alcohol Use Assessment",
+    "category": "Drinking Quantity",
+    "category_id": 2,
+    "answer_space": [
+      "1–2 drinks",
+      "3–4 drinks",
+      "5–6 drinks",
+      "7–9 drinks",
+      "10 or more drinks"
+    ],
+    "action": "1_3"
+  },
+  {
+    "question_id": "1_3",
+    "question_text": "How often do you find yourself drinking six or more drinks on a single occasion?",
+    "domain": "Alcohol Use Assessment",
+    "category": "Binge Drinking",
+    "category_id": 3,
+    "answer_space": [
+      "Never",
+      "Less than monthly",
+      "Monthly",
+      "Weekly",
+      "Daily or almost daily"
+    ],
+    "action": "1_4"
+  },
+  {
+    "question_id": "1_4",
+    "question_text": "In the past year, have you found it hard to stop drinking once you start?",
+    "domain": "Alcohol Use Assessment",
+    "category": "Loss of Control",
+    "category_id": 4,
+    "answer_space": [
+      "Never",
+      "Less than monthly",
+      "Monthly",
+      "Almost weekly",
+      "Daily or almost daily"
+    ],
+    "action": "1_5"
+  },
+  {
+    "question_id": "1_5",
+    "question_text": "In the past year, have you ever found that your drinking caused you to miss or neglect things you were supposed to do?",
+    "domain": "Alcohol Use Assessment",
+    "category": "Negative Consequences",
+    "category_id": 5,
+    "answer_space": [
+      "Never",
+      "Less than monthly",
+      "Monthly",
+      "Almost weekly",
+      "Daily or almost daily"
+    ],
+    "action": "1_6"
+  },
+  {
+    "question_id": "1_6",
+    "question_text": "After heavy drinking, have you ever needed a drink first thing the next morning to feel better or get going?",
+    "domain": "Alcohol Use Assessment",
+    "category": "Withdrawal Symptoms",
+    "category_id": 6,
+    "answer_space": [
+      "Never",
+      "Less than monthly",
+      "Monthly",
+      "Weekly",
+      "Daily or almost daily"
+    ],
+    "action": "1_7"
+  },
+  {
+    "question_id": "1_7",
+    "question_text": "After drinking, how often do you feel guilty or regretful about it?",
+    "domain": "Alcohol Use Assessment",
+    "category": "Guilt and Regret",
+    "category_id": 7,
+    "answer_space": [
+      "Never",
+      "Less than monthly",
+      "Monthly",
+      "Weekly",
+      "Daily or almost daily"
+    ],
+    "action": "1_8"
+  },
+  {
+    "question_id": "1_8",
+    "question_text": "How often do you find that you cannot remember what happened the night before because of drinking?",
+    "domain": "Alcohol Use Assessment",
+    "category": "Memory Loss",
+    "category_id": 8,
+    "answer_space": [
+      "Never",
+      "Less than monthly",
+      "Monthly",
+      "Weekly",
+      "Daily or almost daily"
+    ],
+    "action": "1_9"
+  },
+  {
+    "question_id": "1_9",
+    "question_text": "Has drinking ever led to you or someone else being injured?",
+    "domain": "Alcohol Use Assessment",
+    "category": "Injury Consequences",
+    "category_id": 9,
+    "answer_space": [
+      "No",
+      "Yes, but not in the past year",
+      "Yes, during the past year"
+    ],
+    "action": "1_10"
+  },
+  {
+    "question_id": "1_10",
+    "question_text": "Have people close to you—such as relatives, friends, or a doctor—expressed concern about your drinking or suggested you cut down?",
+    "domain": "Alcohol Use Assessment",
+    "category": "Social Concern",
+    "category_id": 10,
+    "answer_space": [
+      "No",
+      "Yes, but not in the past year",
+      "Yes, during the past year"
+    ],
+    "action": "None"
+  }
+]

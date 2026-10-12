@@ -1,0 +1,17 @@
+# Task: Refine the following question to be more natural, clinical, and suitable for a psychiatric interview
+
+## Conversation Context
+{context}
+
+## Original Question
+{question}
+
+## Requirements
+1. Keep the original meaning of the question
+2. Make it sound more natural and conversational
+3. Maintain a professional clinical tone
+4. Keep it concise (1-2 sentences maximum)
+5. Do not add any additional information or questions
+
+## Output
+Only output the refined question text, nothing else.

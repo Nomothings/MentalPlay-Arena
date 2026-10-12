@@ -1,0 +1,184 @@
+[
+  {
+    "question_id": "1_1",
+    "question_text": "When you feel scared, do you ever have trouble breathing or feel like you can't get enough air?",
+    "domain": "Anxiety Assessment",
+    "category": "Anxiety Symptom",
+    "category_id": 1,
+    "answer_space": [
+      "Not at all",
+      "Sometimes",
+      "Often"
+    ],
+    "action": "1_2"
+  },
+  {
+    "question_id": "1_2",
+    "question_text": "When you feel scared, do you ever feel like you might die?",
+    "domain": "Anxiety Assessment",
+    "category": "Anxiety Symptom",
+    "category_id": 2,
+    "answer_space": [
+      "Not at all",
+      "Sometimes",
+      "Often"
+    ],
+    "action": "1_3"
+  },
+  {
+    "question_id": "1_3",
+    "question_text": "Do you often feel tense or nervous?",
+    "domain": "Anxiety Assessment",
+    "category": "Anxiety Symptom",
+    "category_id": 3,
+    "answer_space": [
+      "Not at all",
+      "Sometimes",
+      "Often"
+    ],
+    "action": "1_4"
+  },
+  {
+    "question_id": "1_4",
+    "question_text": "Has anyone told you that you seem nervous or tense?",
+    "domain": "Anxiety Assessment",
+    "category": "Anxiety Symptom",
+    "category_id": 4,
+    "answer_space": [
+      "Not at all",
+      "Sometimes",
+      "Often"
+    ],
+    "action": "1_5"
+  },
+  {
+    "question_id": "1_5",
+    "question_text": "When you feel scared, do you ever feel like you might lose control or 'go crazy'?",
+    "domain": "Anxiety Assessment",
+    "category": "Anxiety Symptom",
+    "category_id": 5,
+    "answer_space": [
+      "Not at all",
+      "Sometimes",
+      "Often"
+    ],
+    "action": "1_6"
+  },
+  {
+    "question_id": "1_6",
+    "question_text": "When you feel scared, do things ever feel unreal or dreamlike?",
+    "domain": "Anxiety Assessment",
+    "category": "Anxiety Symptom",
+    "category_id": 6,
+    "answer_space": [
+      "Not at all",
+      "Sometimes",
+      "Often"
+    ],
+    "action": "1_7"
+  },
+  {
+    "question_id": "1_7",
+    "question_text": "When you feel scared, does your heart beat very fast?",
+    "domain": "Anxiety Assessment",
+    "category": "Anxiety Symptom",
+    "category_id": 7,
+    "answer_space": [
+      "Not at all",
+      "Sometimes",
+      "Often"
+    ],
+    "action": "1_8"
+  },
+  {
+    "question_id": "1_8",
+    "question_text": "Do your hands or body shake when you are nervous?",
+    "domain": "Anxiety Assessment",
+    "category": "Anxiety Symptom",
+    "category_id": 8,
+    "answer_space": [
+      "Not at all",
+      "Sometimes",
+      "Often"
+    ],
+    "action": "1_9"
+  },
+  {
+    "question_id": "1_9",
+    "question_text": "Do you sweat when you feel scared?",
+    "domain": "Anxiety Assessment",
+    "category": "Anxiety Symptom",
+    "category_id": 9,
+    "answer_space": [
+      "Not at all",
+      "Sometimes",
+      "Often"
+    ],
+    "action": "1_10"
+  },
+  {
+    "question_id": "1_10",
+    "question_text": "Do you ever feel afraid for no clear reason?",
+    "domain": "Anxiety Assessment",
+    "category": "Anxiety Symptom",
+    "category_id": 10,
+    "answer_space": [
+      "Not at all",
+      "Sometimes",
+      "Often"
+    ],
+    "action": "1_11"
+  },
+  {
+    "question_id": "1_11",
+    "question_text": "When you are scared, do you feel like you can\u2019t catch your breath?",
+    "domain": "Anxiety Assessment",
+    "category": "Anxiety Symptom",
+    "category_id": 11,
+    "answer_space": [
+      "Not at all",
+      "Sometimes",
+      "Often"
+    ],
+    "action": "1_12"
+  },
+  {
+    "question_id": "1_12",
+    "question_text": "Do you worry that the nervous or panicky feeling will happen again?",
+    "domain": "Anxiety Assessment",
+    "category": "Anxiety Symptom",
+    "category_id": 12,
+    "answer_space": [
+      "Not at all",
+      "Sometimes",
+      "Often"
+    ],
+    "action": "1_13"
+  },
+  {
+    "question_id": "1_13",
+    "question_text": "When you are scared, do you feel like you might throw up?",
+    "domain": "Anxiety Assessment",
+    "category": "Anxiety Symptom",
+    "category_id": 13,
+    "answer_space": [
+      "Not at all",
+      "Sometimes",
+      "Often"
+    ],
+    "action": "1_14"
+  },
+  {
+    "question_id": "1_14",
+    "question_text": "When you feel scared, do you ever feel dizzy or lightheaded?",
+    "domain": "Anxiety Assessment",
+    "category": "Anxiety Symptom",
+    "category_id": 14,
+    "answer_space": [
+      "Not at all",
+      "Sometimes",
+      "Often"
+    ],
+    "action": "None"
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "category_id": 1,
+    "rule": "1_2 == B",
+    "action": "2_2",
+    "score": "0"
+  },
+  {
+    "category_id": 1,
+    "rule": "1_2 == A",
+    "action": "1_3",
+    "score": "0"
+  },
+  {
+    "category_id": 1,
+    "rule": "1_3 == B",
+    "action": null,
+    "score": "1"
+  },
+  {
+    "category_id": 1,
+    "rule": "1_3 == A",
+    "action": "1_4",
+    "score": "0"
+  },
+  {
+    "category_id": 1,
+    "rule": "1_4 == B",
+    "action": null,
+    "score": "2"
+  },
+  {
+    "category_id": 1,
+    "rule": "1_4 == A",
+    "action": "1_5",
+    "score": "0"
+  },
+  {
+    "category_id": 1,
+    "rule": "1_5 == B",
+    "action": null,
+    "score": "3"
+  },
+  {
+    "category_id": 1,
+    "rule": "1_5 == A",
+    "action": "2_2",
+    "score": "0"
+  },
+  {
+    "category_id": 2,
+    "rule": "2_2 == B",
+    "action": null,
+    "score": "4"
+  },
+  {
+    "category_id": 2,
+    "rule": "2_2 == A",
+    "action": null,
+    "score": "6"
+  }
+]

@@ -1,0 +1,171 @@
+[
+  {
+    "question_id": "1_1",
+    "question_text": "Do you feel uncomfortable being around people you don\u2019t know well?",
+    "domain": "Anxiety Assessment",
+    "category": "Anxiety Symptom",
+    "category_id": 1,
+    "answer_space": [
+      "Not at all",
+      "Sometimes",
+      "Often"
+    ],
+    "action": "1_2"
+  },
+  {
+    "question_id": "1_2",
+    "question_text": "Do you frequently worry about whether other people like you?",
+    "domain": "Anxiety Assessment",
+    "category": "Anxiety Symptom",
+    "category_id": 2,
+    "answer_space": [
+      "Not at all",
+      "Sometimes",
+      "Often"
+    ],
+    "action": "1_3"
+  },
+  {
+    "question_id": "1_3",
+    "question_text": "Do you feel nervous when you are with people you don\u2019t know well?",
+    "domain": "Anxiety Assessment",
+    "category": "Anxiety Symptom",
+    "category_id": 3,
+    "answer_space": [
+      "Not at all",
+      "Sometimes",
+      "Often"
+    ],
+    "action": "1_4"
+  },
+  {
+    "question_id": "1_4",
+    "question_text": "Do you worry that you aren't as good as other children?",
+    "domain": "Anxiety Assessment",
+    "category": "Anxiety Symptom",
+    "category_id": 4,
+    "answer_space": [
+      "Not at all",
+      "Sometimes",
+      "Often"
+    ],
+    "action": "1_5"
+  },
+  {
+    "question_id": "1_5",
+    "question_text": "Do you feel uneasy during activities that are planned for you?",
+    "domain": "Anxiety Assessment",
+    "category": "Anxiety Symptom",
+    "category_id": 5,
+    "answer_space": [
+      "Not at all",
+      "Sometimes",
+      "Often"
+    ],
+    "action": "1_6"
+  },
+  {
+    "question_id": "1_6",
+    "question_text": "Do you think of yourself as someone who worries a lot?",
+    "domain": "Anxiety Assessment",
+    "category": "Anxiety Symptom",
+    "category_id": 6,
+    "answer_space": [
+      "Not at all",
+      "Sometimes",
+      "Often"
+    ],
+    "action": "1_7"
+  },
+  {
+    "question_id": "1_7",
+    "question_text": "Is it difficult for you to talk to people you don\u2019t know well?",
+    "domain": "Anxiety Assessment",
+    "category": "Anxiety Symptom",
+    "category_id": 7,
+    "answer_space": [
+      "Not at all",
+      "Sometimes",
+      "Often"
+    ],
+    "action": "1_8"
+  },
+  {
+    "question_id": "1_8",
+    "question_text": "Has anyone told you that you worry too much?",
+    "domain": "Anxiety Assessment",
+    "category": "Anxiety Symptom",
+    "category_id": 8,
+    "answer_space": [
+      "Not at all",
+      "Sometimes",
+      "Often"
+    ],
+    "action": "1_9"
+  },
+  {
+    "question_id": "1_9",
+    "question_text": "Do you feel shy around people you don\u2019t know well?",
+    "domain": "Anxiety Assessment",
+    "category": "Anxiety Symptom",
+    "category_id": 9,
+    "answer_space": [
+      "Not at all",
+      "Sometimes",
+      "Often"
+    ],
+    "action": "1_10"
+  },
+  {
+    "question_id": "1_10",
+    "question_text": "Do you worry about what might happen in the future?",
+    "domain": "Anxiety Assessment",
+    "category": "Anxiety Symptom",
+    "category_id": 10,
+    "answer_space": [
+      "Not at all",
+      "Sometimes",
+      "Often"
+    ],
+    "action": "1_11"
+  },
+  {
+    "question_id": "1_11",
+    "question_text": "Do you worry about whether you can do things well?",
+    "domain": "Anxiety Assessment",
+    "category": "Anxiety Symptom",
+    "category_id": 11,
+    "answer_space": [
+      "Not at all",
+      "Sometimes",
+      "Often"
+    ],
+    "action": "1_12"
+  },
+  {
+    "question_id": "1_12",
+    "question_text": "Do you feel nervous when others watch you doing activities?",
+    "domain": "Anxiety Assessment",
+    "category": "Anxiety Symptom",
+    "category_id": 12,
+    "answer_space": [
+      "Not at all",
+      "Sometimes",
+      "Often"
+    ],
+    "action": "1_13"
+  },
+  {
+    "question_id": "1_13",
+    "question_text": "Would you describe yourself as a shy person?",
+    "domain": "Anxiety Assessment",
+    "category": "Anxiety Symptom",
+    "category_id": 13,
+    "answer_space": [
+      "Not at all",
+      "Sometimes",
+      "Often"
+    ],
+    "action": "None"
+  }
+]

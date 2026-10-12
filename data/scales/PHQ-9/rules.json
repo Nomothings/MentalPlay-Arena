@@ -1,0 +1,218 @@
+[
+  {
+    "category_id": 1,
+    "rule": "1_1 == A",
+    "action": "1_2",
+    "score": "0"
+  },
+  {
+    "category_id": 1,
+    "rule": "1_1 == B",
+    "action": "1_2",
+    "score": "1"
+  },
+  {
+    "category_id": 1,
+    "rule": "1_1 == C",
+    "action": "1_2",
+    "score": "2"
+  },
+  {
+    "category_id": 1,
+    "rule": "1_1 == D",
+    "action": "1_2",
+    "score": "3"
+  },
+  {
+    "category_id": 2,
+    "rule": "1_2 == A",
+    "action": "1_3",
+    "score": "0"
+  },
+  {
+    "category_id": 2,
+    "rule": "1_2 == B",
+    "action": "1_3",
+    "score": "1"
+  },
+  {
+    "category_id": 2,
+    "rule": "1_2 == C",
+    "action": "1_3",
+    "score": "2"
+  },
+  {
+    "category_id": 2,
+    "rule": "1_2 == D",
+    "action": "1_3",
+    "score": "3"
+  },
+  {
+    "category_id": 3,
+    "rule": "1_3 == A",
+    "action": "1_4",
+    "score": "0"
+  },
+  {
+    "category_id": 3,
+    "rule": "1_3 == B",
+    "action": "1_4",
+    "score": "1"
+  },
+  {
+    "category_id": 3,
+    "rule": "1_3 == C",
+    "action": "1_4",
+    "score": "2"
+  },
+  {
+    "category_id": 3,
+    "rule": "1_3 == D",
+    "action": "1_4",
+    "score": "3"
+  },
+  {
+    "category_id": 4,
+    "rule": "1_4 == A",
+    "action": "1_5",
+    "score": "0"
+  },
+  {
+    "category_id": 4,
+    "rule": "1_4 == B",
+    "action": "1_5",
+    "score": "1"
+  },
+  {
+    "category_id": 4,
+    "rule": "1_4 == C",
+    "action": "1_5",
+    "score": "2"
+  },
+  {
+    "category_id": 4,
+    "rule": "1_4 == D",
+    "action": "1_5",
+    "score": "3"
+  },
+  {
+    "category_id": 5,
+    "rule": "1_5 == A",
+    "action": "1_6",
+    "score": "0"
+  },
+  {
+    "category_id": 5,
+    "rule": "1_5 == B",
+    "action": "1_6",
+    "score": "1"
+  },
+  {
+    "category_id": 5,
+    "rule": "1_5 == C",
+    "action": "1_6",
+    "score": "2"
+  },
+  {
+    "category_id": 5,
+    "rule": "1_5 == D",
+    "action": "1_6",
+    "score": "3"
+  },
+  {
+    "category_id": 6,
+    "rule": "1_6 == A",
+    "action": "1_7",
+    "score": "0"
+  },
+  {
+    "category_id": 6,
+    "rule": "1_6 == B",
+    "action": "1_7",
+    "score": "1"
+  },
+  {
+    "category_id": 6,
+    "rule": "1_6 == C",
+    "action": "1_7",
+    "score": "2"
+  },
+  {
+    "category_id": 6,
+    "rule": "1_6 == D",
+    "action": "1_7",
+    "score": "3"
+  },
+  {
+    "category_id": 7,
+    "rule": "1_7 == A",
+    "action": "1_8",
+    "score": "0"
+  },
+  {
+    "category_id": 7,
+    "rule": "1_7 == B",
+    "action": "1_8",
+    "score": "1"
+  },
+  {
+    "category_id": 7,
+    "rule": "1_7 == C",
+    "action": "1_8",
+    "score": "2"
+  },
+  {
+    "category_id": 7,
+    "rule": "1_7 == D",
+    "action": "1_8",
+    "score": "3"
+  },
+  {
+    "category_id": 8,
+    "rule": "1_8 == A",
+    "action": "1_9",
+    "score": "0"
+  },
+  {
+    "category_id": 8,
+    "rule": "1_8 == B",
+    "action": "1_9",
+    "score": "1"
+  },
+  {
+    "category_id": 8,
+    "rule": "1_8 == C",
+    "action": "1_9",
+    "score": "2"
+  },
+  {
+    "category_id": 8,
+    "rule": "1_8 == D",
+    "action": "1_9",
+    "score": "3"
+  },
+  {
+    "category_id": 9,
+    "rule": "1_9 == A",
+    "action": "judge",
+    "score": "0"
+  },
+  {
+    "category_id": 9,
+    "rule": "1_9 == B",
+    "action": "judge",
+    "score": "1"
+  },
+  {
+    "category_id": 9,
+    "rule": "1_9 == C",
+    "action": "judge",
+    "score": "2"
+  },
+  {
+    "category_id": 9,
+    "rule": "1_9 == D",
+    "action": "judge",
+    "score": "3"
+  }
+]

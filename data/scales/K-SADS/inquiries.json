@@ -1,0 +1,4132 @@
+[
+  {
+    "question_id": "1_1",
+    "question_text": "In the past month, have you often felt sad, worried, or down?",
+    "domain": "Single episode depressive disorder or Recurrent depressive disorder",
+    "category": "Depressed mood",
+    "category_id": 1,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "1_2",
+    "question_text": "Do you often suddenly feel like crying?",
+    "domain": "Single episode depressive disorder or Recurrent depressive disorder",
+    "category": "Depressed mood",
+    "category_id": 1,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "1_3",
+    "question_text": "How long does it usually last each time you feel unhappy?",
+    "domain": "Single episode depressive disorder or Recurrent depressive disorder",
+    "category": "Depressed mood",
+    "category_id": 1,
+    "answer_space": [
+      "A few hours",
+      "Half a day",
+      "A whole day"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "1_4",
+    "question_text": "How many days a week do you usually feel unhappy?",
+    "domain": "Single episode depressive disorder or Recurrent depressive disorder",
+    "category": "Depressed mood",
+    "category_id": 1,
+    "answer_space": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "2_1",
+    "question_text": "Have you recently been arguing often with your family or friends?",
+    "domain": "Single episode depressive disorder or Recurrent depressive disorder",
+    "category": "Irritability and anger",
+    "category_id": 2,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "2_2",
+    "question_text": "Have you recently become irritable or lost your temper easily over small things?",
+    "domain": "Single episode depressive disorder or Recurrent depressive disorder",
+    "category": "Irritability and anger",
+    "category_id": 2,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "2_3",
+    "question_text": "When you get angry or argue, do you throw or break things?",
+    "domain": "Single episode depressive disorder or Recurrent depressive disorder",
+    "category": "Irritability and anger",
+    "category_id": 2,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "2_4",
+    "question_text": "What usually causes the arguments or makes you angry?",
+    "domain": "Single episode depressive disorder or Recurrent depressive disorder",
+    "category": "Irritability and anger",
+    "category_id": 2,
+    "answer_space": [
+      "Parent-related reasons",
+      "Child-related reasons",
+      "Other"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "2_5",
+    "question_text": "How long do your anger or irritability last after an argument—most of the day or just a short while?",
+    "domain": "Single episode depressive disorder or Recurrent depressive disorder",
+    "category": "Irritability and anger",
+    "category_id": 2,
+    "answer_space": [
+      "A few hours",
+      "Half a day",
+      "A whole day"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "2_6",
+    "question_text": "Has this been happening often recently? About how many days per week?",
+    "domain": "Single episode depressive disorder or Recurrent depressive disorder",
+    "category": "Irritability and anger",
+    "category_id": 2,
+    "answer_space": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "3_1",
+    "question_text": "What hobbies or interests do you have now or used to have? For example, playing games or reading novels.",
+    "domain": "Single episode depressive disorder or Recurrent depressive disorder",
+    "category": "Anhedonia, lack of interest, emotional numbness, low motivation, or boredom",
+    "category_id": 3,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "3_2",
+    "question_text": "Do you feel less happy now when doing things you used to enjoy?",
+    "domain": "Single episode depressive disorder or Recurrent depressive disorder",
+    "category": "Anhedonia, lack of interest, emotional numbness, low motivation, or boredom",
+    "category_id": 3,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "3_3",
+    "question_text": "Do most things feel boring or meaningless to you now?",
+    "domain": "Single episode depressive disorder or Recurrent depressive disorder",
+    "category": "Anhedonia, lack of interest, emotional numbness, low motivation, or boredom",
+    "category_id": 3,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "3_4",
+    "question_text": "Do you feel bored for most of the day—more than half of the time?",
+    "domain": "Single episode depressive disorder or Recurrent depressive disorder",
+    "category": "Anhedonia, lack of interest, emotional numbness, low motivation, or boredom",
+    "category_id": 3,
+    "answer_space": [
+      "Less than half a day",
+      "More than half a day"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "3_5",
+    "question_text": "How many days a week do you feel this kind of boredom?",
+    "domain": "Single episode depressive disorder or Recurrent depressive disorder",
+    "category": "Anhedonia, lack of interest, emotional numbness, low motivation, or boredom",
+    "category_id": 3,
+    "answer_space": [
+      "Less than three days",
+      "More than three days"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "4_1",
+    "question_text": "Has anything happened recently that made you feel particularly upset? Can you tell me about it?",
+    "domain": "Suicidal behavior",
+    "category": "Recurrent thoughts of death",
+    "category_id": 4,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "4_2",
+    "question_text": "Do you ever feel that the world would be better without you?",
+    "domain": "Suicidal behavior",
+    "category": "Recurrent thoughts of death",
+    "category_id": 4,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "4_3",
+    "question_text": "When things go badly, some people may feel like they don’t want to live anymore. Have you ever had thoughts like that?",
+    "domain": "Suicidal behavior",
+    "category": "Recurrent thoughts of death",
+    "category_id": 4,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "4_4",
+    "question_text": "Do you still have these kinds of thoughts now?",
+    "domain": "Suicidal behavior",
+    "category": "Recurrent thoughts of death",
+    "category_id": 4,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "4_5",
+    "question_text": "Do these thoughts happen often, or only occasionally?",
+    "domain": "Suicidal behavior",
+    "category": "Recurrent thoughts of death",
+    "category_id": 4,
+    "answer_space": [
+      "Often",
+      "Occasionally"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "5_1",
+    "question_text": "Have you ever made a specific plan, such as choking yourself, cutting yourself, taking pills, or jumping from a height?",
+    "domain": "Suicidal behavior",
+    "category": "Suicidal ideation",
+    "category_id": 5,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "5_2",
+    "question_text": "Have you actually done any of these things?",
+    "domain": "Suicidal behavior",
+    "category": "Suicidal ideation",
+    "category_id": 5,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "5_3",
+    "question_text": "Do you still do these things now?",
+    "domain": "Suicidal behavior",
+    "category": "Suicidal ideation",
+    "category_id": 5,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "5_4",
+    "question_text": "Do these ideas come up frequently, or only once in a while?",
+    "domain": "Suicidal behavior",
+    "category": "Suicidal ideation",
+    "category_id": 5,
+    "answer_space": [
+      "Often",
+      "Occasionally"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "6_1",
+    "question_text": "Did you truly intend to end your life at that time?",
+    "domain": "Suicidal behavior",
+    "category": "Suicidal behavior — level of intent",
+    "category_id": 6,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "6_2",
+    "question_text": "Are your suicidal thoughts strong right now?",
+    "domain": "Suicidal behavior",
+    "category": "Suicidal behavior — level of intent",
+    "category_id": 6,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "6_3",
+    "question_text": "How did you attempt it at that time?",
+    "domain": "Suicidal behavior",
+    "category": "Suicidal behavior — level of intent",
+    "category_id": 6,
+    "answer_space": [
+      "No attempt",
+      "Partially carried out plan",
+      "Fully carried out plan"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "7_1",
+    "question_text": "Was the situation serious at that time, and what physical injuries did you experience?",
+    "domain": "Suicidal behavior",
+    "category": "Suicidal behavior — medical lethality",
+    "category_id": 7,
+    "answer_space": [
+      "No injury",
+      "Minor injury",
+      "Severe injury"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "7_2",
+    "question_text": "Did you go to the hospital for treatment?",
+    "domain": "Suicidal behavior",
+    "category": "Suicidal behavior — medical lethality",
+    "category_id": 7,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "7_3",
+    "question_text": "How did the doctors treat you?",
+    "domain": "Suicidal behavior",
+    "category": "Suicidal behavior — medical lethality",
+    "category_id": 7,
+    "answer_space": [
+      "Open-ended response"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "8_1",
+    "question_text": "Have you ever hurt yourself when you were feeling upset?",
+    "domain": "Suicidal behavior",
+    "category": "Non-suicidal self-injury",
+    "category_id": 8,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "8_2",
+    "question_text": "Do you pinch or hit yourself when you feel upset?",
+    "domain": "Suicidal behavior",
+    "category": "Non-suicidal self-injury",
+    "category_id": 8,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "8_3",
+    "question_text": "How do you hurt yourself? Do you scratch with your nails or use something else?",
+    "domain": "Suicidal behavior",
+    "category": "Non-suicidal self-injury",
+    "category_id": 8,
+    "answer_space": [
+      "Minor injury",
+      "Severe injury"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "8_4",
+    "question_text": "How many times in total have you hurt yourself?",
+    "domain": "Suicidal behavior",
+    "category": "Non-suicidal self-injury",
+    "category_id": 8,
+    "answer_space": [
+      "Fewer than 5 times",
+      "5 times or more"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "9_1",
+    "question_text": "Have you ever had a period where you felt unusually good or more cheerful than usual?",
+    "domain": "Bipolar type I disorder",
+    "category": "Elevated mood",
+    "category_id": 9,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "9_2",
+    "question_text": "Was this good mood beyond what is normal for you—even better than your happiest times?",
+    "domain": "Bipolar type I disorder",
+    "category": "Elevated mood",
+    "category_id": 9,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "9_3",
+    "question_text": "Did this very excited state come on suddenly and without a clear reason?",
+    "domain": "Bipolar type I disorder",
+    "category": "Elevated mood",
+    "category_id": 9,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "9_4",
+    "question_text": "During that time, did you feel especially great, like you could handle anything?",
+    "domain": "Bipolar type I disorder",
+    "category": "Elevated mood",
+    "category_id": 9,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "9_5",
+    "question_text": "How long did this state last each time? A few days?",
+    "domain": "Bipolar type I disorder",
+    "category": "Elevated mood",
+    "category_id": 9,
+    "answer_space": [
+      "Less than 3 consecutive days",
+      "More than 3 consecutive days"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "9_6",
+    "question_text": "Did each episode last for several hours? Did it ever last more than 4 hours?",
+    "domain": "Bipolar type I disorder",
+    "category": "Elevated mood",
+    "category_id": 9,
+    "answer_space": [
+      "No more than 4 hours",
+      "More than 4 hours"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "10_1",
+    "question_text": "Have you ever suddenly become very angry because of something?",
+    "domain": "Bipolar type I disorder",
+    "category": "Explosive irritability/anger",
+    "category_id": 10,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "10_2",
+    "question_text": "When you were very angry, have you ever thrown things, damaged objects, or wanted to wreck the room?",
+    "domain": "Bipolar type I disorder",
+    "category": "Explosive irritability/anger",
+    "category_id": 10,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "10_3",
+    "question_text": "Have you ever threatened or actually hurt someone or an animal when you were angry?",
+    "domain": "Bipolar type I disorder",
+    "category": "Explosive irritability/anger",
+    "category_id": 10,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "10_4",
+    "question_text": "Do you think the situation was serious enough to justify getting that angry?",
+    "domain": "Bipolar type I disorder",
+    "category": "Explosive irritability/anger",
+    "category_id": 10,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "11_1",
+    "question_text": "Have you ever had a period when you felt more energetic than usual?",
+    "domain": "Bipolar type I disorder",
+    "category": "Increased energy or activity",
+    "category_id": 11,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "11_2",
+    "question_text": "What kinds of things did you do during that time?",
+    "domain": "Bipolar type I disorder",
+    "category": "Increased energy or activity",
+    "category_id": 11,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "11_3",
+    "question_text": "Did you feel like you were doing significantly more things than usual during that time?",
+    "domain": "Bipolar type I disorder",
+    "category": "Increased energy or activity",
+    "category_id": 11,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "11_4",
+    "question_text": "Did this feeling last for a long time?",
+    "domain": "Bipolar type I disorder",
+    "category": "Increased energy or activity",
+    "category_id": 11,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "11_5",
+    "question_text": "When your energy was very high, did you feel different from your usual self?",
+    "domain": "Bipolar type I disorder",
+    "category": "Increased energy or activity",
+    "category_id": 11,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "11_6",
+    "question_text": "Did your thoughts and speech become faster?",
+    "domain": "Bipolar type I disorder",
+    "category": "Increased energy or activity",
+    "category_id": 11,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "11_7",
+    "question_text": "Did you clearly do more than the people around you? Did others notice your changes?",
+    "domain": "Bipolar type I disorder",
+    "category": "Increased energy or activity",
+    "category_id": 11,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "12_1",
+    "question_text": "Have you ever slept much less than usual for a period of time but didn’t feel tired?",
+    "domain": "Bipolar type I disorder",
+    "category": "Decreased need for sleep",
+    "category_id": 12,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "12_2",
+    "question_text": "During that time, how much less did you sleep each day compared to usual?",
+    "domain": "Bipolar type I disorder",
+    "category": "Decreased need for sleep",
+    "category_id": 12,
+    "answer_space": [
+      "Less than 1.5 hours",
+      "More than 1.5 hours"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "12_3",
+    "question_text": "Did you feel like you didn’t really need much sleep?",
+    "domain": "Bipolar type I disorder",
+    "category": "Decreased need for sleep",
+    "category_id": 12,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "12_4",
+    "question_text": "What did you usually do with the extra time when you weren’t sleeping?",
+    "domain": "Bipolar type I disorder",
+    "category": "Decreased need for sleep",
+    "category_id": 12,
+    "answer_space": [
+      ""
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "12_5",
+    "question_text": "How many times per week did this happen during that period?",
+    "domain": "Bipolar type I disorder",
+    "category": "Decreased need for sleep",
+    "category_id": 12,
+    "answer_space": [
+      "Less than 2 consecutive days",
+      "Less than 3 non-consecutive days",
+      "More than 2 consecutive days",
+      "More than 3 non-consecutive days"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "13_1",
+    "question_text": "In the past two months, have you become easily angered by small things?",
+    "domain": "Oppositional defiant disorder",
+    "category": "Irritability",
+    "category_id": 13,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "13_2",
+    "question_text": "For most of the past year, has it been hard for you to calm down when you get angry?",
+    "domain": "Oppositional defiant disorder",
+    "category": "Irritability",
+    "category_id": 13,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "13_3",
+    "question_text": "Do you become especially sensitive when friends or family criticize you?",
+    "domain": "Oppositional defiant disorder",
+    "category": "Irritability",
+    "category_id": 13,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "13_4",
+    "question_text": "For most of the past year, have you often felt irritated by other people's behavior?",
+    "domain": "Oppositional defiant disorder",
+    "category": "Irritability",
+    "category_id": 13,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "13_5",
+    "question_text": "For most of the past year, have you felt more easily impatient than usual?",
+    "domain": "Oppositional defiant disorder",
+    "category": "Irritability",
+    "category_id": 13,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "13_6",
+    "question_text": "Do people around you often disappoint you?",
+    "domain": "Oppositional defiant disorder",
+    "category": "Irritability",
+    "category_id": 13,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "13_7",
+    "question_text": "For about half a year in the past, did you often argue with friends over small things, and did others notice your emotional changes?",
+    "domain": "Oppositional defiant disorder",
+    "category": "Irritability",
+    "category_id": 13,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "13_8",
+    "question_text": "In the past six months, have you found it easier to lash out at others when feeling upset?",
+    "domain": "Oppositional defiant disorder",
+    "category": "Irritability",
+    "category_id": 13,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "14_1",
+    "question_text": "For most of the past year, have you become easily angry or had sudden outbursts?",
+    "domain": "Oppositional defiant disorder",
+    "category": "Recurrent emotional outbursts",
+    "category_id": 14,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "14_2",
+    "question_text": "For most of the past year, have you often cursed at or insulted others?",
+    "domain": "Oppositional defiant disorder",
+    "category": "Recurrent emotional outbursts",
+    "category_id": 14,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "14_3",
+    "question_text": "For most of the past year, have you thrown things or hit others?",
+    "domain": "Oppositional defiant disorder",
+    "category": "Recurrent emotional outbursts",
+    "category_id": 14,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "14_4",
+    "question_text": "For most of the past year, have you threatened or hurt other people?",
+    "domain": "Oppositional defiant disorder",
+    "category": "Recurrent emotional outbursts",
+    "category_id": 14,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "14_5",
+    "question_text": "For most of the past year, have you punched or kicked others?",
+    "domain": "Oppositional defiant disorder",
+    "category": "Recurrent emotional outbursts",
+    "category_id": 14,
+    "answer_space": [
+      "Has impact",
+      "No impact"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "14_6",
+    "question_text": "What usually causes these incidents to happen?",
+    "domain": "Oppositional defiant disorder",
+    "category": "Recurrent emotional outbursts",
+    "category_id": 14,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "14_7",
+    "question_text": "For most of the past year, were there more than three days a week when you felt very angry?",
+    "domain": "Oppositional defiant disorder",
+    "category": "Recurrent emotional outbursts",
+    "category_id": 14,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "15_1",
+    "question_text": "Have you ever heard sounds or voices that other people could not hear?",
+    "domain": "Schizophrenia",
+    "category": "Hallucinations",
+    "category_id": 15,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "15_2",
+    "question_text": "What were the sounds or voices like? Can you describe them briefly?",
+    "domain": "Schizophrenia",
+    "category": "Hallucinations",
+    "category_id": 15,
+    "answer_space": [
+      "Open-ended response"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "15_3",
+    "question_text": "Have you ever seen things that others couldn’t see, such as people or shadows?",
+    "domain": "Schizophrenia",
+    "category": "Hallucinations",
+    "category_id": 15,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "15_4",
+    "question_text": "What did you see?",
+    "domain": "Schizophrenia",
+    "category": "Hallucinations",
+    "category_id": 15,
+    "answer_space": [
+      "Open-ended response"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "15_5",
+    "question_text": "Have you ever smelled things others couldn’t smell or felt things that weren’t there?",
+    "domain": "Schizophrenia",
+    "category": "Hallucinations",
+    "category_id": 15,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "15_6",
+    "question_text": "Do you think these experiences were your imagination, or did they feel real?",
+    "domain": "Schizophrenia",
+    "category": "Hallucinations",
+    "category_id": 15,
+    "answer_space": [
+      "Imagination",
+      "Reality"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "15_7",
+    "question_text": "Did these hallucinations occur only when you were awake or also when you were asleep?",
+    "domain": "Schizophrenia",
+    "category": "Hallucinations",
+    "category_id": 15,
+    "answer_space": [
+      "While awake",
+      "While asleep"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "15_8",
+    "question_text": "When these happened, had you been drinking or taking any medication?",
+    "domain": "Schizophrenia",
+    "category": "Hallucinations",
+    "category_id": 15,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "16_1",
+    "question_text": "Have you ever felt that someone was trying to harm you or was following or watching you?",
+    "domain": "Schizophrenia",
+    "category": "Delusions",
+    "category_id": 16,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "16_2",
+    "question_text": "Have you ever felt that someone was controlling your thoughts or body, like a robot?",
+    "domain": "Schizophrenia",
+    "category": "Delusions",
+    "category_id": 16,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "16_3",
+    "question_text": "Have you ever believed that you were an important or extraordinary person?",
+    "domain": "Schizophrenia",
+    "category": "Delusions",
+    "category_id": 16,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "16_4",
+    "question_text": "Have you ever felt that you had special powers?",
+    "domain": "Schizophrenia",
+    "category": "Delusions",
+    "category_id": 16,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "16_5",
+    "question_text": "When you are around people you don’t know well, do you feel that they are talking about you?",
+    "domain": "Schizophrenia",
+    "category": "Delusions",
+    "category_id": 16,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "16_6",
+    "question_text": "Have you ever felt that something was wrong with your body—for example, that something inside was decaying or damaged?",
+    "domain": "Schizophrenia",
+    "category": "Delusions",
+    "category_id": 16,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "16_7",
+    "question_text": "Have you ever believed that the end of the world had arrived?",
+    "domain": "Schizophrenia",
+    "category": "Delusions",
+    "category_id": 16,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "16_8",
+    "question_text": "Do these thoughts seem related to feeling down or depressed?",
+    "domain": "Schizophrenia",
+    "category": "Delusions",
+    "category_id": 16,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "16_9",
+    "question_text": "How often do these thoughts occur?",
+    "domain": "Schizophrenia",
+    "category": "Delusions",
+    "category_id": 16,
+    "answer_space": [
+      "Year",
+      "Month",
+      "Day"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "17_1",
+    "question_text": "Have you often felt tense or anxious recently?",
+    "domain": "Panic disorder",
+    "category": "Panic attacks",
+    "category_id": 17,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "17_2",
+    "question_text": "Have you felt frightened or scared?",
+    "domain": "Panic disorder",
+    "category": "Panic attacks",
+    "category_id": 17,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "17_3",
+    "question_text": "What specific symptoms do you experience during an episode?",
+    "domain": "Panic disorder",
+    "category": "Panic attacks",
+    "category_id": 17,
+    "answer_space": [
+      "Unclear symptoms",
+      "Mild",
+      "Severe"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "17_4",
+    "question_text": "Do you experience symptoms such as palpitations, sweating, trembling, shortness of breath or choking, a sense of blockage, chest pain, nausea or stomach discomfort, dizziness, feeling hot or chills, numbness in your hands or feet, depersonalization or derealization, fear of losing control, or a sense of impending doom?",
+    "domain": "Panic disorder",
+    "category": "Panic attacks",
+    "category_id": 17,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "17_5",
+    "question_text": "What do you think caused your first episode like this?",
+    "domain": "Panic disorder",
+    "category": "Panic attacks",
+    "category_id": 17,
+    "answer_space": [
+      "Known",
+      "Unknown"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "17_6",
+    "question_text": "Did these feelings come on suddenly or without any clear reason?",
+    "domain": "Panic disorder",
+    "category": "Panic attacks",
+    "category_id": 17,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "17_7",
+    "question_text": "How long did it last?",
+    "domain": "Panic disorder",
+    "category": "Panic attacks",
+    "category_id": 17,
+    "answer_space": [
+      "Within a day",
+      "Several days",
+      "One week",
+      "One month or more"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "17_8",
+    "question_text": "Do you worry that this might happen again?",
+    "domain": "Panic disorder",
+    "category": "Panic attacks",
+    "category_id": 17,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "18_1",
+    "question_text": "Have you had periods when you didn’t want to go to public places, felt scared, and only wanted to stay at home?",
+    "domain": "Agoraphobia",
+    "category": "Agoraphobia",
+    "category_id": 18,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "18_2",
+    "question_text": "Do crowded places like malls or movie theaters make you feel upset, nervous, or scared?",
+    "domain": "Agoraphobia",
+    "category": "Agoraphobia",
+    "category_id": 18,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "18_3",
+    "question_text": "Do you dislike taking public transportation, such as the subway or buses?",
+    "domain": "Agoraphobia",
+    "category": "Agoraphobia",
+    "category_id": 18,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "18_4",
+    "question_text": "Are you more afraid of these places than others your age?",
+    "domain": "Agoraphobia",
+    "category": "Agoraphobia",
+    "category_id": 18,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "18_5",
+    "question_text": "Has this fear lasted for several months or even longer?",
+    "domain": "Agoraphobia",
+    "category": "Agoraphobia",
+    "category_id": 18,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "18_6",
+    "question_text": "If you are forced to stay in these public places, do you feel nauseous, dizzy, or physically unwell?",
+    "domain": "Agoraphobia",
+    "category": "Agoraphobia",
+    "category_id": 18,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "19_1",
+    "question_text": "Do public places make you feel scared?",
+    "domain": "Agoraphobia",
+    "category": "Distress/Avoidance",
+    "category_id": 19,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "19_2",
+    "question_text": "How scared do you feel?",
+    "domain": "Agoraphobia",
+    "category": "Distress/Avoidance",
+    "category_id": 19,
+    "answer_space": [
+      "Mild",
+      "Moderate",
+      "Severe"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "19_3",
+    "question_text": "Are you more afraid of going to public places than any of your friends?",
+    "domain": "Agoraphobia",
+    "category": "Distress/Avoidance",
+    "category_id": 19,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "19_4",
+    "question_text": "Do you feel so afraid that you can’t do anything?",
+    "domain": "Agoraphobia",
+    "category": "Distress/Avoidance",
+    "category_id": 19,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "19_5",
+    "question_text": "Do you try to stay home to avoid these feelings?",
+    "domain": "Agoraphobia",
+    "category": "Distress/Avoidance",
+    "category_id": 19,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "19_6",
+    "question_text": "Are there any situations in which you feel you can go to public places?",
+    "domain": "Agoraphobia",
+    "category": "Distress/Avoidance",
+    "category_id": 19,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "19_7",
+    "question_text": "Would you be willing to go if someone accompanied you?",
+    "domain": "Agoraphobia",
+    "category": "Distress/Avoidance",
+    "category_id": 19,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "20_1",
+    "question_text": "Have you ever worried that something bad might happen to you and you would never see your parents again—for example, getting lost, being kidnapped, being harmed, or having an accident?",
+    "domain": "Separation anxiety disorder",
+    "category": "Fear of catastrophic events causing separation",
+    "category_id": 20,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "20_2",
+    "question_text": "Do you cry when you feel worried?",
+    "domain": "Separation anxiety disorder",
+    "category": "Fear of catastrophic events causing separation",
+    "category_id": 20,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "20_3",
+    "question_text": "Do you worry occasionally or very often?",
+    "domain": "Separation anxiety disorder",
+    "category": "Fear of catastrophic events causing separation",
+    "category_id": 20,
+    "answer_space": [
+      "Occasionally",
+      "Often"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "21_1",
+    "question_text": "Have you ever worried that something bad might happen to your parents, such as an accident or being harmed?",
+    "domain": "Separation anxiety disorder",
+    "category": "Fear that attachment figures will be harmed",
+    "category_id": 21,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "21_2",
+    "question_text": "Have you ever worried that your parents might leave you and never come back?",
+    "domain": "Separation anxiety disorder",
+    "category": "Fear that attachment figures will be harmed",
+    "category_id": 21,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "21_3",
+    "question_text": "Do you cry when you worry about this?",
+    "domain": "Separation anxiety disorder",
+    "category": "Fear that attachment figures will be harmed",
+    "category_id": 21,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "21_4",
+    "question_text": "Do you worry occasionally or very often?",
+    "domain": "Separation anxiety disorder",
+    "category": "Fear that attachment figures will be harmed",
+    "category_id": 21,
+    "answer_space": [
+      "Occasionally",
+      "Often"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "22_1",
+    "question_text": "Have you ever not wanted to go to school?",
+    "domain": "Separation anxiety disorder",
+    "category": "School refusal/reluctance to attend school",
+    "category_id": 22,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "22_2",
+    "question_text": "Have your parents ever forced you to go to school?",
+    "domain": "Separation anxiety disorder",
+    "category": "School refusal/reluctance to attend school",
+    "category_id": 22,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "22_3",
+    "question_text": "Do you not want to go to school because you don’t want to be separated from your parents?",
+    "domain": "Separation anxiety disorder",
+    "category": "School refusal/reluctance to attend school",
+    "category_id": 22,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "22_4",
+    "question_text": "Do you cry when you don’t want to go to school?",
+    "domain": "Separation anxiety disorder",
+    "category": "School refusal/reluctance to attend school",
+    "category_id": 22,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "22_5",
+    "question_text": "How many times a week do you feel unwilling to go to school?",
+    "domain": "Separation anxiety disorder",
+    "category": "School refusal/reluctance to attend school",
+    "category_id": 22,
+    "answer_space": [
+      "Less than 3 days",
+      "More than 3 days"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "22_6",
+    "question_text": "When you don’t want to go to school, do your parents often persuade you to go?",
+    "domain": "Separation anxiety disorder",
+    "category": "School refusal/reluctance to attend school",
+    "category_id": 22,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "22_7",
+    "question_text": "How many days a week do you miss school?",
+    "domain": "Separation anxiety disorder",
+    "category": "School refusal/reluctance to attend school",
+    "category_id": 22,
+    "answer_space": [
+      "Less than 3 days",
+      "More than 3 days"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "22_8",
+    "question_text": "How many times a week do you skip school or leave early?",
+    "domain": "Separation anxiety disorder",
+    "category": "School refusal/reluctance to attend school",
+    "category_id": 22,
+    "answer_space": [
+      "Less than 3 days",
+      "More than 3 days"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "23_1",
+    "question_text": "After age 4, have you ever felt afraid when sleeping alone?",
+    "domain": "Separation anxiety disorder",
+    "category": "Fear of sleeping away from home or sleeping alone",
+    "category_id": 23,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "23_2",
+    "question_text": "If you sleep somewhere outside your home and your parents aren’t with you, do you feel scared?",
+    "domain": "Separation anxiety disorder",
+    "category": "Fear of sleeping away from home or sleeping alone",
+    "category_id": 23,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "23_3",
+    "question_text": "Do you go to your parents’ bed to sleep in the middle of the night?",
+    "domain": "Separation anxiety disorder",
+    "category": "Fear of sleeping away from home or sleeping alone",
+    "category_id": 23,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "23_4",
+    "question_text": "Do you need to sleep in the same room as your parents?",
+    "domain": "Separation anxiety disorder",
+    "category": "Fear of sleeping away from home or sleeping alone",
+    "category_id": 23,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "23_5",
+    "question_text": "Do you dislike staying overnight at other people’s homes?",
+    "domain": "Separation anxiety disorder",
+    "category": "Fear of sleeping away from home or sleeping alone",
+    "category_id": 23,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "23_6",
+    "question_text": "Do you cry when you feel scared?",
+    "domain": "Separation anxiety disorder",
+    "category": "Fear of sleeping away from home or sleeping alone",
+    "category_id": 23,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "23_7",
+    "question_text": "Do you feel scared occasionally or very often?",
+    "domain": "Separation anxiety disorder",
+    "category": "Fear of sleeping away from home or sleeping alone",
+    "category_id": 23,
+    "answer_space": [
+      "Occasionally",
+      "Often"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "23_8",
+    "question_text": "How many times a week do you sleep with your parents?",
+    "domain": "Separation anxiety disorder",
+    "category": "Fear of sleeping away from home or sleeping alone",
+    "category_id": 23,
+    "answer_space": [
+      "Less than 3 days",
+      "More than 3 days"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "24_1",
+    "question_text": "After age 4, have you ever felt afraid when you were home alone?",
+    "domain": "Separation anxiety disorder",
+    "category": "Fear of being alone at home",
+    "category_id": 24,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "24_2",
+    "question_text": "If your parents are going out, do you choose to go with them because you’re afraid to stay home alone?",
+    "domain": "Separation anxiety disorder",
+    "category": "Fear of being alone at home",
+    "category_id": 24,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "24_3",
+    "question_text": "Are you very dependent on your father or mother?",
+    "domain": "Separation anxiety disorder",
+    "category": "Fear of being alone at home",
+    "category_id": 24,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "24_4",
+    "question_text": "Do you feel upset when your parents are not in the same room with you?",
+    "domain": "Separation anxiety disorder",
+    "category": "Fear of being alone at home",
+    "category_id": 24,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "24_5",
+    "question_text": "Do you cry when you feel scared?",
+    "domain": "Separation anxiety disorder",
+    "category": "Fear of being alone at home",
+    "category_id": 24,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "24_6",
+    "question_text": "Do you feel scared occasionally or very often?",
+    "domain": "Separation anxiety disorder",
+    "category": "Fear of being alone at home",
+    "category_id": 24,
+    "answer_space": [
+      "Occasionally",
+      "Often"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "24_7",
+    "question_text": "When your parents are not around, do you often ask or check where they are and want to know their location?",
+    "domain": "Separation anxiety disorder",
+    "category": "Fear of being alone at home",
+    "category_id": 24,
+    "answer_space": [
+      "Occasionally",
+      "Often"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "25_1",
+    "question_text": "Do you sometimes feel uncomfortable or anxious in social situations?",
+    "domain": "Social anxiety disorder",
+    "category": "Fear of social situations (social anxiety)",
+    "category_id": 25,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "25_2",
+    "question_text": "Do you avoid these situations or want to escape because of this?",
+    "domain": "Social anxiety disorder",
+    "category": "Fear of social situations (social anxiety)",
+    "category_id": 25,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "25_3",
+    "question_text": "In public situations (like in class or group discussions), do you feel afraid to stand up and answer even when you know the answer?",
+    "domain": "Social anxiety disorder",
+    "category": "Fear of social situations (social anxiety)",
+    "category_id": 25,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "25_4",
+    "question_text": "What kinds of situations make you feel uncomfortable?",
+    "domain": "Social anxiety disorder",
+    "category": "Fear of social situations (social anxiety)",
+    "category_id": 25,
+    "answer_space": [
+      "When called to answer a question you don’t know (e.g., in class)",
+      "When you need to do an oral presentation",
+      "When speaking to strangers (e.g., communicating with unfamiliar people)",
+      "When performing in public (e.g., dancing, music performance)",
+      "When you need to actively express your opinions in group work",
+      "None of the above"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "25_5",
+    "question_text": "Do these situations happen often or only occasionally?",
+    "domain": "Social anxiety disorder",
+    "category": "Fear of social situations (social anxiety)",
+    "category_id": 25,
+    "answer_space": [
+      "Often",
+      "Occasionally"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "26_1",
+    "question_text": "At school or in other public places, do you rarely talk to strangers?",
+    "domain": "Social anxiety disorder",
+    "category": "Inability to speak in specific social situations (selective mutism)",
+    "category_id": 26,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "26_2",
+    "question_text": "When you have to answer a stranger’s question, do you feel very nervous?",
+    "domain": "Social anxiety disorder",
+    "category": "Inability to speak in specific social situations (selective mutism)",
+    "category_id": 26,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "26_3",
+    "question_text": "Do you avoid speaking because you’re afraid of saying something wrong?",
+    "domain": "Social anxiety disorder",
+    "category": "Inability to speak in specific social situations (selective mutism)",
+    "category_id": 26,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "26_4",
+    "question_text": "Do these situations make you feel stressed or anxious?",
+    "domain": "Social anxiety disorder",
+    "category": "Inability to speak in specific social situations (selective mutism)",
+    "category_id": 26,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "26_5",
+    "question_text": "Do you still avoid speaking because of this?",
+    "domain": "Social anxiety disorder",
+    "category": "Inability to speak in specific social situations (selective mutism)",
+    "category_id": 26,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "27_1",
+    "question_text": "Do you have things you are much more afraid of than others your age? For example, being extremely afraid of spiders, other insects, dogs, horses, heights, elevators, the subway, or the dark?",
+    "domain": "Specific phobia",
+    "category": "Specific phobias",
+    "category_id": 27,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "27_2",
+    "question_text": "Is your fear of this (these) thing(s) so strong that seeing it makes you feel like you’re about to die?",
+    "domain": "Specific phobia",
+    "category": "Specific phobias",
+    "category_id": 27,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "27_3",
+    "question_text": "What about when you’re in crowded places, alone outside, on a bridge, or traveling by bus, train, or car?",
+    "domain": "Specific phobia",
+    "category": "Specific phobias",
+    "category_id": 27,
+    "answer_space": [
+      "Same as peers",
+      "More distress than peers but still controllable",
+      "Much more fear than peers and uncontrollable"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "27_4",
+    "question_text": "Do you have any other fears?",
+    "domain": "Specific phobia",
+    "category": "Specific phobias",
+    "category_id": 27,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "28_1",
+    "question_text": "Compared with others your age, are you someone who worries easily? Do your friends say you worry too much?",
+    "domain": "Generalised anxiety disorder",
+    "category": "Excessive worry",
+    "category_id": 28,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "28_2",
+    "question_text": "Have you recently felt very worried about things like exams, friends, or family? Can you give some examples?",
+    "domain": "Generalised anxiety disorder",
+    "category": "Excessive worry",
+    "category_id": 28,
+    "answer_space": [
+      "Open-ended response"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "28_3",
+    "question_text": "When you worry, does your body feel uncomfortable?",
+    "domain": "Generalised anxiety disorder",
+    "category": "Excessive worry",
+    "category_id": 28,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "28_4",
+    "question_text": "Do these worries make it hard for you to fall asleep at night?",
+    "domain": "Generalised anxiety disorder",
+    "category": "Excessive worry",
+    "category_id": 28,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "28_5",
+    "question_text": "How many times per week does this happen?",
+    "domain": "Generalised anxiety disorder",
+    "category": "Excessive worry",
+    "category_id": 28,
+    "answer_space": [
+      "Less than 3 times",
+      "3 times or more"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "29_1",
+    "question_text": "Do you often feel physical pain?",
+    "domain": "Generalised anxiety disorder",
+    "category": "Somatic complaints",
+    "category_id": 29,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "29_2",
+    "question_text": "Have you felt any discomfort anywhere recently?",
+    "domain": "Generalised anxiety disorder",
+    "category": "Somatic complaints",
+    "category_id": 29,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "29_3",
+    "question_text": "How long does the discomfort last each time?",
+    "domain": "Generalised anxiety disorder",
+    "category": "Somatic complaints",
+    "category_id": 29,
+    "answer_space": [
+      "Several days",
+      "Several weeks",
+      "Several months",
+      "Several years"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "29_4",
+    "question_text": "Have you gone to the hospital for an examination when you felt unwell?",
+    "domain": "Generalised anxiety disorder",
+    "category": "Somatic complaints",
+    "category_id": 29,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "29_5",
+    "question_text": "What do you usually do to relieve the discomfort when you feel unwell?",
+    "domain": "Generalised anxiety disorder",
+    "category": "Somatic complaints",
+    "category_id": 29,
+    "answer_space": [
+      "Open-ended response"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "29_6",
+    "question_text": "Has this discomfort affected your daily life?",
+    "domain": "Generalised anxiety disorder",
+    "category": "Somatic complaints",
+    "category_id": 29,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "29_7",
+    "question_text": "Have you recently had a poor appetite or trouble sleeping?",
+    "domain": "Generalised anxiety disorder",
+    "category": "Somatic complaints",
+    "category_id": 29,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "29_8",
+    "question_text": "Have you had any physical pain recently?",
+    "domain": "Generalised anxiety disorder",
+    "category": "Somatic complaints",
+    "category_id": 29,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "30_1",
+    "question_text": "Do you feel that certain thoughts keep bothering you and make it hard to concentrate?",
+    "domain": "Obsessive-compulsive disorder",
+    "category": "Obsessions",
+    "category_id": 30,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "30_2",
+    "question_text": "Do you repeatedly think about things you’ve done and worry that you did something wrong?",
+    "domain": "Obsessive-compulsive disorder",
+    "category": "Obsessions",
+    "category_id": 30,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "30_3",
+    "question_text": "Do you have thoughts that feel meaningless but you still can’t stop thinking about them?",
+    "domain": "Obsessive-compulsive disorder",
+    "category": "Obsessions",
+    "category_id": 30,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "30_4",
+    "question_text": "Do you fear that others might notice your thoughts, and does that make you scared?",
+    "domain": "Obsessive-compulsive disorder",
+    "category": "Obsessions",
+    "category_id": 30,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "30_5",
+    "question_text": "Do you repeatedly worry about uncertain things, such as whether something bad might happen tomorrow?",
+    "domain": "Obsessive-compulsive disorder",
+    "category": "Obsessions",
+    "category_id": 30,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "30_6",
+    "question_text": "When you try not to think about something, does it become even harder for the thought to go away?",
+    "domain": "Obsessive-compulsive disorder",
+    "category": "Obsessions",
+    "category_id": 30,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "30_7",
+    "question_text": "How many times a day do these bothersome thoughts appear?",
+    "domain": "Obsessive-compulsive disorder",
+    "category": "Obsessions",
+    "category_id": 30,
+    "answer_space": [
+      "0 times",
+      "1–3 times",
+      "4–6 times",
+      "7 times or more"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "30_8",
+    "question_text": "When you have these worries, how long do they usually last?",
+    "domain": "Obsessive-compulsive disorder",
+    "category": "Obsessions",
+    "category_id": 30,
+    "answer_space": [
+      "A short while",
+      "A few hours",
+      "Half a day",
+      "A whole day"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "30_9",
+    "question_text": "Do these thoughts make it hard to concentrate and even affect your study or daily life?",
+    "domain": "Obsessive-compulsive disorder",
+    "category": "Obsessions",
+    "category_id": 30,
+    "answer_space": [
+      "No impact",
+      "Slight impact",
+      "Noticeable impact",
+      "Severe impact"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "31_1",
+    "question_text": "Do you often repeatedly check things, such as whether the door is locked or items are arranged neatly?",
+    "domain": "Obsessive-compulsive disorder",
+    "category": "Compulsive behaviors",
+    "category_id": 31,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "31_2",
+    "question_text": "Do you sometimes check your homework or answers repeatedly because you’re unsure if you did them correctly?",
+    "domain": "Obsessive-compulsive disorder",
+    "category": "Compulsive behaviors",
+    "category_id": 31,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "31_3",
+    "question_text": "Do you repeatedly make sure your belongings are placed properly because you’re afraid of losing them?",
+    "domain": "Obsessive-compulsive disorder",
+    "category": "Compulsive behaviors",
+    "category_id": 31,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "31_4",
+    "question_text": "When writing or drawing, do you keep revising it until you feel satisfied?",
+    "domain": "Obsessive-compulsive disorder",
+    "category": "Compulsive behaviors",
+    "category_id": 31,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "31_5",
+    "question_text": "Do you unconsciously perform repetitive actions, such as counting or tapping objects, to relieve anxiety?",
+    "domain": "Obsessive-compulsive disorder",
+    "category": "Compulsive behaviors",
+    "category_id": 31,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "31_6",
+    "question_text": "Do you have certain fixed habits or actions that you feel you must do even though you know they have no real purpose?",
+    "domain": "Obsessive-compulsive disorder",
+    "category": "Compulsive behaviors",
+    "category_id": 31,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "31_7",
+    "question_text": "Do you feel upset when you are unable to perform these behaviors?",
+    "domain": "Obsessive-compulsive disorder",
+    "category": "Compulsive behaviors",
+    "category_id": 31,
+    "answer_space": [
+      "Never",
+      "Occasionally",
+      "Often",
+      "Always"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "31_8",
+    "question_text": "Have others noticed these behaviors, and does it make you feel misunderstood or not accepted?",
+    "domain": "Obsessive-compulsive disorder",
+    "category": "Compulsive behaviors",
+    "category_id": 31,
+    "answer_space": [
+      "Never",
+      "Occasionally",
+      "Often",
+      "Always"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "31_9",
+    "question_text": "Have you tried to reduce or stop these behaviors but found it very difficult?",
+    "domain": "Obsessive-compulsive disorder",
+    "category": "Compulsive behaviors",
+    "category_id": 31,
+    "answer_space": [
+      "Never",
+      "Occasionally",
+      "Often",
+      "Always"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "31_10",
+    "question_text": "Do these behaviors take up a lot of your time and affect your studying or daily activities?",
+    "domain": "Obsessive-compulsive disorder",
+    "category": "Compulsive behaviors",
+    "category_id": 31,
+    "answer_space": [
+      "Never",
+      "Occasionally",
+      "Often",
+      "Always"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "32_1",
+    "question_text": "Many children sometimes wet the bed at night. Has this ever happened to you?",
+    "domain": "Enuresis",
+    "category": "Recurrent urination (enuresis-related symptoms)",
+    "category_id": 32,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "32_2",
+    "question_text": "How often does it happen at night?",
+    "domain": "Enuresis",
+    "category": "Recurrent urination (enuresis-related symptoms)",
+    "category_id": 32,
+    "answer_space": [
+      "At least 3 months, 1–4 times per month",
+      "At least 3 consecutive months, at least twice per week"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "32_3",
+    "question_text": "Have you ever wet your pants during the day?",
+    "domain": "Enuresis",
+    "category": "Recurrent urination (enuresis-related symptoms)",
+    "category_id": 32,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "32_4",
+    "question_text": "How often does this happen during the day?",
+    "domain": "Enuresis",
+    "category": "Recurrent urination (enuresis-related symptoms)",
+    "category_id": 32,
+    "answer_space": [
+      "At least 3 months, 1–4 times per month",
+      "At least 3 consecutive months, at least twice per week"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "32_5",
+    "question_text": "Have you ever wet your pants when laughing hard or sneezing?",
+    "domain": "Enuresis",
+    "category": "Recurrent urination (enuresis-related symptoms)",
+    "category_id": 32,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "32_6",
+    "question_text": "How often does this happen?",
+    "domain": "Enuresis",
+    "category": "Recurrent urination (enuresis-related symptoms)",
+    "category_id": 32,
+    "answer_space": [
+      "At least 3 months, 1–4 times per month",
+      "At least 3 consecutive months, at least twice per week"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "32_7",
+    "question_text": "Do your underwear often have urine stains?",
+    "domain": "Enuresis",
+    "category": "Recurrent urination (enuresis-related symptoms)",
+    "category_id": 32,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "33_1",
+    "question_text": "Are you worried about wetting yourself?",
+    "domain": "Enuresis",
+    "category": "Criteria related to enuresis",
+    "category_id": 33,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "none"
+  },
+  {
+    "question_id": "33_2",
+    "question_text": "What do you usually do after wetting yourself?",
+    "domain": "Enuresis",
+    "category": "Criteria related to enuresis",
+    "category_id": 33,
+    "answer_space": [
+      "Yes",
+      "No",
+      "Describe actions"
+    ],
+    "action": "none"
+  },
+  {
+    "question_id": "33_3",
+    "question_text": "Do your parents, teachers, or classmates know about this?",
+    "domain": "Enuresis",
+    "category": "Criteria related to enuresis",
+    "category_id": 33,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "none"
+  },
+  {
+    "question_id": "33_4",
+    "question_text": "How do they react?",
+    "domain": "Enuresis",
+    "category": "Criteria related to enuresis",
+    "category_id": 33,
+    "answer_space": [
+      "Describe actions"
+    ],
+    "action": "none"
+  },
+  {
+    "question_id": "33_5",
+    "question_text": "Do you worry about embarrassment or shame because of urinary incontinence?",
+    "domain": "Enuresis",
+    "category": "Criteria related to enuresis",
+    "category_id": 33,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "none"
+  },
+  {
+    "question_id": "33_6",
+    "question_text": "Do you keep thinking about the possibility of urinary accidents?",
+    "domain": "Enuresis",
+    "category": "Criteria related to enuresis",
+    "category_id": 33,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "none"
+  },
+  {
+    "question_id": "33_7",
+    "question_text": "Do you feel sad, discouraged, hopeless, or question your own worth because of urinary incontinence?",
+    "domain": "Enuresis",
+    "category": "Criteria related to enuresis",
+    "category_id": 33,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "none"
+  },
+  {
+    "question_id": "33_8",
+    "question_text": "Does urinary incontinence make you feel like you are not normal?",
+    "domain": "Enuresis",
+    "category": "Criteria related to enuresis",
+    "category_id": 33,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "none"
+  },
+  {
+    "question_id": "33_9",
+    "question_text": "Is your urinary incontinence caused by yourself, by substances (like diuretics or antipsychotics), or by a physical condition (such as diabetes, spina bifida, or epilepsy)?",
+    "domain": "Enuresis",
+    "category": "Criteria related to enuresis",
+    "category_id": 33,
+    "answer_space": [
+      "Self",
+      "Other"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "34_1",
+    "question_text": "Many children sometimes soil themselves at night. Has this ever happened to you?",
+    "domain": "Encopresis",
+    "category": "Recurrent defecation (encopresis-related symptoms)",
+    "category_id": 34,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "34_2",
+    "question_text": "How often does it happen at night?",
+    "domain": "Encopresis",
+    "category": "Recurrent defecation (encopresis-related symptoms)",
+    "category_id": 34,
+    "answer_space": [
+      "Less than once per month",
+      "At least once per month for at least three months"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "34_3",
+    "question_text": "Have you ever had a bowel accident in your pants during the day?",
+    "domain": "Encopresis",
+    "category": "Recurrent defecation (encopresis-related symptoms)",
+    "category_id": 34,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "34_4",
+    "question_text": "How often does this happen during the day?",
+    "domain": "Encopresis",
+    "category": "Recurrent defecation (encopresis-related symptoms)",
+    "category_id": 34,
+    "answer_space": [
+      "Less than once per month",
+      "At least once per month for at least three months"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "34_5",
+    "question_text": "Have you ever leaked stool before reaching the toilet?",
+    "domain": "Encopresis",
+    "category": "Recurrent defecation (encopresis-related symptoms)",
+    "category_id": 34,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "34_6",
+    "question_text": "How often does this happen?",
+    "domain": "Encopresis",
+    "category": "Recurrent defecation (encopresis-related symptoms)",
+    "category_id": 34,
+    "answer_space": [
+      "Less than once per month",
+      "At least once per month for at least three months"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "34_7",
+    "question_text": "Do you worry that others will smell feces on you?",
+    "domain": "Encopresis",
+    "category": "Recurrent defecation (encopresis-related symptoms)",
+    "category_id": 34,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "34_8",
+    "question_text": "Are you able to control your bowel movements?",
+    "domain": "Encopresis",
+    "category": "Recurrent defecation (encopresis-related symptoms)",
+    "category_id": 34,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "35_1",
+    "question_text": "Are you worried about having a bowel accident?",
+    "domain": "Encopresis",
+    "category": "Criteria related to encopresis",
+    "category_id": 35,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "none"
+  },
+  {
+    "question_id": "35_2",
+    "question_text": "What do you usually do after having a bowel accident?",
+    "domain": "Encopresis",
+    "category": "Criteria related to encopresis",
+    "category_id": 35,
+    "answer_space": [
+      "Yes",
+      "No",
+      "Describe actions"
+    ],
+    "action": "none"
+  },
+  {
+    "question_id": "35_3",
+    "question_text": "Do your parents, teachers, or classmates know about this? How do they react?",
+    "domain": "Encopresis",
+    "category": "Criteria related to encopresis",
+    "category_id": 35,
+    "answer_space": [
+      "Yes",
+      "No",
+      "Describe actions"
+    ],
+    "action": "none"
+  },
+  {
+    "question_id": "35_4",
+    "question_text": "Do you worry about embarrassment or shame because of bowel accidents?",
+    "domain": "Encopresis",
+    "category": "Criteria related to encopresis",
+    "category_id": 35,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "none"
+  },
+  {
+    "question_id": "35_5",
+    "question_text": "Do you keep thinking about the possibility of having a bowel accident?",
+    "domain": "Encopresis",
+    "category": "Criteria related to encopresis",
+    "category_id": 35,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "none"
+  },
+  {
+    "question_id": "35_6",
+    "question_text": "Do you feel sad, discouraged, hopeless, or question your self-worth because of bowel accidents?",
+    "domain": "Encopresis",
+    "category": "Criteria related to encopresis",
+    "category_id": 35,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "none"
+  },
+  {
+    "question_id": "35_7",
+    "question_text": "Do bowel accidents make you feel like you are not normal?",
+    "domain": "Encopresis",
+    "category": "Criteria related to encopresis",
+    "category_id": 35,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "none"
+  },
+  {
+    "question_id": "35_8",
+    "question_text": "Are your bowel accidents caused by yourself, by substances (like laxatives), or by another physical condition?",
+    "domain": "Encopresis",
+    "category": "Criteria related to encopresis",
+    "category_id": 35,
+    "answer_space": [
+      "Self",
+      "Other"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "36_1",
+    "question_text": "Do you feel troubled by your weight and constantly pay attention to it?",
+    "domain": "Anorexia Nervosa or Bulimia Nervosa",
+    "category": "Eating disorder",
+    "category_id": 36,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "36_2",
+    "question_text": "Even when your weight is normal or underweight, do you still feel fat and think you need to lose weight?",
+    "domain": "Anorexia Nervosa or Bulimia Nervosa",
+    "category": "Eating disorder",
+    "category_id": 36,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "36_3",
+    "question_text": "Do you intentionally restrict your food intake even though you are already quite slim?",
+    "domain": "Anorexia Nervosa or Bulimia Nervosa",
+    "category": "Eating disorder",
+    "category_id": 36,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "36_4",
+    "question_text": "Do you force yourself to exercise even though you are already very slim?",
+    "domain": "Anorexia Nervosa or Bulimia Nervosa",
+    "category": "Eating disorder",
+    "category_id": 36,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "36_5",
+    "question_text": "Do you sometimes eat a large amount of food in a short period of time?",
+    "domain": "Anorexia Nervosa or Bulimia Nervosa",
+    "category": "Eating disorder",
+    "category_id": 36,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "36_6",
+    "question_text": "When this happens, do you feel very hungry at the time?",
+    "domain": "Anorexia Nervosa or Bulimia Nervosa",
+    "category": "Eating disorder",
+    "category_id": 36,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "36_7",
+    "question_text": "Do you eat faster than usual during these episodes?",
+    "domain": "Anorexia Nervosa or Bulimia Nervosa",
+    "category": "Eating disorder",
+    "category_id": 36,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "36_8",
+    "question_text": "Do you feel physically uncomfortable after eating?",
+    "domain": "Anorexia Nervosa or Bulimia Nervosa",
+    "category": "Eating disorder",
+    "category_id": 36,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "37_1",
+    "question_text": "When doing tasks that require multiple steps (such as multi-step homework), do you often miss or skip parts?",
+    "domain": "Attention deficit hyperactivity disorder",
+    "category": "Difficulty sustaining attention during tasks or play activities",
+    "category_id": 37,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "37_2",
+    "question_text": "When playing games or doing tasks, do you often need repeated reminders because you lose focus?",
+    "domain": "Attention deficit hyperactivity disorder",
+    "category": "Difficulty sustaining attention during tasks or play activities",
+    "category_id": 37,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "37_3",
+    "question_text": "If a task requires long periods of concentration, do you find it difficult to finish or need to stop many times?",
+    "domain": "Attention deficit hyperactivity disorder",
+    "category": "Difficulty sustaining attention during tasks or play activities",
+    "category_id": 37,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "37_4",
+    "question_text": "Has this affected your recent schoolwork or performance?",
+    "domain": "Attention deficit hyperactivity disorder",
+    "category": "Difficulty sustaining attention during tasks or play activities",
+    "category_id": 37,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "37_5",
+    "question_text": "Do these attention problems make you feel frustrated or powerless?",
+    "domain": "Attention deficit hyperactivity disorder",
+    "category": "Difficulty sustaining attention during tasks or play activities",
+    "category_id": 37,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "38_1",
+    "question_text": "Do small sounds or movements around you easily distract you?",
+    "domain": "Attention deficit hyperactivity disorder",
+    "category": "Easily distracted",
+    "category_id": 38,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "38_2",
+    "question_text": "When you try to focus, do sudden thoughts interrupt your thinking?",
+    "domain": "Attention deficit hyperactivity disorder",
+    "category": "Easily distracted",
+    "category_id": 38,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "38_3",
+    "question_text": "Do you often zone out when listening to others or during class?",
+    "domain": "Attention deficit hyperactivity disorder",
+    "category": "Easily distracted",
+    "category_id": 38,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "38_4",
+    "question_text": "Are you often interrupted by trivial things while reading or studying?",
+    "domain": "Attention deficit hyperactivity disorder",
+    "category": "Easily distracted",
+    "category_id": 38,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "38_5",
+    "question_text": "Do you start doing something else before finishing a task because you got distracted?",
+    "domain": "Attention deficit hyperactivity disorder",
+    "category": "Easily distracted",
+    "category_id": 38,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "38_6",
+    "question_text": "Do sudden thoughts often make you change your original plans?",
+    "domain": "Attention deficit hyperactivity disorder",
+    "category": "Easily distracted",
+    "category_id": 38,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "38_7",
+    "question_text": "Do you feel that being easily distracted has affected your daily life?",
+    "domain": "Attention deficit hyperactivity disorder",
+    "category": "Easily distracted",
+    "category_id": 38,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "39_1",
+    "question_text": "In quiet places like a library, do you often feel the need to stand up and move around?",
+    "domain": "Attention deficit hyperactivity disorder",
+    "category": "Difficulty sitting still",
+    "category_id": 39,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "39_2",
+    "question_text": "Do others notice your restlessness because you find it hard to sit still?",
+    "domain": "Attention deficit hyperactivity disorder",
+    "category": "Difficulty sitting still",
+    "category_id": 39,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "39_3",
+    "question_text": "When you are required to sit and listen or complete a task, do you frequently change your sitting position?",
+    "domain": "Attention deficit hyperactivity disorder",
+    "category": "Difficulty sitting still",
+    "category_id": 39,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "39_4",
+    "question_text": "In quiet environments, do you often make noises or sounds without realizing it?",
+    "domain": "Attention deficit hyperactivity disorder",
+    "category": "Difficulty sitting still",
+    "category_id": 39,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "39_5",
+    "question_text": "When family or friends ask you to be quiet, do you often find it hard to do so?",
+    "domain": "Attention deficit hyperactivity disorder",
+    "category": "Difficulty sitting still",
+    "category_id": 39,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "39_6",
+    "question_text": "Do you feel that this issue has affected your daily life?",
+    "domain": "Attention deficit hyperactivity disorder",
+    "category": "Difficulty sitting still",
+    "category_id": 39,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "39_7",
+    "question_text": "Have people often reminded you to 'be quiet' or 'stop moving' because of this behavior?",
+    "domain": "Attention deficit hyperactivity disorder",
+    "category": "Difficulty sitting still",
+    "category_id": 39,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "40_1",
+    "question_text": "Do you often interrupt others before they finish speaking?",
+    "domain": "Attention deficit hyperactivity disorder",
+    "category": "Impulsivity",
+    "category_id": 40,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "40_2",
+    "question_text": "Do you often have to apologize or make up for mistakes caused by impulsive behavior?",
+    "domain": "Attention deficit hyperactivity disorder",
+    "category": "Impulsivity",
+    "category_id": 40,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "40_3",
+    "question_text": "Has impulsive behavior affected your relationships with family or friends?",
+    "domain": "Attention deficit hyperactivity disorder",
+    "category": "Impulsivity",
+    "category_id": 40,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "40_4",
+    "question_text": "When you are emotional, do you make decisions quickly without considering the consequences?",
+    "domain": "Attention deficit hyperactivity disorder",
+    "category": "Impulsivity",
+    "category_id": 40,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "40_5",
+    "question_text": "In situations that require calmness or quiet, are you often the first to disrupt the atmosphere because you can’t control yourself?",
+    "domain": "Attention deficit hyperactivity disorder",
+    "category": "Impulsivity",
+    "category_id": 40,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "40_6",
+    "question_text": "When you have to wait, do you feel very anxious or unable to tolerate it?",
+    "domain": "Attention deficit hyperactivity disorder",
+    "category": "Impulsivity",
+    "category_id": 40,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "41_1",
+    "question_text": "Do you often argue with your parents, teachers, or other adults?",
+    "domain": "Oppositional defiant disorder",
+    "category": "Often argues with adults or authority figures",
+    "category_id": 41,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "41_2",
+    "question_text": "Do you feel angry or annoyed when they tell you what to do?",
+    "domain": "Oppositional defiant disorder",
+    "category": "Often argues with adults or authority figures",
+    "category_id": 41,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "41_3",
+    "question_text": "When they criticize you, do you talk back or argue strongly?",
+    "domain": "Oppositional defiant disorder",
+    "category": "Often argues with adults or authority figures",
+    "category_id": 41,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "41_4",
+    "question_text": "Do you feel that they don’t understand you, so you need to resist?",
+    "domain": "Oppositional defiant disorder",
+    "category": "Often argues with adults or authority figures",
+    "category_id": 41,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "41_5",
+    "question_text": "Have you ever been punished for talking back or arguing with them?",
+    "domain": "Oppositional defiant disorder",
+    "category": "Often argues with adults or authority figures",
+    "category_id": 41,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "41_6",
+    "question_text": "Have these arguments affected your relationship with them?",
+    "domain": "Oppositional defiant disorder",
+    "category": "Often argues with adults or authority figures",
+    "category_id": 41,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "42_1",
+    "question_text": "When adults give you instructions, do you often ignore them or deliberately not listen?",
+    "domain": "Oppositional defiant disorder",
+    "category": "Frequent rule-breaking or refusal to comply with adults’ requests",
+    "category_id": 42,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "42_2",
+    "question_text": "Have you repeatedly broken family rules or school rules on purpose?",
+    "domain": "Oppositional defiant disorder",
+    "category": "Frequent rule-breaking or refusal to comply with adults’ requests",
+    "category_id": 42,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "42_3",
+    "question_text": "Do you often fail to complete homework or tasks on time?",
+    "domain": "Oppositional defiant disorder",
+    "category": "Frequent rule-breaking or refusal to comply with adults’ requests",
+    "category_id": 42,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "42_4",
+    "question_text": "When adults ask you to do something, do you often delay or avoid it?",
+    "domain": "Oppositional defiant disorder",
+    "category": "Frequent rule-breaking or refusal to comply with adults’ requests",
+    "category_id": 42,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "42_5",
+    "question_text": "Do you often criticize or argue against adults’ requests?",
+    "domain": "Oppositional defiant disorder",
+    "category": "Frequent rule-breaking or refusal to comply with adults’ requests",
+    "category_id": 42,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "42_6",
+    "question_text": "Have you ever been punished for breaking rules or being disobedient?",
+    "domain": "Oppositional defiant disorder",
+    "category": "Frequent rule-breaking or refusal to comply with adults’ requests",
+    "category_id": 42,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "42_7",
+    "question_text": "Have these behaviors negatively affected your relationship with adults?",
+    "domain": "Oppositional defiant disorder",
+    "category": "Frequent rule-breaking or refusal to comply with adults’ requests",
+    "category_id": 42,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "43_1",
+    "question_text": "Do you often lie to your parents or teachers?",
+    "domain": "Conduct-dissocial disorder",
+    "category": "Lying",
+    "category_id": 43,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "43_2",
+    "question_text": "When you lie, is it to gain something or avoid responsibility?",
+    "domain": "Conduct-dissocial disorder",
+    "category": "Lying",
+    "category_id": 43,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "43_3",
+    "question_text": "Have you ever lied to cover up your mistakes or bad behavior?",
+    "domain": "Conduct-dissocial disorder",
+    "category": "Lying",
+    "category_id": 43,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "43_4",
+    "question_text": "Do you lie about small things, or do you usually tell bigger lies?",
+    "domain": "Conduct-dissocial disorder",
+    "category": "Lying",
+    "category_id": 43,
+    "answer_space": [
+      "Small lies",
+      "Bigger lies"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "43_5",
+    "question_text": "When you lie, do you make up many details to make your story more believable?",
+    "domain": "Conduct-dissocial disorder",
+    "category": "Lying",
+    "category_id": 43,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "43_6",
+    "question_text": "Have you ever been caught lying by your parents or teachers and punished for it?",
+    "domain": "Conduct-dissocial disorder",
+    "category": "Lying",
+    "category_id": 43,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "43_7",
+    "question_text": "Do you feel that lying is normal and not really a problem?",
+    "domain": "Conduct-dissocial disorder",
+    "category": "Lying",
+    "category_id": 43,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "43_8",
+    "question_text": "Do you lie repeatedly, and has this affected your relationships or others’ trust in you?",
+    "domain": "Conduct-dissocial disorder",
+    "category": "Lying",
+    "category_id": 43,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "44_1",
+    "question_text": "Do you often skip school or fail to go on time?",
+    "domain": "Conduct-dissocial disorder",
+    "category": "Truancy",
+    "category_id": 44,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "44_2",
+    "question_text": "When you skip school, is it because the school environment or teachers make you unhappy?",
+    "domain": "Conduct-dissocial disorder",
+    "category": "Truancy",
+    "category_id": 44,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "44_3",
+    "question_text": "Do you skip school to avoid certain tasks or exams?",
+    "domain": "Conduct-dissocial disorder",
+    "category": "Truancy",
+    "category_id": 44,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "44_4",
+    "question_text": "Do you avoid certain classes or activities by skipping school?",
+    "domain": "Conduct-dissocial disorder",
+    "category": "Truancy",
+    "category_id": 44,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "44_5",
+    "question_text": "After skipping school, do you lie to your parents or teachers and make excuses?",
+    "domain": "Conduct-dissocial disorder",
+    "category": "Truancy",
+    "category_id": 44,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "44_6",
+    "question_text": "Have you often been criticized or punished by teachers or parents for skipping school?",
+    "domain": "Conduct-dissocial disorder",
+    "category": "Truancy",
+    "category_id": 44,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "44_7",
+    "question_text": "Has skipping school affected your relationships with classmates or teachers?",
+    "domain": "Conduct-dissocial disorder",
+    "category": "Truancy",
+    "category_id": 44,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "44_8",
+    "question_text": "After skipping school, what do you usually do, and does it have negative consequences?",
+    "domain": "Conduct-dissocial disorder",
+    "category": "Truancy",
+    "category_id": 44,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "44_9",
+    "question_text": "Could skipping school affect your future academic progress or life goals?",
+    "domain": "Conduct-dissocial disorder",
+    "category": "Truancy",
+    "category_id": 44,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "45_1",
+    "question_text": "Have you ever intentionally provoked someone or gotten into a physical fight?",
+    "domain": "Conduct-dissocial disorder",
+    "category": "Initiating fights",
+    "category_id": 45,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "45_2",
+    "question_text": "When you get into fights, is it usually because the other person did something that made you angry?",
+    "domain": "Conduct-dissocial disorder",
+    "category": "Initiating fights",
+    "category_id": 45,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "45_3",
+    "question_text": "Do you fight to defend your dignity, or is it for other reasons?",
+    "domain": "Conduct-dissocial disorder",
+    "category": "Initiating fights",
+    "category_id": 45,
+    "answer_space": [
+      "To defend dignity",
+      "Other reasons"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "45_4",
+    "question_text": "When someone displeases or provokes you, do you feel like responding with violence?",
+    "domain": "Conduct-dissocial disorder",
+    "category": "Initiating fights",
+    "category_id": 45,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "45_5",
+    "question_text": "Do you feel regret or guilt after a fight?",
+    "domain": "Conduct-dissocial disorder",
+    "category": "Initiating fights",
+    "category_id": 45,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "45_6",
+    "question_text": "When you fight, do you usually threaten others with words or act provocatively?",
+    "domain": "Conduct-dissocial disorder",
+    "category": "Initiating fights",
+    "category_id": 45,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "45_7",
+    "question_text": "Have you often been criticized or punished by school or your parents for fighting?",
+    "domain": "Conduct-dissocial disorder",
+    "category": "Initiating fights",
+    "category_id": 45,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "45_8",
+    "question_text": "Have you ever suffered serious injury or punishment because of fighting?",
+    "domain": "Conduct-dissocial disorder",
+    "category": "Initiating fights",
+    "category_id": 45,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "45_9",
+    "question_text": "Do you think fighting is an effective way to solve problems?",
+    "domain": "Conduct-dissocial disorder",
+    "category": "Initiating fights",
+    "category_id": 45,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "46_1",
+    "question_text": "Have you ever intentionally intimidated, threatened, or bullied classmates or friends?",
+    "domain": "Conduct-dissocial disorder",
+    "category": "Bullying, threatening, or intimidating others",
+    "category_id": 46,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "46_2",
+    "question_text": "When you threaten or intimidate others, is it to gain control or some sense of satisfaction?",
+    "domain": "Conduct-dissocial disorder",
+    "category": "Bullying, threatening, or intimidating others",
+    "category_id": 46,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "46_3",
+    "question_text": "Do you often make others feel scared or uneasy through your words or actions?",
+    "domain": "Conduct-dissocial disorder",
+    "category": "Bullying, threatening, or intimidating others",
+    "category_id": 46,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "46_4",
+    "question_text": "When others don’t obey you, do you respond with threats or violence?",
+    "domain": "Conduct-dissocial disorder",
+    "category": "Bullying, threatening, or intimidating others",
+    "category_id": 46,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "46_5",
+    "question_text": "Have you ever been criticized or punished by teachers or parents for threatening or bullying others?",
+    "domain": "Conduct-dissocial disorder",
+    "category": "Bullying, threatening, or intimidating others",
+    "category_id": 46,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "46_6",
+    "question_text": "Have you ever had conflicts or arguments with others because of threatening or bullying behavior?",
+    "domain": "Conduct-dissocial disorder",
+    "category": "Bullying, threatening, or intimidating others",
+    "category_id": 46,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "46_7",
+    "question_text": "Do you think threatening or bullying others is an effective way to solve problems?",
+    "domain": "Conduct-dissocial disorder",
+    "category": "Bullying, threatening, or intimidating others",
+    "category_id": 46,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "46_8",
+    "question_text": "Do you feel stronger than others and therefore able to control or bully them?",
+    "domain": "Conduct-dissocial disorder",
+    "category": "Bullying, threatening, or intimidating others",
+    "category_id": 46,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "47_1",
+    "question_text": "Have you ever taken something from someone without permission?",
+    "domain": "Conduct-dissocial disorder",
+    "category": "Non-aggressive theft",
+    "category_id": 47,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "47_2",
+    "question_text": "Have you ever stolen things that are hard to notice, such as small items or spare change?",
+    "domain": "Conduct-dissocial disorder",
+    "category": "Non-aggressive theft",
+    "category_id": 47,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "47_3",
+    "question_text": "Have you ever used someone else's belongings without permission and not returned them?",
+    "domain": "Conduct-dissocial disorder",
+    "category": "Non-aggressive theft",
+    "category_id": 47,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "47_4",
+    "question_text": "Do you steal things mainly when you feel you really need them?",
+    "domain": "Conduct-dissocial disorder",
+    "category": "Non-aggressive theft",
+    "category_id": 47,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "47_5",
+    "question_text": "Do you feel regret or guilt after stealing?",
+    "domain": "Conduct-dissocial disorder",
+    "category": "Non-aggressive theft",
+    "category_id": 47,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "47_6",
+    "question_text": "Have you ever been caught stealing or punished for it?",
+    "domain": "Conduct-dissocial disorder",
+    "category": "Non-aggressive theft",
+    "category_id": 47,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "47_7",
+    "question_text": "Have you stolen things more than once?",
+    "domain": "Conduct-dissocial disorder",
+    "category": "Non-aggressive theft",
+    "category_id": 47,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "47_8",
+    "question_text": "Do you think stealing is a normal way to solve problems?",
+    "domain": "Conduct-dissocial disorder",
+    "category": "Non-aggressive theft",
+    "category_id": 47,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "47_9",
+    "question_text": "Do you feel able to control your stealing behavior, or have you tried to stop but struggled?",
+    "domain": "Conduct-dissocial disorder",
+    "category": "Non-aggressive theft",
+    "category_id": 47,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "48_1",
+    "question_text": "Do you often make repeated movements involuntarily, such as blinking, shrugging, or head shaking?",
+    "domain": "Tic disorders",
+    "category": "Motor tics",
+    "category_id": 48,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "48_2",
+    "question_text": "Do these motor tics happen without you realizing it?",
+    "domain": "Tic disorders",
+    "category": "Motor tics",
+    "category_id": 48,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "48_3",
+    "question_text": "Do you feel that you cannot control these motor tics, even when others are watching?",
+    "domain": "Tic disorders",
+    "category": "Motor tics",
+    "category_id": 48,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "48_4",
+    "question_text": "Do these motor tics cause discomfort, bother you, or make you feel embarrassed?",
+    "domain": "Tic disorders",
+    "category": "Motor tics",
+    "category_id": 48,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "48_5",
+    "question_text": "Do these motor tics get worse when your emotions change, such as during stress or nervousness?",
+    "domain": "Tic disorders",
+    "category": "Motor tics",
+    "category_id": 48,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "48_6",
+    "question_text": "Have you tried to suppress these motor tics but found it didn’t help much?",
+    "domain": "Tic disorders",
+    "category": "Motor tics",
+    "category_id": 48,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "48_7",
+    "question_text": "Have these motor tics lasted for a long time, such as several months or years?",
+    "domain": "Tic disorders",
+    "category": "Motor tics",
+    "category_id": 48,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "48_8",
+    "question_text": "Do you think these motor tics affect your daily life or social activities?",
+    "domain": "Tic disorders",
+    "category": "Motor tics",
+    "category_id": 48,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "48_9",
+    "question_text": "Have you ever been laughed at, criticized, or felt isolated because of these motor tics?",
+    "domain": "Tic disorders",
+    "category": "Motor tics",
+    "category_id": 48,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "49_1",
+    "question_text": "Have you ever made sounds or coughed involuntarily, sometimes without realizing it?",
+    "domain": "Tic disorders",
+    "category": "Vocal tics",
+    "category_id": 49,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "49_2",
+    "question_text": "Are these sounds repetitive, such as repeating a specific sound or word?",
+    "domain": "Tic disorders",
+    "category": "Vocal tics",
+    "category_id": 49,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "49_3",
+    "question_text": "Have you tried to control these vocal tics but found it difficult to stop?",
+    "domain": "Tic disorders",
+    "category": "Vocal tics",
+    "category_id": 49,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "49_4",
+    "question_text": "Do these vocal tics become more frequent or noticeable in stressful or anxious situations?",
+    "domain": "Tic disorders",
+    "category": "Vocal tics",
+    "category_id": 49,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "49_5",
+    "question_text": "Do these vocal tics bother you or make you feel embarrassed?",
+    "domain": "Tic disorders",
+    "category": "Vocal tics",
+    "category_id": 49,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "49_6",
+    "question_text": "Have these sounds ever made others uncomfortable, or have you been laughed at or criticized?",
+    "domain": "Tic disorders",
+    "category": "Vocal tics",
+    "category_id": 49,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "49_7",
+    "question_text": "Have you ever felt uncomfortable or been noticed by others because of these sounds in public or in class?",
+    "domain": "Tic disorders",
+    "category": "Vocal tics",
+    "category_id": 49,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "49_8",
+    "question_text": "Do these vocal tics affect your communication or interactions with others?",
+    "domain": "Tic disorders",
+    "category": "Vocal tics",
+    "category_id": 49,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "49_9",
+    "question_text": "Have these vocal tics lasted for several months or become long-term?",
+    "domain": "Tic disorders",
+    "category": "Vocal tics",
+    "category_id": 49,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "50_1",
+    "question_text": "Do you smoke?",
+    "domain": "Disorders due to use of nicotine",
+    "category": "History of smoking",
+    "category_id": 50,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "51_1",
+    "question_text": "Have you ever smoked for a long period of time—such as more than a month?",
+    "domain": "Disorders due to use of nicotine",
+    "category": "Daily tobacco use for over one month (past history)",
+    "category_id": 51,
+    "answer_space": [
+      "One month or more",
+      "Less than one month"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "52_1",
+    "question_text": "Do you smoke every day? How many cigarettes a day?",
+    "domain": "Disorders due to use of nicotine",
+    "category": "Tobacco use",
+    "category_id": 52,
+    "answer_space": [
+      "Not daily",
+      "Daily"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "53_1",
+    "question_text": "Have you ever thought about quitting smoking?",
+    "domain": "Disorders due to use of nicotine",
+    "category": "Past attempts to quit smoking",
+    "category_id": 53,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "54_1",
+    "question_text": "Have you ever tried to quit smoking?",
+    "domain": "Disorders due to use of nicotine",
+    "category": "Smoking cessation",
+    "category_id": 54,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "55_1",
+    "question_text": "Do you drink alcohol alone, aside from family gatherings during holidays?",
+    "domain": "Disorders due to use of alcohol",
+    "category": "Alcohol use",
+    "category_id": 55,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "55_2",
+    "question_text": "How often do you drink now? Do you drink every day?",
+    "domain": "Disorders due to use of alcohol",
+    "category": "Alcohol use",
+    "category_id": 55,
+    "answer_space": [
+      "Open-ended"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "56_1",
+    "question_text": "Have you ever experienced serious trauma, such as a car accident, physical abuse, or the death of someone very close to you?",
+    "domain": "Post traumatic stress disorder",
+    "category": "Trauma",
+    "category_id": 56,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "57_1",
+    "question_text": "Do the things that happened replay in your mind over and over?",
+    "domain": "Post traumatic stress disorder",
+    "category": "Intrusive memories, thoughts, or images",
+    "category_id": 57,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "58_1",
+    "question_text": "Is it difficult for you to trust others?",
+    "domain": "Post traumatic stress disorder",
+    "category": "Feeling detached or estranged from others",
+    "category_id": 58,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "58_2",
+    "question_text": "Do you feel more lonely than before?",
+    "domain": "Post traumatic stress disorder",
+    "category": "Feeling detached or estranged from others",
+    "category_id": 58,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "59_1",
+    "question_text": "Are there places that remind you of those bad events? Do you avoid them?",
+    "domain": "Post traumatic stress disorder",
+    "category": "Active avoidance of trauma-related thoughts or feelings",
+    "category_id": 59,
+    "answer_space": [
+      "Unreasonable",
+      "Reasonable"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "60_1",
+    "question_text": "Have there been times when you frequently had nightmares related to the event, making you feel worse?",
+    "domain": "Post traumatic stress disorder",
+    "category": "Nightmares",
+    "category_id": 60,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "61_1",
+    "question_text": "Have you become more cautious since the event that harmed you happened?",
+    "domain": "Post traumatic stress disorder",
+    "category": "Hypervigilance",
+    "category_id": 61,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "61_2",
+    "question_text": "Do you feel like you must constantly watch what is happening around you?",
+    "domain": "Post traumatic stress disorder",
+    "category": "Hypervigilance",
+    "category_id": 61,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "None"
+  },
+  {
+    "question_id": "61_3",
+    "question_text": "Do you repeatedly check doors and windows to make sure they are locked?",
+    "domain": "Post traumatic stress disorder",
+    "category": "Hypervigilance",
+    "category_id": 61,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "judge"
+  },
+  {
+    "question_id": "62_1",
+    "question_text": "Have you become more cautious since the event that harmed you happened?",
+    "domain": "None",
+    "category": "None",
+    "category_id": 62,
+    "answer_space": [
+      "Yes",
+      "No"
+    ],
+    "action": "judge"
+  }
+]

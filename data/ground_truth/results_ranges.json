@@ -1,0 +1,223 @@
+{
+  "K-SADS": [
+    "Attention deficit hyperactivity disorder",
+    "Schizophrenia",
+    "Bipolar type I disorder",
+    "Single episode depressive disorder",
+    "Recurrent depressive disorder",
+    "Generalised anxiety disorder",
+    "Panic disorder",
+    "Agoraphobia",
+    "Specific phobia",
+    "Social anxiety disorder",
+    "Separation anxiety disorder",
+    "Obsessive-compulsive disorder",
+    "Post traumatic stress disorder",
+    "Anorexia Nervosa",
+    "Bulimia Nervosa",
+    "Enuresis",
+    "Encopresis",
+    "Disorders due to use of alcohol",
+    "Disorders due to use of nicotine",
+    "Oppositional defiant disorder",
+    "Conduct-dissocial disorder",
+    "Suicidal behavior",
+    "Tic disorders"
+  ],
+  "PDQ-4": [
+    "Antisocial",
+    "Avoidant",
+    "Borderline",
+    "Dependent",
+    "Depressive",
+    "Histrionic",
+    "Narcissistic",
+    "Obsessive_Compulsive",
+    "Paranoid",
+    "Passive_Aggressive",
+    "Schizoid",
+    "Schizotypal"
+  ],
+  "PID-5": [
+    "Anhedonia",
+    "Anxiousness",
+    "Attention Seeking",
+    "Callousness",
+    "Deceitfulness",
+    "Depressivity",
+    "Distractibility",
+    "Eccentricity",
+    "Emotional Lability",
+    "Grandiosity",
+    "Hostility",
+    "Impulsivity",
+    "Intimacy Avoidance",
+    "Irresponsibility",
+    "Manipulativeness",
+    "Perceptual Dysregulation",
+    "Perseveration",
+    "Restricted Affectivity",
+    "Rigid Perfectionism",
+    "Risk Taking",
+    "Separation Insecurity",
+    "Submissiveness",
+    "Suspiciousness",
+    "Unusual Beliefs & Experiences",
+    "Withdrawal"
+  ],
+  "SCL-90": [
+    "Additional_Items",
+    "Anxiety",
+    "Depression",
+    "Hostility",
+    "Interpersonal_Sensitivity",
+    "Obsessive_Compulsive",
+    "Paranoid_Ideation",
+    "Phobic_Anxiety",
+    "Psychoticism",
+    "Somatization"
+  ],
+  "IIP-32": {
+    "Cold": [
+      "moderate",
+      "strong",
+      "weak"
+    ],
+    "Domineering": [
+      "moderate",
+      "strong",
+      "weak"
+    ],
+    "Intrusive": [
+      "moderate",
+      "strong",
+      "weak"
+    ],
+    "Nonassertive": [
+      "moderate",
+      "weak"
+    ],
+    "Overly_Accommodating": [
+      "weak"
+    ],
+    "Self_Sacrificing": [
+      "moderate",
+      "weak"
+    ],
+    "Socially_Avoidant": [
+      "moderate",
+      "strong",
+      "weak"
+    ],
+    "Vindictive": [
+      "moderate",
+      "strong",
+      "weak"
+    ]
+  },
+  "IRI-C": {
+    "ec": [
+      "moderate",
+      "weak"
+    ],
+    "fs": [
+      "moderate",
+      "weak"
+    ],
+    "pd": [
+      "moderate",
+      "strong",
+      "weak"
+    ],
+    "pt": [
+      "moderate",
+      "weak"
+    ]
+  },
+  "DERS": {
+    "Awareness": [
+      "moderate",
+      "strong",
+      "weak"
+    ],
+    "Clarity": [
+      "moderate",
+      "strong",
+      "weak"
+    ],
+    "Goals": [
+      "moderate",
+      "strong",
+      "weak"
+    ],
+    "Impulse": [
+      "moderate",
+      "strong",
+      "weak"
+    ],
+    "Nonacceptance": [
+      "moderate",
+      "strong",
+      "weak"
+    ],
+    "Strategies": [
+      "moderate",
+      "strong",
+      "weak"
+    ]
+  },
+  "DASS-42": {
+    "Anxiety": [
+      "extremely severe",
+      "mild",
+      "moderate",
+      "normal",
+      "severe"
+    ],
+    "Depression": [
+      "extremely severe",
+      "mild",
+      "moderate",
+      "normal",
+      "severe"
+    ],
+    "Stress": [
+      "mild",
+      "moderate",
+      "normal",
+      "severe"
+    ]
+  },
+  "WHODAS": {
+    "Cognition": [
+      "moderate",
+      "normal",
+      "severe"
+    ],
+    "Getting_along": [
+      "moderate",
+      "normal",
+      "severe"
+    ],
+    "Life_activities": [
+      "moderate",
+      "normal",
+      "severe"
+    ],
+    "Mobility": [
+      "moderate",
+      "normal",
+      "severe"
+    ],
+    "Participation": [
+      "moderate",
+      "normal",
+      "severe"
+    ],
+    "Self_care": [
+      "moderate",
+      "normal",
+      "severe"
+    ]
+  }
+}

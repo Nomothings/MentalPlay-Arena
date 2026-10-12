@@ -1,0 +1,268 @@
+[
+  {
+    "question_id": "1_1",
+    "question_text": "When you think about your daily life, what kinds of things do you find yourself worrying about?",
+    "domain": "Anxiety Assessment",
+    "category": "General Worry",
+    "category_id": 1,
+    "answer_space": [
+      "Never",
+      "Sometimes",
+      "Often",
+      "Always"
+    ],
+    "action": "1_2"
+  },
+  {
+    "question_id": "1_2",
+    "question_text": "How do you usually feel when you're in the dark? Can you describe what goes through your mind or body?",
+    "domain": "Anxiety Assessment",
+    "category": "Darkness Fear",
+    "category_id": 2,
+    "answer_space": [
+      "Never",
+      "Sometimes",
+      "Often",
+      "Always"
+    ],
+    "action": "1_3"
+  },
+  {
+    "question_id": "1_3",
+    "question_text": "When you're at home without anyone else there, how do you tend to feel? What happens inside you?",
+    "domain": "Anxiety Assessment",
+    "category": "Home Alone Anxiety",
+    "category_id": 3,
+    "answer_space": [
+      "Never",
+      "Sometimes",
+      "Often",
+      "Always"
+    ],
+    "action": "1_4"
+  },
+  {
+    "question_id": "1_4",
+    "question_text": "Before or during tests, what kind of feelings or physical reactions do you notice?",
+    "domain": "Anxiety Assessment",
+    "category": "Test Anxiety",
+    "category_id": 4,
+    "answer_space": [
+      "Never",
+      "Sometimes",
+      "Often",
+      "Always"
+    ],
+    "action": "1_5"
+  },
+  {
+    "question_id": "1_5",
+    "question_text": "How is it for you when you need to be away from your parents? What feelings come up?",
+    "domain": "Anxiety Assessment",
+    "category": "Separation Anxiety",
+    "category_id": 5,
+    "answer_space": [
+      "Never",
+      "Sometimes",
+      "Often",
+      "Always"
+    ],
+    "action": "1_6"
+  },
+  {
+    "question_id": "1_6",
+    "question_text": "When you're around others, how do you feel about being watched or possibly making mistakes?",
+    "domain": "Anxiety Assessment",
+    "category": "Social Anxiety",
+    "category_id": 6,
+    "answer_space": [
+      "Never",
+      "Sometimes",
+      "Often",
+      "Always"
+    ],
+    "action": "1_7"
+  },
+  {
+    "question_id": "1_7",
+    "question_text": "How do you usually feel about your schoolwork and how well you might do on it?",
+    "domain": "Anxiety Assessment",
+    "category": "Academic Anxiety",
+    "category_id": 7,
+    "answer_space": [
+      "Never",
+      "Sometimes",
+      "Often",
+      "Always"
+    ],
+    "action": "1_8"
+  },
+  {
+    "question_id": "1_8",
+    "question_text": "Do you ever find yourself thinking about something bad happening to a family member? What is that experience like?",
+    "domain": "Anxiety Assessment",
+    "category": "Family Concern",
+    "category_id": 8,
+    "answer_space": [
+      "Never",
+      "Sometimes",
+      "Often",
+      "Always"
+    ],
+    "action": "1_9"
+  },
+  {
+    "question_id": "1_9",
+    "question_text": "Have there been moments when you suddenly felt short of breath or unable to get enough air? What was happening at the time?",
+    "domain": "Anxiety Assessment",
+    "category": "Breathing Difficulty",
+    "category_id": 9,
+    "answer_space": [
+      "Never",
+      "Sometimes",
+      "Often",
+      "Always"
+    ],
+    "action": "1_10"
+  },
+  {
+    "question_id": "1_10",
+    "question_text": "Do you get thoughts that feel hard to stop or push away? What kind of thoughts are they?",
+    "domain": "Anxiety Assessment",
+    "category": "Intrusive Thoughts",
+    "category_id": 10,
+    "answer_space": [
+      "Never",
+      "Sometimes",
+      "Often",
+      "Always"
+    ],
+    "action": "1_11"
+  },
+  {
+    "question_id": "1_11",
+    "question_text": "Have you had times when your body suddenly trembles or shakes? Can you tell me what that's like?",
+    "domain": "Anxiety Assessment",
+    "category": "Trembling",
+    "category_id": 11,
+    "answer_space": [
+      "Never",
+      "Sometimes",
+      "Often",
+      "Always"
+    ],
+    "action": "1_12"
+  },
+  {
+    "question_id": "1_12",
+    "question_text": "Do you ever find yourself expecting something bad to happen to you? What makes you feel that way?",
+    "domain": "Anxiety Assessment",
+    "category": "Catastrophic Thinking",
+    "category_id": 12,
+    "answer_space": [
+      "Never",
+      "Sometimes",
+      "Often",
+      "Always"
+    ],
+    "action": "1_13"
+  },
+  {
+    "question_id": "1_13",
+    "question_text": "How do you generally feel in high places or in elevators? What happens inside you?",
+    "domain": "Anxiety Assessment",
+    "category": "Height/Elevator Fear",
+    "category_id": 13,
+    "answer_space": [
+      "Never",
+      "Sometimes",
+      "Often",
+      "Always"
+    ],
+    "action": "1_14"
+  },
+  {
+    "question_id": "1_14",
+    "question_text": "Have you had moments when a strong wave of fear hits you suddenly? What is that experience like?",
+    "domain": "Anxiety Assessment",
+    "category": "Panic Attacks",
+    "category_id": 14,
+    "answer_space": [
+      "Never",
+      "Sometimes",
+      "Often",
+      "Always"
+    ],
+    "action": "1_15"
+  },
+  {
+    "question_id": "1_15",
+    "question_text": "How do you usually react when you see small insects or spiders?",
+    "domain": "Anxiety Assessment",
+    "category": "Insect/Spider Fear",
+    "category_id": 15,
+    "answer_space": [
+      "Never",
+      "Sometimes",
+      "Often",
+      "Always"
+    ],
+    "action": "1_16"
+  },
+  {
+    "question_id": "1_16",
+    "question_text": "Have you had sudden moments of feeling dizzy or like you might faint? What were you doing at the time?",
+    "domain": "Anxiety Assessment",
+    "category": "Dizziness",
+    "category_id": 16,
+    "answer_space": [
+      "Never",
+      "Sometimes",
+      "Often",
+      "Always"
+    ],
+    "action": "1_17"
+  },
+  {
+    "question_id": "1_17",
+    "question_text": "Have you noticed your heart suddenly pounding or beating fast for no clear reason? What does that feel like?",
+    "domain": "Anxiety Assessment",
+    "category": "Heart Palpitations",
+    "category_id": 17,
+    "answer_space": [
+      "Never",
+      "Sometimes",
+      "Often",
+      "Always"
+    ],
+    "action": "1_18"
+  },
+  {
+    "question_id": "1_18",
+    "question_text": "How do you feel in small or enclosed places, like tunnels or small rooms?",
+    "domain": "Anxiety Assessment",
+    "category": "Claustrophobia",
+    "category_id": 18,
+    "answer_space": [
+      "Never",
+      "Sometimes",
+      "Often",
+      "Always"
+    ],
+    "action": "1_19"
+  },
+  {
+    "question_id": "1_19",
+    "question_text": "When you have to sleep away from home, what kinds of feelings or worries tend to come up?",
+    "domain": "Anxiety Assessment",
+    "category": "Sleepaway Anxiety",
+    "category_id": 19,
+    "answer_space": [
+      "Never",
+      "Sometimes",
+      "Often",
+      "Always"
+    ],
+    "action": "None"
+  }
+]

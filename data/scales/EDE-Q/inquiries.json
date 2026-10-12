@@ -1,0 +1,366 @@
+[
+  {
+    "question_id": "1_1",
+    "question_text": "How often has the patient deliberately tried to restrict food intake to influence shape or weight?",
+    "domain": "Eating Disorder Assessment",
+    "category": "Restriction",
+    "category_id": 1,
+    "answer_space": [
+      "Rarely or none",
+      "Occasional / noticeable restriction",
+      "Frequent or persistent restriction"
+    ],
+    "action": "1_2"
+  },
+  {
+    "question_id": "1_2",
+    "question_text": "How often has the patient gone 8 waking hours or more without eating to influence shape or weight?",
+    "domain": "Eating Disorder Assessment",
+    "category": "Fasting",
+    "category_id": 2,
+    "answer_space": [
+      "Not observed / rare",
+      "Occasional fasting attempts",
+      "Frequent or prolonged fasting"
+    ],
+    "action": "1_3"
+  },
+  {
+    "question_id": "1_3",
+    "question_text": "How often has the patient excluded preferred foods to influence shape or weight?",
+    "domain": "Eating Disorder Assessment",
+    "category": "Food Avoidance",
+    "category_id": 3,
+    "answer_space": [
+      "No significant avoidance",
+      "Noticeable avoidance patterns",
+      "Frequent or strict avoidance"
+    ],
+    "action": "1_4"
+  },
+  {
+    "question_id": "1_4",
+    "question_text": "How often has the patient attempted to follow strict eating rules (e.g., calorie limits)?",
+    "domain": "Eating Disorder Assessment",
+    "category": "Eating Rules",
+    "category_id": 4,
+    "answer_space": [
+      "No strict rules",
+      "Some rule-following",
+      "Rigid or highly structured rules"
+    ],
+    "action": "1_5"
+  },
+  {
+    "question_id": "1_5",
+    "question_text": "How often has the patient sHown a desire to maintain an empty stomach?",
+    "domain": "Eating Disorder Assessment",
+    "category": "Empty Stomach Desire",
+    "category_id": 5,
+    "answer_space": [
+      "Absent or minimal",
+      "Occasional desire",
+      "Strong or persistent desire"
+    ],
+    "action": "1_6"
+  },
+  {
+    "question_id": "1_6",
+    "question_text": "How often has the patient expressed a desire for a totally flat stomach?",
+    "domain": "Eating Disorder Assessment",
+    "category": "Body Image",
+    "category_id": 6,
+    "answer_space": [
+      "Minimal concern",
+      "Noticeable concern",
+      "Persistent, preoccupying concern"
+    ],
+    "action": "1_7"
+  },
+  {
+    "question_id": "1_7",
+    "question_text": "to what extent have thoughts about food/eating/calories interfered with concentration?",
+    "domain": "Eating Disorder Assessment",
+    "category": "Thought Interference",
+    "category_id": 7,
+    "answer_space": [
+      "Little to no interference",
+      "Moderate interference",
+      "Severe interference"
+    ],
+    "action": "1_8"
+  },
+  {
+    "question_id": "1_8",
+    "question_text": "to what extent have thoughts about shape or weight interfered with concentration?",
+    "domain": "Eating Disorder Assessment",
+    "category": "Thought Interference",
+    "category_id": 8,
+    "answer_space": [
+      "Little to no interference",
+      "Moderate interference",
+      "Severe interference"
+    ],
+    "action": "1_9"
+  },
+  {
+    "question_id": "1_9",
+    "question_text": "How often has the patient sHown fear of losing control over eating?",
+    "domain": "Eating Disorder Assessment",
+    "category": "Fear of Control",
+    "category_id": 9,
+    "answer_space": [
+      "Rare or none",
+      "Occasional fear",
+      "Strong or frequent fear"
+    ],
+    "action": "1_10"
+  },
+  {
+    "question_id": "1_10",
+    "question_text": "How often has the patient sHown fear of gaining weight?",
+    "domain": "Eating Disorder Assessment",
+    "category": "Weight Fear",
+    "category_id": 10,
+    "answer_space": [
+      "Minimal",
+      "Noticeable fear",
+      "Strong or persistent fear"
+    ],
+    "action": "1_11"
+  },
+  {
+    "question_id": "1_11",
+    "question_text": "How often has the patient reported feeling fat?",
+    "domain": "Eating Disorder Assessment",
+    "category": "Body Image",
+    "category_id": 11,
+    "answer_space": [
+      "Rare or none",
+      "Occasional",
+      "Frequent or persistent"
+    ],
+    "action": "1_12"
+  },
+  {
+    "question_id": "1_12",
+    "question_text": "How often has the patient sHown a strong desire to lose weight?",
+    "domain": "Eating Disorder Assessment",
+    "category": "Weight Loss Desire",
+    "category_id": 12,
+    "answer_space": [
+      "Mild / absent",
+      "Noticeable",
+      "Persistent desire"
+    ],
+    "action": "1_13"
+  },
+  {
+    "question_id": "1_13",
+    "question_text": "How often has the patient eaten unusually large amounts of food?",
+    "domain": "Eating Disorder Assessment",
+    "category": "Binge Eating",
+    "category_id": 13,
+    "answer_space": [
+      "Not observed",
+      "Occasional episodes",
+      "Frequent episodes"
+    ],
+    "action": "1_14"
+  },
+  {
+    "question_id": "1_14",
+    "question_text": "How often has loss of control during eating occurred?",
+    "domain": "Eating Disorder Assessment",
+    "category": "Loss of Control",
+    "category_id": 14,
+    "answer_space": [
+      "Not observed",
+      "Occasional loss of control",
+      "Frequent or severe loss of control"
+    ],
+    "action": "1_15"
+  },
+  {
+    "question_id": "1_15",
+    "question_text": "on How many days have overeating + loss of control occurred?",
+    "domain": "Eating Disorder Assessment",
+    "category": "Binge Frequency",
+    "category_id": 15,
+    "answer_space": [
+      "Rarely",
+      "Sometimes",
+      "Many days / frequent"
+    ],
+    "action": "1_16"
+  },
+  {
+    "question_id": "1_16",
+    "question_text": "How often has the patient induced vomiting to influence shape or weight?",
+    "domain": "Eating Disorder Assessment",
+    "category": "Purging",
+    "category_id": 16,
+    "answer_space": [
+      "None",
+      "Occasional purging",
+      "Frequent purging"
+    ],
+    "action": "1_17"
+  },
+  {
+    "question_id": "1_17",
+    "question_text": "How often has the patient used laxatives to influence shape or weight?",
+    "domain": "Eating Disorder Assessment",
+    "category": "Purging",
+    "category_id": 17,
+    "answer_space": [
+      "None",
+      "Occasional use",
+      "Frequent or regular use"
+    ],
+    "action": "1_18"
+  },
+  {
+    "question_id": "1_18",
+    "question_text": "How often has the patient exercised in a driven or compulsive way to control weight or shape?",
+    "domain": "Eating Disorder Assessment",
+    "category": "Compulsive Exercise",
+    "category_id": 18,
+    "answer_space": [
+      "Normal exercise or none",
+      "Some driven exercise",
+      "Strongly driven / compulsive exercise"
+    ],
+    "action": "1_19"
+  },
+  {
+    "question_id": "1_19",
+    "question_text": "How often has the patient eaten in secret, excluding binge episodes?",
+    "domain": "Eating Disorder Assessment",
+    "category": "Secret Eating",
+    "category_id": 19,
+    "answer_space": [
+      "Not observed",
+      "Sometimes",
+      "Frequent or consistent secrecy"
+    ],
+    "action": "1_20"
+  },
+  {
+    "question_id": "1_20",
+    "question_text": "How often has the patient felt guilty after eating (not including binge episodes)?",
+    "domain": "Eating Disorder Assessment",
+    "category": "Eating Guilt",
+    "category_id": 20,
+    "answer_space": [
+      "Rarely",
+      "Sometimes",
+      "Frequent or strong guilt"
+    ],
+    "action": "1_21"
+  },
+  {
+    "question_id": "1_21",
+    "question_text": "How concerned has the patient been about others seeing them eat?",
+    "domain": "Eating Disorder Assessment",
+    "category": "Social Eating Concern",
+    "category_id": 21,
+    "answer_space": [
+      "Minimal concern",
+      "Moderate concern",
+      "Strong concern"
+    ],
+    "action": "1_22"
+  },
+  {
+    "question_id": "1_22",
+    "question_text": "to what extent has weight influenced the patient's self-evaluation?",
+    "domain": "Eating Disorder Assessment",
+    "category": "Self-Evaluation",
+    "category_id": 22,
+    "answer_space": [
+      "Minimal influence",
+      "Moderate influence",
+      "Major influence"
+    ],
+    "action": "1_23"
+  },
+  {
+    "question_id": "1_23",
+    "question_text": "to what extent has shape influenced the patient's self-evaluation?",
+    "domain": "Eating Disorder Assessment",
+    "category": "Self-Evaluation",
+    "category_id": 23,
+    "answer_space": [
+      "Minimal influence",
+      "Moderate influence",
+      "Major influence"
+    ],
+    "action": "1_24"
+  },
+  {
+    "question_id": "1_24",
+    "question_text": "How upsetting would weekly weighing be for the patient?",
+    "domain": "Eating Disorder Assessment",
+    "category": "Weight Concern",
+    "category_id": 24,
+    "answer_space": [
+      "Not upsetting",
+      "Moderately upsetting",
+      "Strongly upsetting"
+    ],
+    "action": "1_25"
+  },
+  {
+    "question_id": "1_25",
+    "question_text": "How dissatisfied has the patient been with their weight?",
+    "domain": "Eating Disorder Assessment",
+    "category": "Body Dissatisfaction",
+    "category_id": 25,
+    "answer_space": [
+      "Not dissatisfied",
+      "Moderately dissatisfied",
+      "Strongly dissatisfied"
+    ],
+    "action": "1_26"
+  },
+  {
+    "question_id": "1_26",
+    "question_text": "How dissatisfied has the patient been with their body shape?",
+    "domain": "Eating Disorder Assessment",
+    "category": "Body Dissatisfaction",
+    "category_id": 26,
+    "answer_space": [
+      "Not dissatisfied",
+      "Moderately dissatisfied",
+      "Strongly dissatisfied"
+    ],
+    "action": "1_27"
+  },
+  {
+    "question_id": "1_27",
+    "question_text": "How uncomfortable has the patient felt seeing their own body?",
+    "domain": "Eating Disorder Assessment",
+    "category": "Body Discomfort",
+    "category_id": 27,
+    "answer_space": [
+      "Not uncomfortable",
+      "Some discomfort",
+      "Strong discomfort"
+    ],
+    "action": "1_28"
+  },
+  {
+    "question_id": "1_28",
+    "question_text": "How uncomfortable has the patient felt with others seeing their body or shape?",
+    "domain": "Eating Disorder Assessment",
+    "category": "Body Discomfort",
+    "category_id": 28,
+    "answer_space": [
+      "Not uncomfortable",
+      "Some discomfort",
+      "Strong discomfort"
+    ],
+    "action": "None"
+  }
+]

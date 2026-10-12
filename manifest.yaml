@@ -1,0 +1,236 @@
+# MentalPlay-Arena scale registry (single source of truth)
+#
+# Every scale in the project is declared here once. Other modules derive
+# everything (run order, metric type, vocabulary, thresholds) from this file —
+# never from hardcoded Python sets.
+#
+# Key order = run / evaluation order.
+#
+# Fields:
+#   format      LIST | KV
+#                 LIST -> list of labels (diagnoses/symptoms), metric f1_score
+#                 KV   -> dict dimension->level, metric ordinal_similarity
+#   module      directory name under data/scales/ (null when the scale has no
+#               interview module and is evaluation-only)
+#   labels           LIST scales: the label vocabulary
+#   list_threshold   LIST scales: minimum category score to include a label
+#   dimension_thresholds  LIST scales: per-dimension score threshold (PDQ-4)
+#   dimensions       KV scales: allowed levels per dimension
+#   severity_thresholds  optional total-score -> severity bands (fallback)
+
+scales:
+  # ------------------------------------------------------------- module-backed
+  K-SADS:
+    format: LIST
+    module: K-SADS
+    list_threshold: 2
+    labels:
+      - Attention deficit hyperactivity disorder
+      - Schizophrenia
+      - Bipolar type I disorder
+      - Single episode depressive disorder
+      - Recurrent depressive disorder
+      - Generalised anxiety disorder
+      - Panic disorder
+      - Agoraphobia
+      - Specific phobia
+      - Social anxiety disorder
+      - Separation anxiety disorder
+      - Obsessive-compulsive disorder
+      - Post traumatic stress disorder
+      - Anorexia Nervosa
+      - Bulimia Nervosa
+      - Enuresis
+      - Encopresis
+      - Disorders due to use of alcohol
+      - Disorders due to use of nicotine
+      - Oppositional defiant disorder
+      - Conduct-dissocial disorder
+      - Suicidal behavior
+      - Tic disorders
+
+  ARI:              { format: KV, module: ARI }
+  AUDIT:            { format: KV, module: AUDIT }
+  BPRS:             { format: KV, module: BPRS }
+  C-SSRS:           { format: KV, module: C-SSRS }
+  CDRS:             { format: KV, module: CDRS }
+  EDE-Q:            { format: KV, module: EDE-Q }
+  GAD-7:
+    format: KV
+    module: GAD-7
+    severity_thresholds: [5, 10, 15]
+  PCL-5:
+    format: LIST
+    module: PCL-5
+    list_threshold: 1
+  PHQ-9:
+    format: KV
+    module: PHQ-9
+    severity_thresholds: [5, 10, 15, 20]
+  SAPAS:
+    format: LIST
+    module: SAPAS
+    list_threshold: 3
+  SCARED-PD:        { format: LIST, module: SCARED-PD }
+  SCARED-SAD:       { format: LIST, module: SCARED-SAD }
+  SCARED-SP:        { format: LIST, module: SCARED-SP }
+  SCARED-SocP:      { format: LIST, module: SCARED-SocP }
+  SCARED:           { format: LIST, module: null }  # aggregate; subscales have modules
+  SCAS-S:           { format: LIST, module: SCAS-S }
+  SMQ:              { format: KV, module: SMQ }
+  SNAP-IV-ADHD:
+    format: LIST
+    module: SNAP-IV-ADHD
+    list_threshold: 1
+  SNAP-IV-ODD:      { format: LIST, module: SNAP-IV-ODD }
+  Y-BOCS:           { format: KV, module: Y-BOCS }
+  YMRS:             { format: KV, module: YMRS }
+
+  # ------------------------------------------------------------- evaluation-only
+  # No interview module; present for ground-truth evaluation and collection.
+  PDQ-4:
+    format: LIST
+    module: null
+    list_threshold: 0
+    dimension_thresholds:
+      paranoid: 4
+      schizoid: 4
+      schizotypal: 5
+      antisocial: 3
+      borderline: 5
+      histrionic: 5
+      narcissistic: 5
+      avoidant: 4
+      dependent: 5
+      obsessive_compulsive: 4
+      passive_aggressive: 4
+      depressive: 5
+    labels:
+      - Antisocial
+      - Avoidant
+      - Borderline
+      - Dependent
+      - Depressive
+      - Histrionic
+      - Narcissistic
+      - Obsessive_Compulsive
+      - Paranoid
+      - Passive_Aggressive
+      - Schizoid
+      - Schizotypal
+
+  PID-5:
+    format: LIST
+    module: null
+    list_threshold: 2
+    labels:
+      - Anhedonia
+      - Anxiousness
+      - Attention Seeking
+      - Callousness
+      - Deceitfulness
+      - Depressivity
+      - Distractibility
+      - Eccentricity
+      - Emotional Lability
+      - Grandiosity
+      - Hostility
+      - Impulsivity
+      - Intimacy Avoidance
+      - Irresponsibility
+      - Manipulativeness
+      - Perceptual Dysregulation
+      - Perseveration
+      - Restricted Affectivity
+      - Rigid Perfectionism
+      - Risk Taking
+      - Separation Insecurity
+      - Submissiveness
+      - Suspiciousness
+      - Unusual Beliefs & Experiences
+      - Withdrawal
+
+  SCL-90:
+    format: LIST
+    module: null
+    list_threshold: 2
+    labels:
+      - Additional_Items
+      - Anxiety
+      - Depression
+      - Hostility
+      - Interpersonal_Sensitivity
+      - Obsessive_Compulsive
+      - Paranoid_Ideation
+      - Phobic_Anxiety
+      - Psychoticism
+      - Somatization
+
+  IIP-32:
+    format: KV
+    module: null
+    dimensions:
+      Domineering: [weak, moderate, strong]
+      Vindictive: [weak, moderate, strong]
+      Cold: [weak, moderate, strong]
+      Socially_Avoidant: [weak, moderate, strong]
+      Nonassertive: [weak, moderate]
+      Overly_Accommodating: [weak]
+      Self_Sacrificing: [weak, moderate]
+      Intrusive: [weak, moderate, strong]
+
+  IRI-C:
+    format: KV
+    module: null
+    dimensions:
+      pt: [weak, moderate]
+      fs: [weak, moderate]
+      ec: [weak, moderate]
+      pd: [weak, moderate, strong]
+
+  DERS:
+    format: KV
+    module: null
+    dimensions:
+      Nonacceptance: [weak, moderate, strong]
+      Goals: [weak, moderate, strong]
+      Impulse: [weak, moderate, strong]
+      Awareness: [weak, moderate, strong]
+      Strategies: [weak, moderate, strong]
+      Clarity: [weak, moderate, strong]
+
+  DASS-42:
+    format: KV
+    module: null
+    dimensions:
+      Depression: [normal, mild, moderate, severe, extremely severe]
+      Anxiety: [normal, mild, moderate, severe, extremely severe]
+      Stress: [normal, mild, moderate, severe]
+
+  WHODAS:
+    format: KV
+    module: null
+    dimensions:
+      Cognition: [normal, moderate, severe]
+      Mobility: [normal, moderate, severe]
+      Self_care: [normal, moderate, severe]
+      Getting_along: [normal, moderate, severe]
+      Life_activities: [normal, moderate, severe]
+      Participation: [normal, moderate, severe]
+
+  # Registry placeholders (in the original ALL_SCALES; no module, no ground truth)
+  BFI-2:            { format: KV, module: null }
+  MBTI-M:           { format: KV, module: null }
+
+# Scales covered by expert-annotated ground truth (data/ground_truth/results.jsonl).
+# These are the evaluation scope.
+evaluation_scope:
+  - K-SADS
+  - PDQ-4
+  - PID-5
+  - SCL-90
+  - IIP-32
+  - IRI-C
+  - DERS
+  - DASS-42
+  - WHODAS

@@ -1,0 +1,17 @@
+# SNAP-IV-ODD Module Configuration
+
+# Scoring Configuration
+scoring:
+  # SNAP-IV-ODD uses a simple summation scoring system
+  method: "summation"
+
+# Logging Configuration (module-specific)
+logging:
+  level: "INFO"  # DEBUG, INFO, WARNING, ERROR
+  file: "./logs/snap_iv_odd.log"
+  console: true
+
+# Answer Configuration
+answers:
+  # Answer save format
+  format: "json"  # Options: json, csv, excel

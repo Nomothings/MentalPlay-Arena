@@ -1,0 +1,758 @@
+[
+  {
+    "category_id": 1,
+    "rule": "1_1 == A",
+    "action": "1_2",
+    "score": "1"
+  },
+  {
+    "category_id": 1,
+    "rule": "1_1 == B",
+    "action": "1_2",
+    "score": "2"
+  },
+  {
+    "category_id": 1,
+    "rule": "1_1 == C",
+    "action": "1_2",
+    "score": "3"
+  },
+  {
+    "category_id": 1,
+    "rule": "1_1 == D",
+    "action": "1_2",
+    "score": "4"
+  },
+  {
+    "category_id": 1,
+    "rule": "1_1 == E",
+    "action": "1_2",
+    "score": "5"
+  },
+  {
+    "category_id": 1,
+    "rule": "1_1 == F",
+    "action": "1_2",
+    "score": "6"
+  },
+  {
+    "category_id": 1,
+    "rule": "1_1 == G",
+    "action": "1_2",
+    "score": "7"
+  },
+  {
+    "category_id": 2,
+    "rule": "1_2 == A",
+    "action": "1_3",
+    "score": "1"
+  },
+  {
+    "category_id": 2,
+    "rule": "1_2 == B",
+    "action": "1_3",
+    "score": "2"
+  },
+  {
+    "category_id": 2,
+    "rule": "1_2 == C",
+    "action": "1_3",
+    "score": "3"
+  },
+  {
+    "category_id": 2,
+    "rule": "1_2 == D",
+    "action": "1_3",
+    "score": "4"
+  },
+  {
+    "category_id": 2,
+    "rule": "1_2 == E",
+    "action": "1_3",
+    "score": "5"
+  },
+  {
+    "category_id": 2,
+    "rule": "1_2 == F",
+    "action": "1_3",
+    "score": "6"
+  },
+  {
+    "category_id": 2,
+    "rule": "1_2 == G",
+    "action": "1_3",
+    "score": "7"
+  },
+  {
+    "category_id": 3,
+    "rule": "1_3 == A",
+    "action": "1_4",
+    "score": "1"
+  },
+  {
+    "category_id": 3,
+    "rule": "1_3 == B",
+    "action": "1_4",
+    "score": "2"
+  },
+  {
+    "category_id": 3,
+    "rule": "1_3 == C",
+    "action": "1_4",
+    "score": "3"
+  },
+  {
+    "category_id": 3,
+    "rule": "1_3 == D",
+    "action": "1_4",
+    "score": "4"
+  },
+  {
+    "category_id": 3,
+    "rule": "1_3 == E",
+    "action": "1_4",
+    "score": "5"
+  },
+  {
+    "category_id": 3,
+    "rule": "1_3 == F",
+    "action": "1_4",
+    "score": "6"
+  },
+  {
+    "category_id": 3,
+    "rule": "1_3 == G",
+    "action": "1_4",
+    "score": "7"
+  },
+  {
+    "category_id": 4,
+    "rule": "1_4 == A",
+    "action": "1_5",
+    "score": "1"
+  },
+  {
+    "category_id": 4,
+    "rule": "1_4 == B",
+    "action": "1_5",
+    "score": "2"
+  },
+  {
+    "category_id": 4,
+    "rule": "1_4 == C",
+    "action": "1_5",
+    "score": "3"
+  },
+  {
+    "category_id": 4,
+    "rule": "1_4 == D",
+    "action": "1_5",
+    "score": "4"
+  },
+  {
+    "category_id": 4,
+    "rule": "1_4 == E",
+    "action": "1_5",
+    "score": "5"
+  },
+  {
+    "category_id": 4,
+    "rule": "1_4 == F",
+    "action": "1_5",
+    "score": "6"
+  },
+  {
+    "category_id": 4,
+    "rule": "1_4 == G",
+    "action": "1_5",
+    "score": "7"
+  },
+  {
+    "category_id": 5,
+    "rule": "1_5 == A",
+    "action": "1_6",
+    "score": "1"
+  },
+  {
+    "category_id": 5,
+    "rule": "1_5 == B",
+    "action": "1_6",
+    "score": "2"
+  },
+  {
+    "category_id": 5,
+    "rule": "1_5 == C",
+    "action": "1_6",
+    "score": "3"
+  },
+  {
+    "category_id": 5,
+    "rule": "1_5 == D",
+    "action": "1_6",
+    "score": "4"
+  },
+  {
+    "category_id": 5,
+    "rule": "1_5 == E",
+    "action": "1_6",
+    "score": "5"
+  },
+  {
+    "category_id": 5,
+    "rule": "1_5 == F",
+    "action": "1_6",
+    "score": "6"
+  },
+  {
+    "category_id": 5,
+    "rule": "1_5 == G",
+    "action": "1_6",
+    "score": "7"
+  },
+  {
+    "category_id": 6,
+    "rule": "1_6 == A",
+    "action": "1_7",
+    "score": "1"
+  },
+  {
+    "category_id": 6,
+    "rule": "1_6 == B",
+    "action": "1_7",
+    "score": "2"
+  },
+  {
+    "category_id": 6,
+    "rule": "1_6 == C",
+    "action": "1_7",
+    "score": "3"
+  },
+  {
+    "category_id": 6,
+    "rule": "1_6 == D",
+    "action": "1_7",
+    "score": "4"
+  },
+  {
+    "category_id": 6,
+    "rule": "1_6 == E",
+    "action": "1_7",
+    "score": "5"
+  },
+  {
+    "category_id": 6,
+    "rule": "1_6 == F",
+    "action": "1_7",
+    "score": "6"
+  },
+  {
+    "category_id": 6,
+    "rule": "1_6 == G",
+    "action": "1_7",
+    "score": "7"
+  },
+  {
+    "category_id": 7,
+    "rule": "1_7 == A",
+    "action": "1_8",
+    "score": "1"
+  },
+  {
+    "category_id": 7,
+    "rule": "1_7 == B",
+    "action": "1_8",
+    "score": "2"
+  },
+  {
+    "category_id": 7,
+    "rule": "1_7 == C",
+    "action": "1_8",
+    "score": "3"
+  },
+  {
+    "category_id": 7,
+    "rule": "1_7 == D",
+    "action": "1_8",
+    "score": "4"
+  },
+  {
+    "category_id": 7,
+    "rule": "1_7 == E",
+    "action": "1_8",
+    "score": "5"
+  },
+  {
+    "category_id": 7,
+    "rule": "1_7 == F",
+    "action": "1_8",
+    "score": "6"
+  },
+  {
+    "category_id": 7,
+    "rule": "1_7 == G",
+    "action": "1_8",
+    "score": "7"
+  },
+  {
+    "category_id": 8,
+    "rule": "1_8 == A",
+    "action": "1_9",
+    "score": "1"
+  },
+  {
+    "category_id": 8,
+    "rule": "1_8 == B",
+    "action": "1_9",
+    "score": "2"
+  },
+  {
+    "category_id": 8,
+    "rule": "1_8 == C",
+    "action": "1_9",
+    "score": "3"
+  },
+  {
+    "category_id": 8,
+    "rule": "1_8 == D",
+    "action": "1_9",
+    "score": "4"
+  },
+  {
+    "category_id": 8,
+    "rule": "1_8 == E",
+    "action": "1_9",
+    "score": "5"
+  },
+  {
+    "category_id": 8,
+    "rule": "1_8 == F",
+    "action": "1_9",
+    "score": "6"
+  },
+  {
+    "category_id": 8,
+    "rule": "1_8 == G",
+    "action": "1_9",
+    "score": "7"
+  },
+  {
+    "category_id": 9,
+    "rule": "1_9 == A",
+    "action": "1_10",
+    "score": "1"
+  },
+  {
+    "category_id": 9,
+    "rule": "1_9 == B",
+    "action": "1_10",
+    "score": "2"
+  },
+  {
+    "category_id": 9,
+    "rule": "1_9 == C",
+    "action": "1_10",
+    "score": "3"
+  },
+  {
+    "category_id": 9,
+    "rule": "1_9 == D",
+    "action": "1_10",
+    "score": "4"
+  },
+  {
+    "category_id": 9,
+    "rule": "1_9 == E",
+    "action": "1_10",
+    "score": "5"
+  },
+  {
+    "category_id": 9,
+    "rule": "1_9 == F",
+    "action": "1_10",
+    "score": "6"
+  },
+  {
+    "category_id": 9,
+    "rule": "1_9 == G",
+    "action": "1_10",
+    "score": "7"
+  },
+  {
+    "category_id": 10,
+    "rule": "1_10 == A",
+    "action": "1_11",
+    "score": "1"
+  },
+  {
+    "category_id": 10,
+    "rule": "1_10 == B",
+    "action": "1_11",
+    "score": "2"
+  },
+  {
+    "category_id": 10,
+    "rule": "1_10 == C",
+    "action": "1_11",
+    "score": "3"
+  },
+  {
+    "category_id": 10,
+    "rule": "1_10 == D",
+    "action": "1_11",
+    "score": "4"
+  },
+  {
+    "category_id": 10,
+    "rule": "1_10 == E",
+    "action": "1_11",
+    "score": "5"
+  },
+  {
+    "category_id": 10,
+    "rule": "1_10 == F",
+    "action": "1_11",
+    "score": "6"
+  },
+  {
+    "category_id": 10,
+    "rule": "1_10 == G",
+    "action": "1_11",
+    "score": "7"
+  },
+  {
+    "category_id": 11,
+    "rule": "1_11 == A",
+    "action": "1_12",
+    "score": "1"
+  },
+  {
+    "category_id": 11,
+    "rule": "1_11 == B",
+    "action": "1_12",
+    "score": "2"
+  },
+  {
+    "category_id": 11,
+    "rule": "1_11 == C",
+    "action": "1_12",
+    "score": "3"
+  },
+  {
+    "category_id": 11,
+    "rule": "1_11 == D",
+    "action": "1_12",
+    "score": "4"
+  },
+  {
+    "category_id": 11,
+    "rule": "1_11 == E",
+    "action": "1_12",
+    "score": "5"
+  },
+  {
+    "category_id": 11,
+    "rule": "1_11 == F",
+    "action": "1_12",
+    "score": "6"
+  },
+  {
+    "category_id": 11,
+    "rule": "1_11 == G",
+    "action": "1_12",
+    "score": "7"
+  },
+  {
+    "category_id": 12,
+    "rule": "1_12 == A",
+    "action": "1_13",
+    "score": "1"
+  },
+  {
+    "category_id": 12,
+    "rule": "1_12 == B",
+    "action": "1_13",
+    "score": "2"
+  },
+  {
+    "category_id": 12,
+    "rule": "1_12 == C",
+    "action": "1_13",
+    "score": "3"
+  },
+  {
+    "category_id": 12,
+    "rule": "1_12 == D",
+    "action": "1_13",
+    "score": "4"
+  },
+  {
+    "category_id": 12,
+    "rule": "1_12 == E",
+    "action": "1_13",
+    "score": "5"
+  },
+  {
+    "category_id": 12,
+    "rule": "1_12 == F",
+    "action": "1_13",
+    "score": "6"
+  },
+  {
+    "category_id": 12,
+    "rule": "1_12 == G",
+    "action": "1_13",
+    "score": "7"
+  },
+  {
+    "category_id": 13,
+    "rule": "1_13 == A",
+    "action": "1_14",
+    "score": "1"
+  },
+  {
+    "category_id": 13,
+    "rule": "1_13 == B",
+    "action": "1_14",
+    "score": "2"
+  },
+  {
+    "category_id": 13,
+    "rule": "1_13 == C",
+    "action": "1_14",
+    "score": "3"
+  },
+  {
+    "category_id": 13,
+    "rule": "1_13 == D",
+    "action": "1_14",
+    "score": "4"
+  },
+  {
+    "category_id": 13,
+    "rule": "1_13 == E",
+    "action": "1_14",
+    "score": "5"
+  },
+  {
+    "category_id": 13,
+    "rule": "1_13 == F",
+    "action": "1_14",
+    "score": "6"
+  },
+  {
+    "category_id": 13,
+    "rule": "1_13 == G",
+    "action": "1_14",
+    "score": "7"
+  },
+  {
+    "category_id": 14,
+    "rule": "1_14 == A",
+    "action": "1_15",
+    "score": "1"
+  },
+  {
+    "category_id": 14,
+    "rule": "1_14 == B",
+    "action": "1_15",
+    "score": "2"
+  },
+  {
+    "category_id": 14,
+    "rule": "1_14 == C",
+    "action": "1_15",
+    "score": "3"
+  },
+  {
+    "category_id": 14,
+    "rule": "1_14 == D",
+    "action": "1_15",
+    "score": "4"
+  },
+  {
+    "category_id": 14,
+    "rule": "1_14 == E",
+    "action": "1_15",
+    "score": "5"
+  },
+  {
+    "category_id": 14,
+    "rule": "1_14 == F",
+    "action": "1_15",
+    "score": "6"
+  },
+  {
+    "category_id": 14,
+    "rule": "1_14 == G",
+    "action": "1_15",
+    "score": "7"
+  },
+  {
+    "category_id": 15,
+    "rule": "1_15 == A",
+    "action": "1_16",
+    "score": "1"
+  },
+  {
+    "category_id": 15,
+    "rule": "1_15 == B",
+    "action": "1_16",
+    "score": "2"
+  },
+  {
+    "category_id": 15,
+    "rule": "1_15 == C",
+    "action": "1_16",
+    "score": "3"
+  },
+  {
+    "category_id": 15,
+    "rule": "1_15 == D",
+    "action": "1_16",
+    "score": "4"
+  },
+  {
+    "category_id": 15,
+    "rule": "1_15 == E",
+    "action": "1_16",
+    "score": "5"
+  },
+  {
+    "category_id": 15,
+    "rule": "1_15 == F",
+    "action": "1_16",
+    "score": "6"
+  },
+  {
+    "category_id": 15,
+    "rule": "1_15 == G",
+    "action": "1_16",
+    "score": "7"
+  },
+  {
+    "category_id": 16,
+    "rule": "1_16 == A",
+    "action": "1_17",
+    "score": "1"
+  },
+  {
+    "category_id": 16,
+    "rule": "1_16 == B",
+    "action": "1_17",
+    "score": "2"
+  },
+  {
+    "category_id": 16,
+    "rule": "1_16 == C",
+    "action": "1_17",
+    "score": "3"
+  },
+  {
+    "category_id": 16,
+    "rule": "1_16 == D",
+    "action": "1_17",
+    "score": "4"
+  },
+  {
+    "category_id": 16,
+    "rule": "1_16 == E",
+    "action": "1_17",
+    "score": "5"
+  },
+  {
+    "category_id": 16,
+    "rule": "1_16 == F",
+    "action": "1_17",
+    "score": "6"
+  },
+  {
+    "category_id": 16,
+    "rule": "1_16 == G",
+    "action": "1_17",
+    "score": "7"
+  },
+  {
+    "category_id": 17,
+    "rule": "1_17 == A",
+    "action": "1_18",
+    "score": "1"
+  },
+  {
+    "category_id": 17,
+    "rule": "1_17 == B",
+    "action": "1_18",
+    "score": "2"
+  },
+  {
+    "category_id": 17,
+    "rule": "1_17 == C",
+    "action": "1_18",
+    "score": "3"
+  },
+  {
+    "category_id": 17,
+    "rule": "1_17 == D",
+    "action": "1_18",
+    "score": "4"
+  },
+  {
+    "category_id": 17,
+    "rule": "1_17 == E",
+    "action": "1_18",
+    "score": "5"
+  },
+  {
+    "category_id": 17,
+    "rule": "1_17 == F",
+    "action": "1_18",
+    "score": "6"
+  },
+  {
+    "category_id": 17,
+    "rule": "1_17 == G",
+    "action": "1_18",
+    "score": "7"
+  },
+  {
+    "category_id": 18,
+    "rule": "1_18 == A",
+    "action": "None",
+    "score": "1"
+  },
+  {
+    "category_id": 18,
+    "rule": "1_18 == B",
+    "action": "None",
+    "score": "2"
+  },
+  {
+    "category_id": 18,
+    "rule": "1_18 == C",
+    "action": "None",
+    "score": "3"
+  },
+  {
+    "category_id": 18,
+    "rule": "1_18 == D",
+    "action": "None",
+    "score": "4"
+  },
+  {
+    "category_id": 18,
+    "rule": "1_18 == E",
+    "action": "None",
+    "score": "5"
+  },
+  {
+    "category_id": 18,
+    "rule": "1_18 == F",
+    "action": "None",
+    "score": "6"
+  },
+  {
+    "category_id": 18,
+    "rule": "1_18 == G",
+    "action": "None",
+    "score": "7"
+  }
+]
